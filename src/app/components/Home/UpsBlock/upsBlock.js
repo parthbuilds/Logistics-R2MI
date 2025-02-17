@@ -15,6 +15,64 @@ export default function UpsBlock() {
       setExpandedIndex(index); // Open the clicked accordion
     }
   };
+  const swiper = new Swiper('.swiper', {
+    loop: true, // Important for infinite loop
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Add these for infinite scroll behavior
+    on: {
+      slideChange: function () {
+        // Check if we need to add more slides
+        if (this.activeIndex >= this.slides.length - 2) { // Adjust the number (2) as needed
+          appendSlides(3); // Add 3 more slides
+          this.update(); // Important: Update Swiper after adding slides
+        } else if (this.activeIndex < 2) {
+            prependSlides(3);
+            this.update();
+        }
+      },
+    },
+  });
+
+  let nextSlideId = 4; // Start from 4 since we have 1, 2, 3 already
+  let prevSlideId = 0;
+
+  function appendSlides(numSlides) {
+    const wrapper = swiper.wrapperEl;
+    for (let i = 0; i < numSlides; i++) {
+      const slide = document.createElement('div');
+      slide.classList.add('swiper-slide');
+      slide.textContent = `Slide ${nextSlideId++}`;
+      wrapper.appendChild(slide);
+
+    }
+  }
+
+    function prependSlides(numSlides) {
+        const wrapper = swiper.wrapperEl;
+        const firstSlide = wrapper.querySelector('.swiper-slide:first-child');
+
+        for (let i = 0; i < numSlides; i++) {
+            const slide = document.createElement('div');
+            slide.classList.add('swiper-slide');
+            slide.textContent = `Slide ${--prevSlideId}`;
+            wrapper.insertBefore(slide, firstSlide);
+        }
+        swiper.slideTo(swiper.activeIndex + numSlides, 0, false);
+    }
+
+
+
+  // Initialize with some extra slides
+  appendSlides(5);
+  prependSlides(5);
+  swiper.update(); // Very important to update after adding slides
 
   return (
     <section className={`${styles.UspBlock_section__SSpPU} ${styles.UspBlock_dark__576q1}`}>
@@ -24,19 +82,17 @@ export default function UpsBlock() {
           style={{ transform: 'translateY(24px) translateZ(0)' }}
         >
           <h2 className={styles.UspBlock_title__5syXk}>
-            <p>We’re Different Because</p>
+            <p>Worlds Leading Home appliances Exporter.</p>
           </h2>
-          <div className={styles.UspBlock_imageSection__Pe14P}>
-            {/* Single Image from Public Folder */}
-            <img
-              alt="Manuport logistics"
-              loading="lazy"
-              width="424"
-              height="232"
-              decoding="async"
-              className={styles.UspBlock_image__O4ZSe}
-              srcSet="/images/Wood-Business.png"
-            />
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
         <div className={styles.UspBlock_uspWrapper__dzsDK}>
