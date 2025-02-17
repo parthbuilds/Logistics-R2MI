@@ -10,8 +10,8 @@ const Hero = () => {
                         <div className={`${styles.VideoPrimaryHero_lightContent__QQuKE} ${styles.VideoPrimaryHero_initialized__1nbT5}`}>
                             <div className={styles.VideoPrimaryHero_titleWrapper__dDLQh} style={{ opacity: 1, transform: 'none' }}>
                                 <h2 className={styles.VideoPrimaryHero_title__ovhlz}>
-                                    <p>Precision</p>
-                                    <p>Freight.</p>
+                                    <p>Home</p>
+                                    <p>Appliances</p>
                                     <p>Seamless<span className={styles.outline}> Delivery</span>. </p>
                                 </h2>
                             </div>
