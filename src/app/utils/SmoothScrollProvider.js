@@ -9,7 +9,7 @@ const SmoothScrollProvider = ({ children }) => {
       easing: (t) => Math.min(1, 1.001 * t - 0.001 * Math.pow(t, 2)), // Slightly modified easing
       smoothWheel: true,
       smoothTouch: true,
-      lerp: 0.1, // Adjust lerp. Higher is faster.
+      lerp: 0.5, 
     });
 
     function raf(time) {

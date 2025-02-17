@@ -12,15 +12,15 @@ const Hero = () => {
                                 <h2 className={styles.VideoPrimaryHero_title__ovhlz}>
                                     <p>Home</p>
                                     <p>Appliances.</p>
-                                    <p>Seamless<span className={styles.outline}> Delivery</span>. </p>
+                                    <p>Seamless<span className={styles.outline}> Delivery</span>.</p>
                                 </h2>
                             </div>
                         </div>
                         <div className={styles.VideoPrimaryHero_darkContent___llDG}>
                             <div className={styles.VideoPrimaryHero_titleWrapper__dDLQh} style={{ opacity: 1, transform: 'none' }}>
                                         <h1 className={styles.VideoPrimaryHero_title__ovhlz}>
-                                            <p>Precision</p>
-                                            <p>Freight.</p>
+                                            <p>Home</p>
+                                            <p>Appliances.</p>
                                             <p>Seamless<span className={styles.outline}> Delivery</span>. </p>
                                         </h1>
                                     </div>

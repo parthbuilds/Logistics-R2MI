@@ -294,7 +294,7 @@
     cursor: pointer;
 }
 .UspBlock_title__5syXk {
-    font-size: 4.5rem;
+    font-size: 2rem;
     grid-column: span 6;
     font-family: 'Exo', sans-serif; /* Connect to Exo font */
     font-weight: regular; /* You can also specify the weight if needed */
@@ -388,3 +388,15 @@
         object-fit: contain; /* Adjust for smaller screen sizes */
     }
 }
+
+.swiper {
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+  }
+  .swiper-slide {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
