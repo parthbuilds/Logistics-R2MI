@@ -86,7 +86,7 @@ const ServiceCardsBlock = () => {
                                 </div>
                                 <h6 className={styles.ServiceCardsBlock_cardtitle__nQ_eN}>{card.title}</h6>
                                 <div>
-                                    <p dangerouslySetInnerHTML={{ __html: card.description }} /> {/* Allow HTML in descriptions */}
+                                    <p style={{color: 'black'}} dangerouslySetInnerHTML={{ __html: card.description }} /> {/* Allow HTML in descriptions */}
                                 </div>
                                 {card.link && ( // Conditionally render the link and button
                                     <a href={card.link} className={styles.ServiceCardsBlock_link__SkUh1}>
