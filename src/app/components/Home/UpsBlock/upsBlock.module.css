@@ -388,15 +388,3 @@
         object-fit: contain; /* Adjust for smaller screen sizes */
     }
 }
-
-.swiper {
-    width: 300px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-  }
-  .swiper-slide {
-    background: #eee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-  }
