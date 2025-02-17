@@ -28,10 +28,10 @@
   gap: 0;
   background-color: #fff;
   border-bottom-right-radius: 2.5rem;
-  box-shadow: -8px 4px 40px #00235d14;
+  box-shadow: -8px 4px 40px #2086ae14;
   z-index: 1;
   overflow: hidden;
-  color: #00235d;
+  color: #2086ae;
   cursor: pointer;
   justify-content: flex-start;
 }
@@ -41,7 +41,7 @@
 }
 
 .job-module__D-5L7q__JobsCard_jobcard__1oiYB:hover {
-  box-shadow: -8px 8px 48px #00235d1f;
+  box-shadow: -8px 8px 48px #2086ae1f;
 }
 
 .job-module__D-5L7q__JobsCard_jobcard__1oiYB:hover .job-module__D-5L7q__JobsCard_buttonIcon__rxzEr {
@@ -199,7 +199,7 @@
 
 .job-module__D-5L7q__JobsCard_location__yEXJ5 span {
   font-family: Exo, sans-serif;
-  color: #00235d;
+  color: #2086ae;
 }
 
 .job-module__D-5L7q__JobsCard_seperator__h_YIz {
@@ -323,7 +323,7 @@
 }
 
 .job-module__D-5L7q__JobsBlock_largeTitle__RYiIZ {
-  color: #00235d;
+  color: #2086ae;
   font-family: Exo, sans-serif;
   font-weight: normal;
   font-size: 3rem;
@@ -398,7 +398,7 @@
 }
 
 .job-module__D-5L7q__JobsBlock_largeTitle__RYiIZ {
-  color: #00235d;
+  color: #2086ae;
   font-family: Exo, sans-serif;
   font-weight: normal;
   font-size: 3rem;
@@ -625,11 +625,11 @@
 }
 
 .job-module__D-5L7q__Button_primary__b__QL:active .job-module__D-5L7q__Button_titleWrapper__Glw9g, .job-module__D-5L7q__Button_primary__b__QL:focus .job-module__D-5L7q__Button_titleWrapper__Glw9g {
-  color: #00235d;
+  color: #2086ae;
 }
 
 .job-module__D-5L7q__Button_primary__b__QL:active .job-module__D-5L7q__Button_icon__Rt_Hz, .job-module__D-5L7q__Button_primary__b__QL:focus .job-module__D-5L7q__Button_icon__Rt_Hz {
-  background-color: #00235d;
+  background-color: #2086ae;
 }
 
 .job-module__D-5L7q__Button_primary__b__QL.job-module__D-5L7q__Button_darkmode__ozqJQ, .job-module__D-5L7q__darkmode .job-module__D-5L7q__Button_primary__b__QL {
@@ -844,11 +844,11 @@
 }
 
 .job-module__D-5L7q__Button_secondary__8ZLTI:active .job-module__D-5L7q__Button_titleWrapper__Glw9g, .job-module__D-5L7q__Button_secondary__8ZLTI:focus .job-module__D-5L7q__Button_titleWrapper__Glw9g {
-  color: #00235d;
+  color: #2086ae;
 }
 
 .job-module__D-5L7q__Button_secondary__8ZLTI:active .job-module__D-5L7q__Button_icon__Rt_Hz, .job-module__D-5L7q__Button_secondary__8ZLTI:focus .job-module__D-5L7q__Button_icon__Rt_Hz {
-  background-color: #00235d;
+  background-color: #2086ae;
 }
 
 .job-module__D-5L7q__Button_secondary__8ZLTI.job-module__D-5L7q__Button_darkmode__ozqJQ, .job-module__D-5L7q__Button_secondary__8ZLTI:active .job-module__D-5L7q__Button_icon__Rt_Hz .job-module__D-5L7q__icon, .job-module__D-5L7q__Button_secondary__8ZLTI:focus .job-module__D-5L7q__Button_icon__Rt_Hz .job-module__D-5L7q__icon, .job-module__D-5L7q__darkmode .job-module__D-5L7q__Button_secondary__8ZLTI {

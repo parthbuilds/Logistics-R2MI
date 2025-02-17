@@ -310,7 +310,7 @@
     position: absolute;
     top: 50%;
     height: 50%;
-    background: linear-gradient(180deg, rgba(0, 35, 93, 0), #00235d 83.89%);
+    background: linear-gradient(180deg, rgba(0, 35, 93, 0), #2086ae 83.89%);
 }
 
 .VideoPrimaryHero_imageWrapper__SkScL.VideoPrimaryHero_mask__nIxWs {
@@ -321,7 +321,7 @@
 }
 
 .VideoPrimaryHero_imageWrapper__SkScL.VideoPrimaryHero_initialized__1nbT5 {
-    background-color: #00235d;
+    background-color: #2086ae;
 }
 
 @media (min-width: 56.25em) {

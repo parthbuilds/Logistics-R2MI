@@ -1327,7 +1327,7 @@ strong {
     font-weight: 600;
     margin-top: calc(4 * var(--space));
     margin-bottom: calc(2 * var(--space));
-    color: #00235d;
+    color: #2086ae;
 }
 
 .gold .prose h1,

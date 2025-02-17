@@ -133,7 +133,7 @@
   height: 0.5rem;
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
-  background-color: #00235d;
+  background-color: #2086ae;
   opacity: 0.4;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -252,7 +252,7 @@
 }
 .StepperCarousel_carouselButtonWrapper__t20mg
   .StepperCarousel_emblabutton__V3jp7:active {
-  background-color: #00235d;
+  background-color: #2086ae;
   color: #fff;
   transition: scale 0.1s ease-out;
   transform: scale(0.9);
@@ -543,7 +543,7 @@
   -webkit-text-stroke-color: currentColor;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-fill-color: transparent;
-  color: #00235d;
+  color: #2086ae;
 }
 .Stepper_titleWrapper__oATRq .Stepper_title__dXCXT {
   color: #2086ae;
@@ -603,7 +603,7 @@
   background-color: #2086ae;
 }
 .BlogCarousel_emblabutton__t5aLE:active {
-  background-color: #00235d;
+  background-color: #2086ae;
   transition: scale 0.1s ease-out;
   transform: scale(0.9);
 }

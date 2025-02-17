@@ -57,7 +57,7 @@
 
 .contactBlock-module__FbXiFW__gold .contactBlock-module__FbXiFW__ContactBlock_section__gp2Lw .contactBlock-module__FbXiFW__ContactBlock_form__buwDw input, .contactBlock-module__FbXiFW__gold .contactBlock-module__FbXiFW__ContactBlock_section__gp2Lw .contactBlock-module__FbXiFW__ContactBlock_form__buwDw textarea {
   border-color: #f8ebcb;
-  box-shadow: 4px 8px 16px #00235d14;
+  box-shadow: 4px 8px 16px #2086ae14;
 }
 
 .contactBlock-module__FbXiFW__gold .contactBlock-module__FbXiFW__ContactBlock_section__gp2Lw .contactBlock-module__FbXiFW__ContactBlock_form__buwDw input::placeholder, .contactBlock-module__FbXiFW__gold .contactBlock-module__FbXiFW__ContactBlock_section__gp2Lw .contactBlock-module__FbXiFW__ContactBlock_form__buwDw textarea::placeholder {
@@ -244,7 +244,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #00235d99, #00235d0f);
+  background: linear-gradient(135deg, #2086ae99, #2086ae0f);
 }
 
 .contactBlock-module__FbXiFW__ContactBlock_imageMove__RoRh_ {

@@ -130,7 +130,7 @@
   font-family: SchibstedGrotesk_Medium, sans-serif;
   font-size: 3.5rem;
   font-weight: 500;
-  color: #00235d;
+  color: #2086ae;
 }
 
 .imagewrap-module__q81Ugq__CtaBlock_info__DVPeC {
@@ -453,8 +453,8 @@
 .imagewrap-module__q81Ugq__CtaBlock_dark__Vqkj3 .imagewrap-module__q81Ugq__CtaBlock_background__Goley {
   position: absolute;
   z-index: -1;
-  background-color: #00235d;
-  background: radial-gradient(#003690 0, #00235d 100%);
+  background-color: #2086ae;
+  background: radial-gradient(#003690 0, #2086ae 100%);
   height: 60%;
   width: 100%;
   left: 0;
@@ -715,11 +715,11 @@
 }
 
 .imagewrap-module__q81Ugq__Button_primary__b__QL:active .imagewrap-module__q81Ugq__Button_titleWrapper__Glw9g, .imagewrap-module__q81Ugq__Button_primary__b__QL:focus .imagewrap-module__q81Ugq__Button_titleWrapper__Glw9g {
-  color: #00235d;
+  color: #2086ae;
 }
 
 .imagewrap-module__q81Ugq__Button_primary__b__QL:active .imagewrap-module__q81Ugq__Button_icon__Rt_Hz, .imagewrap-module__q81Ugq__Button_primary__b__QL:focus .imagewrap-module__q81Ugq__Button_icon__Rt_Hz {
-  background-color: #00235d;
+  background-color: #2086ae;
 }
 
 .imagewrap-module__q81Ugq__Button_primary__b__QL.imagewrap-module__q81Ugq__Button_darkmode__ozqJQ, .imagewrap-module__q81Ugq__darkmode .imagewrap-module__q81Ugq__Button_primary__b__QL {

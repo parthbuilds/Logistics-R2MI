@@ -420,11 +420,11 @@
     min-height: 100%;
     padding-block: 2rem;
     padding-inline: 1.5rem;
-    background-color: #00235d;
+    background-color: #2086ae;
     background: radial-gradient(
       ellipse at bottom center,
       #002d77 0,
-      #00235d 100%
+      #2086ae 100%
     );
     overflow: hidden;
     color: #fff;

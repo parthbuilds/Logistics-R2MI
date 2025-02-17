@@ -150,7 +150,7 @@
     }
   }
   .ServiceSlider_slideTitle__mTYcM {
-    color: #00235d;
+    color: #2086ae;
     margin-bottom: 1.5rem;
   }
   .ServiceSlider_slideTitle__mTYcM p{
@@ -291,7 +291,7 @@
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: #00235d;
+    background-color: #2086ae;
     opacity: 0.4;
     transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out,
       transform 0.3s ease-in-out;
@@ -441,7 +441,7 @@
     height: 0.5rem;
     border-radius: 50%;
     transition: background-color 0.3s ease-in-out;
-    background-color: #00235d;
+    background-color: #2086ae;
     opacity: 0.4;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -608,11 +608,11 @@
   }
   .Button_primary__b__QL:active .Button_titleWrapper__Glw9g,
   .Button_primary__b__QL:focus .Button_titleWrapper__Glw9g {
-    color: #00235d;
+    color: #2086ae;
   }
   .Button_primary__b__QL:active .Button_icon__Rt_Hz,
   .Button_primary__b__QL:focus .Button_icon__Rt_Hz {
-    background-color: #00235d;
+    background-color: #2086ae;
   }
   .Button_primary__b__QL.Button_darkmode__ozqJQ,
   .darkmode .Button_primary__b__QL {

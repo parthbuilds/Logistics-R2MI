@@ -1172,7 +1172,7 @@ small {
   font-weight: 600;
   margin-top: calc(4 * var(--space));
   margin-bottom: calc(2 * var(--space));
-  color: #00235d;
+  color: #2086ae;
 }
 
 .gold .prose h1, .gold .prose h2, .gold .prose h3, .gold .prose h4, .gold .prose h5, .gold .prose h6 {

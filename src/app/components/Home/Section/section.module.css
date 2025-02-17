@@ -129,7 +129,7 @@
     font-family: 'Exo_bold';
     font-size: 4rem;
     font-weight: 300;
-    color: #00235d;
+    color: #2086ae;
 }
 
 .CtaBlock_info__DVPeC {
@@ -426,8 +426,8 @@
 .CtaBlock_dark__Vqkj3 .CtaBlock_background__Goley {
     position: absolute;
     z-index: -1;
-    background-color: #00235d;
-    background: radial-gradient(ellipse at center, #003690 0, #00235d 100%);
+    background-color: #2086ae;
+    background: radial-gradient(ellipse at center, #003690 0, #2086ae 100%);
     height: 60%;
     width: 100%;
     left: 0;
@@ -618,12 +618,12 @@
 
 .Button_primary__b__QL:active .Button_titleWrapper__Glw9g,
 .Button_primary__b__QL:focus .Button_titleWrapper__Glw9g {
-    color: #00235d;
+    color: #2086ae;
 }
 
 .Button_primary__b__QL:active .Button_icon__Rt_Hz,
 .Button_primary__b__QL:focus .Button_icon__Rt_Hz {
-    background-color: #00235d;
+    background-color: #2086ae;
 }
 
 .Button_primary__b__QL.Button_darkmode__ozqJQ,
@@ -1010,7 +1010,7 @@
   }
   .Button_tertiary__JUfBS:active .Button_icon__Rt_Hz,
   .Button_tertiary__JUfBS:focus .Button_icon__Rt_Hz {
-    background-color: #00235d;
+    background-color: #2086ae;
   }
   .Button_tertiary__JUfBS.Button_darkmode__ozqJQ .Button_icon__Rt_Hz,
   .darkmode .Button_tertiary__JUfBS .Button_icon__Rt_Hz {
