@@ -171,7 +171,7 @@
     width: 100%;
   }
   .ContactBlock_darkContent__S8Zjx .ContactBlock_title__7ZvTW {
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactBlock_darkContent__S8Zjx .ContactBlock_intro__3dwEj {
     color: #00112e;
@@ -322,7 +322,7 @@
     min-width: 1.5rem;
     height: 1.5rem;
     min-height: 1.5rem;
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactBlock_getInTouchWrapper__5VNpf {
     position: relative;
@@ -423,7 +423,7 @@
     padding: 0.75rem;
     border-radius: 0.75rem;
     width: 100%;
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactBlock_input__GY0Gm::placeholder,
   .ContactBlock_textarea__Lmhia::placeholder {
@@ -444,7 +444,7 @@
     text-decoration: underline;
   }
   .ContactBlock_checkboxWrapper__IkIre a:hover {
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactBlock_formbutton__kAcUo {
     width: min-content;
@@ -454,7 +454,7 @@
     justify-content: center;
   }
   .ContactBlock_formTitle__V_RKO {
-    color: #00358d;
+    color: #2086ae;
     display: flex;
   }
   .ContactBlock_formTitle__V_RKO .outline {

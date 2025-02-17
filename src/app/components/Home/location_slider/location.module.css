@@ -75,7 +75,7 @@
     width: 4.375rem;
     height: 4.375rem;
     border-radius: 1.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@
     opacity: 0.1;
     height: 100%;
     border-radius: 1.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     z-index: 3;
   }
   .LocationsSlider_location__x6NQX
@@ -105,7 +105,7 @@
     left: 0;
     z-index: 2;
     opacity: 0.1;
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .LocationsSlider_location__x6NQX .LocationsSlider_svg__6TBtR {
     display: block;
@@ -151,7 +151,7 @@
     font-size: 2.1rem;
     font-family: 'Exo_bold' , sans-serif;
     font-weight: bold;
-    color: #00358d;
+    color: #2086ae;
     text-align: center;
     margin: 0;
     padding: 0;

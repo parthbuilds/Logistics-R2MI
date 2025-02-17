@@ -81,7 +81,7 @@
   width: 4.375rem;
   height: 4.375rem;
   border-radius: 1.5rem;
-  background-color: #00358d;
+  background-color: #2086ae;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
   opacity: .1;
   height: 100%;
   border-radius: 1.5rem;
-  background-color: #00358d;
+  background-color: #2086ae;
   z-index: 3;
 }
 
@@ -112,7 +112,7 @@
   left: 0;
   z-index: 2;
   opacity: .1;
-  background-color: #00358d;
+  background-color: #2086ae;
 }
 
 .location-module__GFbJrG__LocationsSlider_location__x6NQX .location-module__GFbJrG__LocationsSlider_svg__6TBtR {
@@ -278,7 +278,7 @@
 
 .location-module__GFbJrG__LocationBlock_title__OoA2u {
   grid-column: span 4;
-  color: #00358d;
+  color: #2086ae;
   font-family: SchibstedGrotesk, sans-serif;
   text-transform: uppercase;
 }
@@ -445,7 +445,7 @@
 }
 
 .location-module__GFbJrG__Button_primary__b__QL {
-  color: #00358d;
+  color: #2086ae;
   border: .0625rem solid #99aed1;
   border-radius: 2rem;
   padding: .5rem;
@@ -455,7 +455,7 @@
 
 .location-module__GFbJrG__Button_primary__b__QL .location-module__GFbJrG__Button_titleWrapper__Glw9g {
   margin: 0 1rem;
-  color: #00358d;
+  color: #2086ae;
 }
 
 .location-module__GFbJrG__Button_primary__b__QL.location-module__GFbJrG__Button_iconButton__fsKFn .location-module__GFbJrG__Button_titleWrapper__Glw9g {
@@ -464,7 +464,7 @@
 
 .location-module__GFbJrG__Button_primary__b__QL .location-module__GFbJrG__Button_icon__Rt_Hz {
   padding: .5rem;
-  background-color: #00358d;
+  background-color: #2086ae;
   height: 100%;
   overflow: hidden;
   min-height: 2.5rem;
@@ -529,7 +529,7 @@
 }
 
 .location-module__GFbJrG__Button_primary__b__QL.location-module__GFbJrG__Button_darkmode__ozqJQ:active .location-module__GFbJrG__Button_icon__Rt_Hz, .location-module__GFbJrG__Button_primary__b__QL.location-module__GFbJrG__Button_darkmode__ozqJQ:focus .location-module__GFbJrG__Button_icon__Rt_Hz, .location-module__GFbJrG__darkmode .location-module__GFbJrG__Button_primary__b__QL:active .location-module__GFbJrG__Button_icon__Rt_Hz, .location-module__GFbJrG__darkmode .location-module__GFbJrG__Button_primary__b__QL:focus .location-module__GFbJrG__Button_icon__Rt_Hz {
-  background-color: #00358d;
+  background-color: #2086ae;
 }
 
 .location-module__GFbJrG__Button_primary__b__QL.location-module__GFbJrG__Button_darkmode__ozqJQ:active .location-module__GFbJrG__Button_icon__Rt_Hz .location-module__GFbJrG__icon, .location-module__GFbJrG__Button_primary__b__QL.location-module__GFbJrG__Button_darkmode__ozqJQ:focus .location-module__GFbJrG__Button_icon__Rt_Hz .location-module__GFbJrG__icon, .location-module__GFbJrG__darkmode .location-module__GFbJrG__Button_primary__b__QL:active .location-module__GFbJrG__Button_icon__Rt_Hz .location-module__GFbJrG__icon, .location-module__GFbJrG__darkmode .location-module__GFbJrG__Button_primary__b__QL:focus .location-module__GFbJrG__Button_icon__Rt_Hz .location-module__GFbJrG__icon {

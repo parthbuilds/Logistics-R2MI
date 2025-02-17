@@ -146,7 +146,7 @@
     }
   }
   .ContactForm_title__8EQzh {
-    color: #00358d;
+    color: #2086ae;
     margin-bottom: 1.5rem;
     font-family: 'Exo', sans-serif;
     font-size: 3.2rem;
@@ -223,7 +223,7 @@
     width: 100%;
     padding: 0.75rem;
     background-color: #ccd6e8;
-    color: #00358d;
+    color: #2086ae;
     font-family: 'SchibstedGrotesk_Medium', sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -258,7 +258,7 @@
     padding: 0.75rem;
     border-radius: 0.75rem;
     width: 100%;
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactForm_input__JLtth::placeholder,
   .ContactForm_textarea__jyvij::placeholder {
@@ -279,7 +279,7 @@
     text-decoration: underline;
   }
   .ContactForm_checkboxWrapper__aSMyg a:hover {
-    color: #00358d;
+    color: #2086ae;
   }
   .ContactForm_formbutton__tH5__ {
     width: min-content;
@@ -289,7 +289,7 @@
     justify-content: center;
   }
   .ContactForm_formTitle__JY_XW {
-    color: #00358d;
+    color: #2086ae;
     display: flex;
   }
   .ContactForm_formTitle__JY_XW .outline {
@@ -399,7 +399,7 @@
     transition: all 0.3s ease-out;
   }
   .Button_primary__b__QL {
-    color: #00358d;
+    color: #2086ae;
     border: 0.0625rem solid #99aed1;
     border-radius: 2rem;
     padding: 0.5rem;
@@ -408,14 +408,14 @@
   }
   .Button_primary__b__QL .Button_titleWrapper__Glw9g {
     margin: 0 1rem;
-    color: #00358d;
+    color: #2086ae;
   }
   .Button_primary__b__QL.Button_iconButton__fsKFn .Button_titleWrapper__Glw9g {
     margin: 0 0 0 1.5rem;
   }
   .Button_primary__b__QL .Button_icon__Rt_Hz {
     padding: 0.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     height: 100%;
     overflow: hidden;
     min-height: 2.5rem;
@@ -479,7 +479,7 @@
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:active .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:focus .Button_icon__Rt_Hz {
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .Button_primary__b__QL.Button_darkmode__ozqJQ:active .Button_icon__Rt_Hz .icon,
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz .icon,

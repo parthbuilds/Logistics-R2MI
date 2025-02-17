@@ -115,7 +115,7 @@
     height: 100%;
   }
   .BlogCard_title__az94E {
-    color: #00358d;
+    color: #2086ae;
     font-family: 'Exo_bold', sans-serif;
     font-weight: 100;
     font-size: large;
@@ -284,7 +284,7 @@
     justify-content: center;
     width: 3.5rem;
     height: 3.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
     border-radius: 50%;
     color: #fff;
@@ -601,7 +601,7 @@
   }
   
   .AboutBlock_iconWrapper__JivBc .AboutBlock_icon__lsHnW {
-    color: #00358d;
+    color: #2086ae;
   }
   
   .Icon_icon___Kgo7 {
@@ -685,7 +685,7 @@
     transition: all 0.3s ease-out;
   }
   .Button_primary__b__QL {
-    color: #00358d;
+    color: #2086ae;
     border: 0.0625rem solid #99aed1;
     border-radius: 2rem;
     padding: 0.5rem;
@@ -694,14 +694,14 @@
   }
   .Button_primary__b__QL .Button_titleWrapper__Glw9g {
     margin: 0 1rem;
-    color: #00358d;
+    color: #2086ae;
   }
   .Button_primary__b__QL.Button_iconButton__fsKFn .Button_titleWrapper__Glw9g {
     margin: 0 0 0 1.5rem;
   }
   .Button_primary__b__QL .Button_icon__Rt_Hz {
     padding: 0.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     height: 100%;
     overflow: hidden;
     min-height: 2.5rem;
@@ -765,7 +765,7 @@
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:active .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:focus .Button_icon__Rt_Hz {
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .Button_primary__b__QL.Button_darkmode__ozqJQ:active .Button_icon__Rt_Hz .icon,
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz .icon,

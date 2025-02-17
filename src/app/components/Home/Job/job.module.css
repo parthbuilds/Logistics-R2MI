@@ -175,7 +175,7 @@
 .JobsCard_dateWrapper__HB3DM .JobsCard_dateIcon__k1xlv {
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
-    color: #00358d;
+    color: #2086ae;
     width: 1rem;
     height: 1rem;
 }
@@ -318,7 +318,7 @@
 }
 
 .JobsBlock_smallTitle__gk_sO {
-    color: #00358d;
+    color: #2086ae;
     text-transform: uppercase;
     font-family: 'Exo_bold', sans-serif; /* Ensure Exo font is loaded */
     font-weight: bold;
@@ -392,7 +392,7 @@
 }
 
 .JobsBlock_smallTitle__gk_sO {
-    color: #00358d;
+    color: #2086ae;
     text-transform: uppercase;
     font-family: 'Exo_bold', sans-serif; /* Ensure Exo font is loaded */
     font-weight: bold;
@@ -554,7 +554,7 @@
     transition: all 0.3s ease-out;
   }
   .Button_primary__b__QL {
-    color: #00358d;
+    color: #2086ae;
     border: 0.0625rem solid #99aed1;
     border-radius: 2rem;
     padding: 0.5rem;
@@ -563,14 +563,14 @@
   }
   .Button_primary__b__QL .Button_titleWrapper__Glw9g {
     margin: 0 1rem;
-    color: #00358d;
+    color: #2086ae;
   }
   .Button_primary__b__QL.Button_iconButton__fsKFn .Button_titleWrapper__Glw9g {
     margin: 0 0 0 1.5rem;
   }
   .Button_primary__b__QL .Button_icon__Rt_Hz {
     padding: 0.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     height: 100%;
     overflow: hidden;
     min-height: 2.5rem;
@@ -634,7 +634,7 @@
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:active .Button_icon__Rt_Hz,
   .darkmode .Button_primary__b__QL:focus .Button_icon__Rt_Hz {
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .Button_primary__b__QL.Button_darkmode__ozqJQ:active .Button_icon__Rt_Hz .icon,
   .Button_primary__b__QL.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz .icon,
@@ -785,14 +785,14 @@
   }
   .Button_secondary__8ZLTI .Button_titleWrapper__Glw9g {
     margin: 0 1rem;
-    color: #00358d;
+    color: #2086ae;
   }
   .Button_secondary__8ZLTI.Button_iconButton__fsKFn .Button_titleWrapper__Glw9g {
     margin: 0;
   }
   .Button_secondary__8ZLTI .Button_icon__Rt_Hz {
     padding: 0.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     height: 100%;
     min-height: 2.5rem;
     min-width: 2.5rem;
@@ -857,7 +857,7 @@
   .Button_secondary__8ZLTI.Button_darkmode__ozqJQ:focus .Button_icon__Rt_Hz,
   .darkmode .Button_secondary__8ZLTI:active .Button_icon__Rt_Hz,
   .darkmode .Button_secondary__8ZLTI:focus .Button_icon__Rt_Hz {
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .Button_secondary__8ZLTI.Button_darkmode__ozqJQ:active
     .Button_icon__Rt_Hz

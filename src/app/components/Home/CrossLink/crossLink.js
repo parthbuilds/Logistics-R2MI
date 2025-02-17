@@ -4,7 +4,7 @@ import styles from "./crosslink.module.css";
 import { useTiltEffect } from "@/app/utils/Tilteffect"; // Import the tilt effect hook
 
 const Crosslink = () => {
-    const buttontext = ["#00358d", "#fff"];
+    const buttontext = ["#2086ae", "#fff"];
     
     return (
         <section className={styles.CrosslinkBlock_section__LjJPm}>

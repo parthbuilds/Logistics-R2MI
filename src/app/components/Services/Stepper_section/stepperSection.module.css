@@ -140,7 +140,7 @@
 }
 .StepperCarousel_dot__Af1eM.StepperCarousel_selected__TZmll {
   transition: background-color 0.3s ease-in-out;
-  background-color: #00358d;
+  background-color: #2086ae;
   width: 0.75rem;
   opacity: 1;
   height: 0.75rem;
@@ -187,7 +187,7 @@
   width: 3.5rem;
   height: 3.5rem;
   display: none;
-  background-color: #00358d;
+  background-color: #2086ae;
   transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
   border-radius: 50%;
   color: #fff;
@@ -248,7 +248,7 @@
   .StepperCarousel_emblabutton__V3jp7:disabled {
   opacity: 0.4;
   color: #fff;
-  background-color: #00358d;
+  background-color: #2086ae;
 }
 .StepperCarousel_carouselButtonWrapper__t20mg
   .StepperCarousel_emblabutton__V3jp7:active {
@@ -340,7 +340,7 @@
 }
 .StepperCarousel_indicatorButton__K50NX.StepperCarousel_active__T0jkw:before {
   transition: background-color 0.3s ease-in-out;
-  background-color: #00358d;
+  background-color: #2086ae;
 }
 .gold .StepperCarousel_indicatorButton__K50NX:before {
   transition: background-color 0.3s ease-in-out;
@@ -465,7 +465,7 @@
   }
 }
 .Stepper_containerTitleWrapper___TcKF h3{
-  color: #00358d;
+  color: #2086ae;
   margin-left: 2rem;
   font-family: 'Exo_bold', sans-serif;
   font-size: 4rem;
@@ -509,7 +509,7 @@
   height: 5rem;
   border-bottom-right-radius: 1rem;
   background-color: #ccd6e8;
-  color: #00358d;
+  color: #2086ae;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -546,7 +546,7 @@
   color: #00235d;
 }
 .Stepper_titleWrapper__oATRq .Stepper_title__dXCXT {
-  color: #00358d;
+  color: #2086ae;
 }
 .Stepper_info__udxYT {
   font: var(--font-body-normal);
@@ -569,7 +569,7 @@
   justify-content: center;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: #00358d;
+  background-color: #2086ae;
   transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
   border-radius: 50%;
   color: #fff;

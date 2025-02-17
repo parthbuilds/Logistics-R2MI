@@ -129,7 +129,7 @@
     justify-content: center;
     width: 3.5rem;
     height: 3.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
     border-radius: 50%;
     color: #fff;
@@ -193,7 +193,7 @@
     .DataSlider_emblabutton__6rjJ0:disabled {
     opacity: 0.4;
     color: #fff;
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .DataSlider_container__vlQEj
     .DataSlider_carouselButtonWrapper__QaF4A
@@ -261,7 +261,7 @@
     font-family: 'Exo' , sans-serif;
     font-size: 3rem;
     font-weight: 500;
-    color: #00358d;
+    color: #2086ae;
   }
   .DataSlider_lead__C4oxa {
     font-family : 'Exo', sans-serif;
@@ -539,7 +539,7 @@
     height: 100%;
     border-top-right-radius: 2.5rem;
     border-bottom-left-radius: 2.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
   }
   .DataSlider_carousel__item__ZQ388.DataSlider_main_figures__bQBsU
     .DataSlider_item-2__YsvGa
@@ -778,7 +778,7 @@
     border-bottom-left-radius: 6rem;
     border-top-left-radius: unset;
     border-bottom-right-radius: unset;
-    background-color: #00358d;
+    background-color: #2086ae;
     overflow: hidden;
   }
   .DataSlider_carousel__item__ZQ388.DataSlider_volume_figures__SQTqV
@@ -1420,7 +1420,7 @@
     grid-row-end: 2;
     min-height: 16.25rem;
     height: 100%;
-    background-color: #00358d;
+    background-color: #2086ae;
     border-top-right-radius: 2.5rem;
     border-bottom-left-radius: 2.5rem;
     align-self: flex-start;
@@ -1515,7 +1515,7 @@
     .DataSlider_title__vX0wt {
     font: var(--font-heading-5);
     font-weight: 600;
-    color: #00358d;
+    color: #2086ae;
   }
   .DataSlider_carousel__item__ZQ388.DataSlider_mode_figures__oG778
     .DataSlider_item-4__xxAV3 {
@@ -1597,7 +1597,7 @@
     .DataSlider_item-5__n1bwR
     .DataSlider_innerWrapper__n2vOl
     .DataSlider_title__vX0wt {
-    color: #00358d;
+    color: #2086ae;
     font: var(--font-heading-6);
     font-weight: 600;
   }
@@ -1651,7 +1651,7 @@
     .DataSlider_item-6__3ubnn
     .DataSlider_innerWrapper__n2vOl
     .DataSlider_title__vX0wt {
-    color: #00358d;
+    color: #2086ae;
     font: var(--font-heading-5);
     font-weight: 400;
   }
@@ -1706,7 +1706,7 @@
     grid-row-start: 2;
     grid-row-end: 3;
     align-self: flex-start;
-    background-color: #00358d;
+    background-color: #2086ae;
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
     border-bottom-left-radius: 2.5rem;
@@ -1936,7 +1936,7 @@
     .DataSlider_item-1___KvlH
     .DataSlider_innerWrapper__n2vOl
     .DataSlider_title__vX0wt {
-    color: #00358d;
+    color: #2086ae;
     font: var(--font-heading-5);
     font-weight: 500;
   }
@@ -1950,7 +1950,7 @@
     border-top-right-radius: 2.5rem;
     border-bottom-left-radius: unset;
     border-bottom-right-radius: 2.5rem;
-    background-color: #00358d;
+    background-color: #2086ae;
     grid-row-start: 1;
     grid-row-end: 2;
     width: 100%;
