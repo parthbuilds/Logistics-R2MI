@@ -1,0 +1,445 @@
+.CountryTree_o-site-container__qDRLZ {
+    width: 100%;
+    max-width: 119.375rem;
+    margin: 0 auto;
+    padding-left: calc(4 * var(--space));
+    padding-right: calc(4 * var(--space));
+  }
+  @media (min-width: 48em) {
+    .CountryTree_o-site-container__qDRLZ {
+      padding-left: calc(10 * var(--space));
+      padding-right: calc(10 * var(--space));
+    }
+  }
+  @media (min-width: 82.8125em) {
+    .CountryTree_o-site-container__qDRLZ {
+      padding-left: calc(22 * var(--space));
+      padding-right: calc(22 * var(--space));
+    }
+  }
+  .CountryTree_tree__mylqy {
+    color: #fff;
+    padding: 1rem 1rem 1.5rem;
+  }
+  .CountryTree_continent__nzEHk {
+    font-family:'Exo',sans-serif;
+    font-size: large;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ccd6e8;
+    display: flex;
+  }
+  .CountryTree_continent__nzEHk:hover {
+    cursor: pointer;
+  }
+  .gold .CountryTree_continent__nzEHk {
+    color: #ffd36a;
+  }
+  .CountryTree_continentRight__30OHO {
+    margin-left: auto;
+  }
+  .CountryTree_continentRight__30OHO:hover {
+    cursor: pointer;
+  }
+  .CountryTree_counter__kUwVx {
+    color: #6685ba;
+  }
+  .gold .CountryTree_counter__kUwVx {
+    color: #ceaa53;
+  }
+  .CountryTree_chevronContinent__5PL4R {
+    width: 8px;
+    height: 8px;
+    margin-left: 0.5rem;
+  }
+  .CountryTree_countries__uOCPg {
+    overflow: hidden;
+  }
+  .CountryTree_countries__uOCPg li {
+    list-style: none !important;
+  }
+  .CountryTree_country__f6oSc {
+    position: relative;
+    padding-left: 2rem;
+    color: #ccd6e8;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .CountryTree_country__f6oSc:hover {
+    cursor: pointer;
+  }
+  .CountryTree_countryActive__lWOXm .CountryTree_country__f6oSc {
+    color: #fff;
+  }
+  .gold .CountryTree_countryActive__lWOXm .CountryTree_country__f6oSc {
+    color: #f8e2ac;
+  }
+  .CountryTree_countryActive__lWOXm .CountryTree_country__f6oSc .icon {
+    transform: rotate(180deg) translateY(50%);
+  }
+  .gold .CountryTree_country__f6oSc {
+    color: #ffd36a;
+  }
+  .CountryTree_chevron__YFYxk {
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+  }
+  .CountryTree_chevron__YFYxk:hover {
+    cursor: pointer;
+  }
+  .CountryTree_locations__GpPhU {
+    height: 0;
+  }
+  .CountryTree_countryActive__lWOXm .CountryTree_locations__GpPhU {
+    display: block;
+    height: "auto";
+    overflow: hidden;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .CountryTree_countryActive__lWOXm .CountryTree_locations__GpPhU:hover {
+    cursor: pointer;
+  }
+  .CountryTree_location__dETGk {
+    font-family:'Exo',sans-serif;
+    font-size: large;
+    font-weight: 300;
+    color: #99aed1;
+    padding-left: 2rem;
+  }
+  .CountryTree_location__dETGk.CountryTree_active__qyTIC {
+    color: #fff;
+  }
+  .gold .CountryTree_location__dETGk.CountryTree_active__qyTIC {
+    color: #ffd36a;
+  }
+  .gold .CountryTree_location__dETGk {
+    color: #f8e2ac;
+  }
+  .Modal_o-site-container__Mqcms {
+    width: 100%;
+    max-width: 119.375rem;
+    margin: 0 auto;
+    padding-left: calc(4 * var(--space));
+    padding-right: calc(4 * var(--space));
+  }
+  @media (min-width: 48em) {
+    .Modal_o-site-container__Mqcms {
+      padding-left: calc(10 * var(--space));
+      padding-right: calc(10 * var(--space));
+    }
+  }
+  @media (min-width: 82.8125em) {
+    .Modal_o-site-container__Mqcms {
+      padding-left: calc(22 * var(--space));
+      padding-right: calc(22 * var(--space));
+    }
+  }
+  .Modal_modal__drKVc {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    border-radius: 2.5rem;
+    padding: 2rem 2.5rem;
+    font-family:'Exo',sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #00235d;
+  }
+  @media (min-width: 48em) {
+    .Modal_modal__drKVc {
+      width: 21.25rem;
+      top: 0;
+    }
+  }
+  .gold .Modal_modal__drKVc {
+    background-color: rgba(44, 39, 19, 0.8);
+    color: #f8ebcb;
+  }
+  .Modal_close__UorvO {
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  .Modal_title__rsbVJ {
+    font-family:'Exo',sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #335da3;
+    text-transform: uppercase;
+  }
+  .gold .Modal_title__rsbVJ {
+    color: #ffd36a;
+  }
+  .Modal_links__TReQU {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .Modal_link__4qgev {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Modal_icon__eN6oP {
+    background-color: #335da3;
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.625rem;
+  }
+  .gold .Modal_icon__eN6oP {
+    background-color: #ffd36a;
+    color: #655631;
+  }
+  .LocationSearchBlock_o-site-container__9hHe5 {
+    width: 100%;
+    max-width: 119.375rem;
+    margin: 0 auto;
+    padding-left: calc(4 * var(--space));
+    padding-right: calc(4 * var(--space));
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_o-site-container__9hHe5 {
+      padding-left: calc(10 * var(--space));
+      padding-right: calc(10 * var(--space));
+    }
+  }
+  @media (min-width: 82.8125em) {
+    .LocationSearchBlock_o-site-container__9hHe5 {
+      padding-left: calc(22 * var(--space));
+      padding-right: calc(22 * var(--space));
+    }
+  }
+  .LocationSearchBlock_section__gZTHp {
+    width: 100%;
+    max-width: 119.375rem;
+    margin: 0 auto;
+    padding-left: calc(4 * var(--space));
+    padding-right: calc(4 * var(--space));
+    position: relative;
+    min-height: 100%;
+    margin-block: 5rem;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_section__gZTHp {
+      padding-left: calc(10 * var(--space));
+      padding-right: calc(10 * var(--space));
+    }
+  }
+  @media (min-width: 82.8125em) {
+    .LocationSearchBlock_section__gZTHp {
+      padding-left: calc(22 * var(--space));
+      padding-right: calc(22 * var(--space));
+    }
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_section__gZTHp {
+      margin-block: 7.5rem;
+    }
+  }
+  .gold
+    .LocationSearchBlock_section__gZTHp
+    .LocationSearchBlock_content__Qs6Fy
+    .LocationSearchBlock_title__VQf4s {
+    color: #ceaa53;
+  }
+  .gold
+    .LocationSearchBlock_section__gZTHp
+    .LocationSearchBlock_content__Qs6Fy
+    .LocationSearchBlock_info__bKjBZ {
+    color: #ffd36a;
+  }
+  .LocationSearchBlock_container__r4xLW {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 1vw;
+    gap: 1vw;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    width: 100%;
+    margin: 2.5rem 0;
+    grid-gap: 2.5rem;
+    gap: 2.5rem;
+    grid-row-gap: 0;
+    row-gap: 0;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_container__r4xLW {
+      box-sizing: border-box;
+      display: grid;
+      grid-gap: 1vw;
+      gap: 1vw;
+      width: 100%;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: auto 1fr;
+      grid-row-gap: 0;
+      row-gap: 0;
+      margin: 5rem 0;
+    }
+  }
+  .LocationSearchBlock_title__VQf4s {
+    color: #fff;
+    margin-top: 1.5rem;
+    grid-column: span 4;
+    font-family:'Exo',sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_title__VQf4s {
+      grid-column: span 4;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .gold .LocationSearchBlock_title__VQf4s {
+    color: #f8ebcb;
+  }
+  .LocationSearchBlock_tree__G44tP {
+    grid-column: span 4;
+    order: 2;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_tree__G44tP {
+      order: inherit;
+      grid-column: span 4;
+      grid-column: 1 / span 4;
+      grid-row-start: 2;
+    }
+  }
+  .LocationSearchBlock_map__Ez2na {
+    position: relative;
+    grid-column: span 4;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_map__Ez2na {
+      grid-column: span 7;
+      grid-column: 6 / span 7;
+      grid-row-start: 1;
+      grid-row: span 2;
+    }
+  }
+  .LocationSearchBlock_background__ZV3T6 {
+    position: absolute;
+    z-index: -1;
+    background-color: #00112e;
+    background: radial-gradient(ellipse at center, #002461 0, #00112e 100%);
+    left: calc(-4 * var(--space));
+    right: calc(-4 * var(--space));
+    top: calc(-4 * var(--space));
+    bottom: calc(-4 * var(--space));
+    border-bottom-right-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+  }
+  @media (min-width: 48em) {
+    .LocationSearchBlock_background__ZV3T6 {
+      top: -4rem;
+      bottom: -4rem;
+      left: -5rem;
+      right: -5rem;
+      height: calc(100% + 8rem);
+      border-radius: 0;
+      border-top-left-radius: 7.5rem;
+      border-bottom-right-radius: 7.5rem;
+    }
+  }
+  .gold .LocationSearchBlock_background__ZV3T6 {
+    background-color: #655631;
+    background: radial-gradient(ellipse at center, #877342 0, #655631 100%);
+  }
+
+  .Icon_icon___Kgo7 {
+    display: inline-block;
+    height: 1.5rem;
+    box-sizing: border-box;
+    width: 1.5rem;
+  }
+  
+  .Icon_icon___Kgo7 svg {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .Earth_container__wLwGA {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto; 
+    position: relative; 
+    aspect-ratio: 1 / 1; 
+}
+
+.Earth_container__wLwGA > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Earth_container__wLwGA > div > :global(svg),
+.Earth_container__wLwGA > div > :global(canvas) {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+} 
+
+@media (max-width: 768px) {
+    .Earth_container__wLwGA {
+        max-width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .Earth_container__wLwGA {
+        max-width: 100%; 
+    }
+} 
+
+.CountryTree_continent__nzEHk {
+  display: flex;
+  flex-direction: column; 
+  cursor: pointer;
+  padding: 2px;
+}
+
+.CountryTree_continentRight__30OHO {
+  position: absolute;
+  margin-left: 9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 48em) {
+  .CountryTree_continentRight__30OHO {
+    position: absolute;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.CountryTree_countriesList__expanded {
+  list-style: none;
+  padding-left: 15px;
+  margin: 5px 0 0 0; /* Add slight space between continent name and dropdown */
+}
+
+.CountryTree_country__item {
+  padding: 5px 0;
+  cursor: pointer;
+}
+

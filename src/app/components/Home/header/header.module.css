@@ -1,0 +1,177 @@
+/* Basic Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px 40px;
+  height: 6rem;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Links */
+.nav {
+  display: flex;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-family: 'Exo', sans-serif;
+}
+
+.navLinks li {
+  margin-right: 0;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: #007bff;
+  transform: translateY(-3px);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #333;
+  z-index: 1001;
+}
+
+/* Cancel Button */
+.cancel {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1001;
+}
+
+.cancel:hover {
+  transform: rotate(90deg);
+}
+
+/* Prevent Scrolling When Menu is Open */
+body.menu-open {
+  overflow: hidden;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .nav.open {
+    transform: translateX(0);
+  }
+
+  .nav.open .cancel {
+    display: block;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 0;
+  }
+
+  .navLinks li a {
+    font-size: 2.2rem;
+    padding: 10px 0;
+    transition: color 0.3s ease;
+  }
+
+  .navLinks li a:hover {
+    color: #007bff;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Smooth transition for mobile navigation */
+.navLinks li a {
+  position: relative;
+}
+
+.navLinks li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.navLinks li a:hover::after {
+  width: 100%;
+}
+
+/* Disable Scroll When Menu is Open */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Cross Button Position */
+.cross {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1100; /* Above the menu */
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cross:hover {
+  transform: rotate(90deg);
+}
