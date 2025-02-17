@@ -608,7 +608,7 @@
 }
 
 .Button_primary__b__QL:hover .Button_icon__Rt_Hz {
-    background-color: #335da3;
+    background-color: #2086ae;
 }
 
 .Button_primary__b__QL:active,
@@ -1005,7 +1005,7 @@
     transform: translateX(-0.5rem);
   }
   .Button_tertiary__JUfBS:hover .Button_icon__Rt_Hz {
-    background-color: #335da3;
+    background-color: #2086ae;
     transform: translateX(0.5rem);
   }
   .Button_tertiary__JUfBS:active .Button_icon__Rt_Hz,

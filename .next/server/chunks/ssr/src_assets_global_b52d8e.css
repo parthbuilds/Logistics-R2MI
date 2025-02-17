@@ -1061,7 +1061,7 @@ p i {
 
 p a:not(.button) {
   text-decoration: underline;
-  color: #335da3;
+  color: #2086ae;
 }
 
 .gold p a:not(.button) {
@@ -1086,7 +1086,7 @@ ul:not(.tabs) li {
 }
 
 ul:not(.tabs) li::marker {
-  color: #335da3;
+  color: #2086ae;
 }
 
 .gold ul:not(.tabs) li::marker {
@@ -1102,7 +1102,7 @@ ol:not(.tabs), ol:not(.tabs) li {
 }
 
 ol:not(.tabs) li::marker {
-  color: #335da3;
+  color: #2086ae;
 }
 
 button, input, select, textarea {
@@ -1156,7 +1156,7 @@ small {
 
 .prose a:not(.button) {
   text-decoration: underline;
-  color: #335da3;
+  color: #2086ae;
 }
 
 .prose hr {
@@ -1204,7 +1204,7 @@ small {
 }
 
 .prose ul:not(.tabs) li::marker {
-  color: #335da3;
+  color: #2086ae;
 }
 
 .gold .prose ul:not(.tabs) li::marker {
@@ -1236,7 +1236,7 @@ small {
 }
 
 .prose ol:not(.tabs) li::marker {
-  color: #335da3;
+  color: #2086ae;
 }
 
 .prose ol:not(.tabs), .prose ul:not(.tabs) {

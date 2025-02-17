@@ -134,7 +134,7 @@ function LoadingScreen() {
                                     cx: "12",
                                     cy: "12",
                                     r: "10",
-                                    stroke: "#335da3",
+                                    stroke: "#2086ae",
                                     strokeWidth: "4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/LoadingScreen/loadingScreen.js",
