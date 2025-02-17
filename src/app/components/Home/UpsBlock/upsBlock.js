@@ -24,7 +24,7 @@ export default function UpsBlock() {
           style={{ transform: 'translateY(24px) translateZ(0)' }}
         >
           <h2 className={styles.UspBlock_title__5syXk}>
-            <p>Worlds Leading Home appliances Exporter.</p>
+            <p>World's Leading Home Appliances Exporter.</p>
           </h2>
           <div className={styles.UspBlock_imageSection__Pe14P}>
             {/* Single Image from Public Folder */}
