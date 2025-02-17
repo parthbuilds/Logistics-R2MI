@@ -5,11 +5,11 @@ import Lenis from "@studio-freight/lenis";
 const SmoothScrollProvider = ({ children }) => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.1, // Slower scrolling effect
-      easing: (t) => 1 - Math.pow(1 - t, 2), 
+      duration: 0.5, // Adjust duration for scroll speed.  Lower is faster.
+      easing: (t) => Math.min(1, 1.001 * t - 0.001 * Math.pow(t, 2)), // Slightly modified easing
       smoothWheel: true,
-      smoothTouch: true, // Ensure smoothness on touch devices
-      lerp: 0.07, // Adjust linear interpolation for less fluid motion
+      smoothTouch: true,
+      lerp: 0.1, // Adjust lerp. Higher is faster.
     });
 
     function raf(time) {
@@ -19,8 +19,8 @@ const SmoothScrollProvider = ({ children }) => {
 
     requestAnimationFrame(raf);
 
-    return () => lenis.destroy(); // Cleanup on unmount
-  }, []);
+    return () => lenis.destroy();
+  },);
 
   return <>{children}</>;
 };

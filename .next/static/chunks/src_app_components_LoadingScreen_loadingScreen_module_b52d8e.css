@@ -1,0 +1,70 @@
+/* [project]/src/app/components/LoadingScreen/loadingScreen.module.css [app-client] (css) */
+.loadingScreen-module__BNw0Pa__loadingContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #335da3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loadingScreen-module__BNw0Pa__loadingBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.loadingScreen-module__BNw0Pa__contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.loadingScreen-module__BNw0Pa__loadingText {
+  -webkit-text-fill-color: black;
+  font-family: Exo_bold_Italic, italic;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.loadingScreen-module__BNw0Pa__loadingText .loadingScreen-module__BNw0Pa__outline {
+  -webkit-text-fill-color: #f6faff;
+  font-family: Exo_bold_Italic, sans-serif;
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #0000;
+  -webkit-text-stroke: 3px white;
+}
+
+.loadingScreen-module__BNw0Pa__loadingSvg svg {
+  width: 50px;
+  height: 50px;
+}
+
+.loadingScreen-module__BNw0Pa__carSvg {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=src_app_components_LoadingScreen_loadingScreen_module_b52d8e.css.map*/
