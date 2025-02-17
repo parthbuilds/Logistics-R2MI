@@ -211,3 +211,8 @@
   .ServiceCardsBlock_iconWrapper__qHFqZ .ServiceCardsBlock_icon__PArdM {
     color: #2086ae;
   }
+
+  p:first-child {
+    margin-top: 0;
+    color: black;
+}
