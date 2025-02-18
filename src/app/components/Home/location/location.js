@@ -8,15 +8,14 @@ const Location = () => {
         <section className={styles.LocationBlock_section__FpKpI}>
             <div className={styles.LocationBlock_container__W_TQR}>
                 <div className={styles.LocationBlock_content__4vYYD}>
-                    <p className={styles.LocationBlock_title__OoA2u}>Our Locations</p>
+                    <p className={styles.LocationBlock_title__OoA2u}>Comprehensive Export Solutions</p>
                     <div className={styles.LocationBlock_info__PEoID}>
                         <p>
-                            Our teams around the world are dedicated to meeting your logistics needs. With a strong network and global affiliations, we leverage our group assets to enhance our solutions, offering financial stability and flexibility for your benefit. Explore the world to see <a href="https://www.euroports.com/" target="_self" aria-label="https://www.euroports.com/">how we can support you.</a>
-                        </p>
+                        Across the globe, our teams are committed to fulfilling your export requirements. As a member of the RTM Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage.                        </p>
                     </div>
                     <div className={styles.LocationBlock_buttonWrapper__t95EU}>
-                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="All Locations" href="/about">
-                            <span className={styles.Button_titleWrapper__Glw9g}>All Locations</span>
+                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="About Us" href="/about">
+                            <span className={styles.Button_titleWrapper__Glw9g}>About Us</span>
                             <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>
                                 <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>
 
