@@ -7,16 +7,16 @@ const SmoothScrollProvider = ({ children }) => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.1, // Reduce duration to stop scrolling faster
-      easing: (t) => t, // Linear easing for instant response
-      smoothWheel: false, // Disable smooth wheel scrolling to prevent glide
-      smoothTouch: true, // Enable smooth scrolling only for touch gestures
-      lerp: 0.05, // Lower lerp for minimal smoothing, reducing excessive glide
+      duration: 0.08, // Stops faster
+      easing: (t) => t, // No excessive easing for instant stops
+      smoothWheel: false, // Disable mouse smoothing
+      smoothTouch: true, // Only allow smooth scrolling on touch
+      lerp: 0.03, // Very low to prevent floating
       gestureDirection: "vertical",
       smooth: true,
-      mouseMultiplier: 1, // Keep mouse scroll natural without excessive smoothing
-      touchMultiplier: 2.5, // Make swipe more responsive and snappy
-      infinite: false, // Prevent any looping behavior
+      mouseMultiplier: 1, // Normal mouse scroll speed
+      touchMultiplier: 1.8, // Reduced swipe power to prevent overscroll
+      infinite: false, // Hard stop at the end
     });
 
     lenisRef.current = lenis;
