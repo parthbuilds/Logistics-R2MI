@@ -3,25 +3,25 @@ import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
 
 const SmoothScrollProvider = ({ children }) => {
-  const lenisRef = useRef(null); // Ref to hold the Lenis instance
+  const lenisRef = useRef(null);
 
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.2, // Decreased duration for more instant response
-      easing: (t) => t, // Linear easing for better scroll responsiveness
-      smoothWheel: true,
-      smoothTouch: true,
-      lerp: 0.1, // Slightly increased for better responsiveness
+      duration: 0.1, // Reduce duration to stop scrolling faster
+      easing: (t) => t, // Linear easing for instant response
+      smoothWheel: false, // Disable smooth wheel scrolling to prevent glide
+      smoothTouch: true, // Enable smooth scrolling only for touch gestures
+      lerp: 0.05, // Lower lerp for minimal smoothing, reducing excessive glide
       gestureDirection: "vertical",
       smooth: true,
-      mouseMultiplier: 1.2, // Increased for better control with mouse scroll
-      touchMultiplier: 2, // Keeps touch scroll responsive without being too fast
+      mouseMultiplier: 1, // Keep mouse scroll natural without excessive smoothing
+      touchMultiplier: 2.5, // Make swipe more responsive and snappy
+      infinite: false, // Prevent any looping behavior
     });
 
-    lenisRef.current = lenis; // Store Lenis instance in ref
+    lenisRef.current = lenis;
 
     let rafId;
-
     function raf(time) {
       lenis.raf(time);
       rafId = requestAnimationFrame(raf);
