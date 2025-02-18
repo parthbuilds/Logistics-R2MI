@@ -7,38 +7,33 @@ const SmoothScrollProvider = ({ children }) => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.3, // Faster scroll speed
-      easing: (t) => Math.min(1, 1.001 * t - 0.001 * Math.pow(t, 2)), // Your modified easing (can be tweaked)
+      duration: 0.2, // Decreased duration for more instant response
+      easing: (t) => t, // Linear easing for better scroll responsiveness
       smoothWheel: true,
       smoothTouch: true,
-      lerp: 0.08, // Adjust lerp for smoothness/responsiveness.  Lower is smoother.
-      gestureDirection: "vertical", // For better touch experience
-      smooth: true, // Enable smooth scrolling
-      mouseMultiplier: 1, // Adjust mouse wheel sensitivity
-      smoothTouch: true,
-      touchMultiplier: 2, // Adjust touch scroll sensitivity
+      lerp: 0.1, // Slightly increased for better responsiveness
+      gestureDirection: "vertical",
+      smooth: true,
+      mouseMultiplier: 1.2, // Increased for better control with mouse scroll
+      touchMultiplier: 2, // Keeps touch scroll responsive without being too fast
     });
 
     lenisRef.current = lenis; // Store Lenis instance in ref
 
-    let rafId; // Store requestAnimationFrame ID for cleanup
+    let rafId;
 
     function raf(time) {
       lenis.raf(time);
-      rafId = requestAnimationFrame(raf); // Store ID
+      rafId = requestAnimationFrame(raf);
     }
 
-    rafId = requestAnimationFrame(raf); // Start animation loop
+    rafId = requestAnimationFrame(raf);
 
     return () => {
       lenis.destroy();
-      cancelAnimationFrame(rafId); // Stop animation loop
+      cancelAnimationFrame(rafId);
     };
   }, []);
-
-  // Expose Lenis instance if needed:
-    // This allows child components to access and control Lenis directly if needed.
-    // const getLenis = () => lenisRef.current;  
 
   return <>{children}</>;
 };
