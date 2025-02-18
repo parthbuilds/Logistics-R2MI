@@ -30,11 +30,6 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className={`${styles.VideoPrimaryHero_imageWrapper__SkScL} ${styles.VideoPrimaryHero_initialized__1nbT5}`}>
-                    <i className={`${styles.Icon_icon___Kgo7} ${styles.icon} ${styles.VideoPrimaryHero_muteButton__01kJF}`}>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13.422 4.658a1.5 1.5 0 0 0-1.571.142L5.251 9h-3a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3l6.6 4.2a1.5 1.5 0 0 0 2.4-1.2V6a1.5 1.5 0 0 0-.829-1.342Z" />
-                        </svg>
-                    </i>
                     <video src="/video/R2MEx Ad2.mp4" className={`${styles.VideoPrimaryHero_image__H7CbZ} ${styles.VideoPrimaryHero_video__550RF}`} playsInline controlsList="nodownload" autoPlay muted loop></video>
                 </div>
             </div>
