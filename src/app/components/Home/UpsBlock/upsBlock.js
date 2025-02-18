@@ -41,10 +41,10 @@ export default function UpsBlock() {
         </div>
         <div className={styles.UspBlock_uspWrapper__dzsDK}>
           {[
-            "We Believe in People",
-            "We Solve Each and Any Shipping Problem",
+            "We Believe in PeopleWe Believe in Accessible Modern Appliances",
+            "We Resolve Every Export Challenge",
             "Single Point of Contact",
-            "Flexible & Fast Decision-Making"
+            "Quick and Adaptive Decision-Making"
           ].map((title, index) => (
             <div key={index} className={styles.UspBlock_uspWrapperInside__00mFz}>
               <div className={styles.UspItem_uspItem__qkMCK} style={{ opacity: 1 }}>
@@ -68,14 +68,14 @@ export default function UpsBlock() {
                   }}
                 >
                   <p>
-                    {title === "We Believe in People" &&
-                      "Our people are our greatest asset, and we deeply believe in them. At MPL, we embrace a unique culture together where everyone is valued, supported, and empowered to achieve their full potential."}
-                    {title === "We Solve Each and Any Shipping Problem" &&
-                      "We collaborate with dedicated teams for each commodity, leveraging their specialized expertise to deliver high-quality solutions and insights for any product or request. With a global presence, we possess deep knowledge of local markets, regulations, and customs."}
+                    {title === "We Believe in PeopleWe Believe in Accessible Modern Appliances" &&
+                      "We believe that essential home appliances with the latest technology should be accessible and affordable in every corner of the world. We help every home stay equipped with essential modern appliances for a better and more efficient lifestyle."}
+                    {title === "We Resolve Every Export Challenge" &&
+                      "Our dedicated teams specialize in each commodity, using their expertise to provide high-quality solutions and insights for any product or request. With a global presence, we have in-depth knowledge of local markets, regulations, and customs."}
                     {title === "Single Point of Contact" &&
-                      "Our team helps customers navigate every step of the logistics process, including customs clearance, tendering, and procurement services."}
-                    {title === "Flexible & Fast Decision-Making" &&
-                      "Our flexibility and commitment to supporting customers in every way make us unique. Our rapid decision-making is driven by the open communication strategy we cultivate within the company."}
+                      "Our team guides customers through every stage of the export process, from customs clearance to tendering and procurement services."}
+                    {title === "Quick and Adaptive Decision-Making" &&
+                      "What sets us apart is our dedication to supporting customers in every aspect, combined with our flexibility. Our swift decision-making is fueled by a culture of open communication within the company."}
                   </p>
                 </div>
 
