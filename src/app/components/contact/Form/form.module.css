@@ -158,6 +158,14 @@
     font-weight: 500;
     color: #000;
   }
+
+  .ContactForm_info {
+    font-family:'Exo', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #2086ae;
+    margin-top: 2rem;
+  }
   .ContactForm_form__eNij0 {
     grid-column: span 4;
     position: relative;

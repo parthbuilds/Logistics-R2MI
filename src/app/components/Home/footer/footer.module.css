@@ -133,12 +133,15 @@
   }
 }
 .Footer_navItem__DCCez {
-  font: var(--font-caption-small);
+  align-items:baseline;
+  font-family: 'Exo',sans-serif;
+  font-size: medium;
+  font-weight: 400;
   text-transform: uppercase;
-  color: #99aed1;
+  color: #ffffff;
 }
 .Footer_navItem__DCCez:hover {
-  color: #ccd6e8;
+  color: #ffffff;
 }
 .Footer_logoWrapper__P93m7 {
   grid-column: span 4;
@@ -150,6 +153,10 @@
     width: -moz-fit-content;
     width: fit-content;
   }
+}
+.Footer_logo{
+  padding-bottom: 2rem;
+  
 }
 .Footer_address__Cj4AX {
   grid-column: span 4;
@@ -174,7 +181,7 @@
     justify-content: flex-start;
     grid-column: span 5;
     grid-column: 8 / span 5;
-    padding-right: 9rem;
+    padding-right: 2rem;
   }
 }
 
@@ -187,11 +194,11 @@
   height: 1.5rem;
 }
 .Footer_socialIcon__bQEbt {
-  color: #6685ba;
+  color: #ffffff;
   transition: all 0.2s ease-out;
 }
 .Footer_socialIcon__bQEbt:hover {
-  color: #99aed1;
+  color: #99d1c8;
 }
 .Footer_privacyTerms__sz4zC {
   color: #99aed1;
@@ -316,3 +323,74 @@
   display: block;
 }
 
+
+.ContactForm_formRow__tPm9Z {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  align-items: stretch;
+}
+@media (min-width: 48em) {
+  .ContactForm_formRow__tPm9Z {
+    flex-direction: row;
+  }
+}
+.ContactForm_formItem__pxEdr {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.ContactForm_formItem__pxEdr .ContactForm_label__xyhWw {
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 0.75rem;
+}
+.ContactForm_formItem__tooltip__S6IwZ {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #fff;
+  color: #fff;
+  font-family: 'SchibstedGrotesk_Medium', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 4px 8px 16px 0 rgba(0, 35, 93, 0.08);
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+.ContactForm_formItem__tooltip__S6IwZ:after {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+.ContactForm_formItem__tooltip__S6IwZ.ContactForm_active__8aVDv {
+  opacity: 1;
+  pointer-events: all;
+}
+.ContactForm_input__JLtth,
+.ContactForm_textarea__jyvij {
+  font-family:'Exo',sans-serif;
+  font-weight:400;
+  font-size: medium;
+  background-color: transparent;
+  border: 0.0625rem solid #fff;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  color: #fff;
+}

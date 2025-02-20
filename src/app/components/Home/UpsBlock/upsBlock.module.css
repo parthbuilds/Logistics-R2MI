@@ -106,21 +106,14 @@
 }
 
 .UspItem_line__xiQ1n {
+    height: 0.2rem;
     width: 100%;
-    height: 0.125rem;
-    background-color: #fff;
-    transition: background-color 0.3s ease-out;
-    display: none;
+    max-width: 400px;
+    height: 3px; 
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
 }
-
-.UspItem_light__BSdNE .UspItem_line__xiQ1n {
-    background-color: #fff;
-}
-
-.gold .UspItem_line__xiQ1n {
-    background-color: #f8e2ac;
-}
-
 @media (min-width: 48em) {
     .UspItem_line__xiQ1n {
         display: block;
@@ -296,10 +289,9 @@
 .UspBlock_title__5syXk {
     font-size: 3.6rem;
     grid-column: span 6;
-    font-family: 'Exo', sans-serif; /* Connect to Exo font */
-    font-weight: regular; /* You can also specify the weight if needed */
+    font-family: 'Exo', sans-serif; 
+    font-weight: regular; 
     margin-top: -4.5rem;
-    /* margin-bottom: 1.5rem; */
     color: #f6faff;
 }
 
@@ -307,9 +299,8 @@
     .UspBlock_title__5syXk {
         .UspBlock_title__5syXk {
             grid-column: span 4;
-            font-family: 'Exo', sans-serif; /* Connect to Exo font */
-            font-weight: bold; /* You can also specify the weight if needed */
-            /* margin-bottom: 1.5rem; */
+            font-family: 'Exo', sans-serif; 
+            font-weight: bold; 
             margin-top: -3rem;
             color: #f6faff;
         }
@@ -322,6 +313,17 @@
     z-index: 1;
     min-height: 14.5rem;
     min-width: 100%;
+}
+
+@media (max-width){
+    .UspBlock_imageSection__Pe14P {
+        grid-column: span 4;
+        position: relative;
+        z-index: 1;
+        min-height: 14.5rem;
+        min-width: 100%;
+        margin-left: 3rem;
+    }
 }
 
 .UspBlock_imageWrapper__ZvgfK {

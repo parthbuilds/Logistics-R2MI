@@ -571,14 +571,13 @@
 }
 
 .VideoPrimaryHero_title__ovhlz {
-    font-family: 'Exo_bold', sans-serif; /* Connect to Exo font */
+    font-family: 'Exo_bold', sans-serif; 
     font-weight: bold; 
     color: #00112e;
     z-index: 1;
     position: relative;
     transition: color 0.3s ease-in-out;
     font-size: 8.25rem;
-    /* Equivalent to text-4xl */
     margin-top: auto;
     line-height: 120px;
 }
@@ -587,30 +586,40 @@
     font: var(--font-hero-regular);
 }
 
-@media (min-width: 48em) {
+@media (max-width: 48em) {
     .VideoPrimaryHero_title__ovhlz p {
-        font: var(--font-heading-1-regular);
+        font-family: 'Exo_bold', sans-serif; 
+        font-weight: bold; 
+        font-size: 5rem;
+        line-height: 5rem;
     }
 }
 
 @media (min-width: 71.3125em) {
     .VideoPrimaryHero_title__ovhlz p {
-        font: var(--font-hero-regular);
+        ont-family: 'Exo_bold', sans-serif; 
+        font-weight: bold; 
+        font-size: 8rem;
+        line-height: 8rem;
     }
 }
 
 .VideoPrimaryHero_title__ovhlz .outline {
     -webkit-text-fill-color: #f6faff;
-    font-family: 'Exo_bold_Italic', sans-serif; /* Ensure Exo font is loaded */
-    font-style: italic; /* Make text italic */
+    font-family: 'Exo_bold_Italic', sans-serif; 
+    font-style: italic; 
     font-size: 8.25rem;
-    font-weight: 400; /* Set a weight (medium, as specified) */
+    font-weight: 400; 
     color: transparent;
-    -webkit-text-stroke: 3px white; /* Adds white stroke around the text */
+    -webkit-text-stroke: 3px white; 
 }
 @media (max-width: 48rem) {
     .VideoPrimaryHero_title__ovhlz .outline {
         -webkit-text-stroke: 3px black;
+        font-family: 'Exo_bold', sans-serif; 
+        font-weight: bold; 
+        font-size: 5rem;
+        line-height: 5rem;
     }
 }
 @media (min-width: 71.3125rem) {

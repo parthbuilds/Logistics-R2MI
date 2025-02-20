@@ -11,7 +11,7 @@ const LocationSlider = () => {
         if (slider) {
           const speed = index % 2 === 0 ? 0.3 : -0.4;
           const totalWidth = slider.scrollWidth;
-          const viewportWidth = window.innerWidth; 
+          const viewportWidth = window.innerWidth;
 
           // Calculate the maximum scroll position to avoid gaps
           const maxScroll = totalWidth - viewportWidth;
@@ -21,7 +21,6 @@ const LocationSlider = () => {
           translateX = Math.max(-maxScroll, Math.min(0, translateX)); // Keep within bounds
 
           slider.style.transform = `translateX(${translateX}px)`;
-
         }
       });
     };
@@ -30,9 +29,23 @@ const LocationSlider = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const locations = ["Spain", "France", "Germany", "Canada", "Italy", "Japan", "USA", "Australia"];
+  const locations = [
+    { name: "Singapore", image: "/images/locations/Singapore.jpg" },
+    { name: "Australia", image: "/images/locations/australia.jpg" },
+    { name: "Malaysia", image: "/images/locations/malaysia.jpg" },
+    { name: "USA", image: "/images/locations/usa.jpg" },
+    { name: "Vietnam", image: "/images/locations/vietnam.jpg" },
+    { name: "Nigeria", image: "/images/locations/nigeria.jpg" },
+    { name: "South Africa", image: "/images/locations/SouthAfrica.jpg" },
+    { name: "Mauritius", image: "/images/locations/mauritius.jpg" },
+    { name: "Kenya", image: "/images/locations/kenya.jpg" },
+    { name: "Uganda", image: "/images/locations/uganda.jpg" },
+    { name: "Tanzania", image: "/images/locations/tanzania.jpg" },
+    { name: "Belgium", image: "/images/locations/belgium.jpg" }
+  ];
 
   return (
+    <section style={{backgroundColor:'#2086ae', paddingTop:'3rem'}}>
     <div className={styles.Wrapper} style={{ width: '100vw', overflow: 'hidden' }}>
       {[...Array(4)].map((_, rowIndex) => (
         <div
@@ -42,7 +55,7 @@ const LocationSlider = () => {
           style={{
             display: 'flex',
             width: 'max-content',
-            gap: '4em',
+            gap: '4rem',
             whiteSpace: 'nowrap',
             marginBottom: '4rem',
           }}
@@ -56,7 +69,7 @@ const LocationSlider = () => {
             }}>
               <div className={`${styles.LocationsSlider_imageWrapper__noqux} ${styles.LocationsSlider_hasImage__pdKoo}`}>
                 <img
-                  alt={location}
+                  alt={location.name}
                   loading="lazy"
                   width="100"
                   height="100"
@@ -67,20 +80,19 @@ const LocationSlider = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
-                    backgroundImage: "url('/images/Project/Cargo-Business.png-2.png')"
                   }}
-                  srcSet="/images/Project/Cargo-Business.png-2.png 1x, /images/Project/Cargo-Business.png-2.png 2x"
-                  src="/images/Project/Cargo-Business.png-2.png"
+                  src={location.image}
                 />
               </div>
-              <h4 className={styles.LocationsSlider_title__vKaO_} style={{ fontSize: '2.4rem', fontWeight: 'bold' }}>
-                {location}
+              <h4 className={styles.LocationsSlider_title__vKaO_} style={{ fontSize: '2.4rem', fontWeight: 'bold', color:'white' }}>
+                {location.name}
               </h4>
             </div>
           ))}
         </div>
       ))}
     </div>
+    </section>
   );
 };
 

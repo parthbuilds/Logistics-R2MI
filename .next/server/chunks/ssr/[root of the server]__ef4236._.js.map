@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/parthpandey/Documents/GitHub/Logistics-R2MI/src/app/utils/SmoothScrollProvider.js"],"sourcesContent":["\"use client\";\nimport { useEffect } from \"react\";\nimport Lenis from \"@studio-freight/lenis\";\n\nconst SmoothScrollProvider = ({ children }) => {\n  useEffect(() => {\n    const lenis = new Lenis({\n      duration: 0.5, // Adjust duration for scroll speed.  Lower is faster.\n      easing: (t) => Math.min(1, 1.001 * t - 0.001 * Math.pow(t, 2)), // Slightly modified easing\n      smoothWheel: true,\n      smoothTouch: true,\n      lerp: 0.1, // Adjust lerp. Higher is faster.\n    });\n\n    function raf(time) {\n      lenis.raf(time);\n      requestAnimationFrame(raf);\n    }\n\n    requestAnimationFrame(raf);\n\n    return () => lenis.destroy();\n  },);\n\n  return <>{children}</>;\n};\n\nexport default SmoothScrollProvider;"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIA,MAAM,uBAAuB,CAAC,EAAE,QAAQ,EAAE;IACxC,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,MAAM,QAAQ,IAAI,8JAAA,CAAA,UAAK,CAAC;YACtB,UAAU;YACV,QAAQ,CAAC,IAAM,KAAK,GAAG,CAAC,GAAG,QAAQ,IAAI,QAAQ,KAAK,GAAG,CAAC,GAAG;YAC3D,aAAa;YACb,aAAa;YACb,MAAM;QACR;QAEA,SAAS,IAAI,IAAI;YACf,MAAM,GAAG,CAAC;YACV,sBAAsB;QACxB;QAEA,sBAAsB;QAEtB,OAAO,IAAM,MAAM,OAAO;IAC5B;IAEA,qBAAO;kBAAG;;AACZ;uCAEe"}},
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

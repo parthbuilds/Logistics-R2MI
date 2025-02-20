@@ -11,14 +11,14 @@ const Crosslink = () => {
             <div className={styles.CrosslinkBlock_container__HKHjr}>
                 {[{
                     title: "COMMODITIES",
-                    subtitle: "What we Move",
+                    subtitle: "What We Export",
                     buttonLabel: "Commodities",
-                    link: "/commodities"
+                    link: "/Services"
                 }, {
                     title: "OUR SERVICES",
-                    subtitle: "How we Move",
-                    buttonLabel: "Services",
-                    link: "/services"
+                    subtitle: "About Us",
+                    buttonLabel: "About Us",
+                    link: "/About"
                 }].map((item, index) => {
                     const { rotate, onMouseMove, onMouseLeave } = useTiltEffect(); // Apply tilt effect
 

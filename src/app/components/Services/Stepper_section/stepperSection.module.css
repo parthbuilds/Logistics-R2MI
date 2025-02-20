@@ -500,6 +500,8 @@
   position: relative;
   box-sizing: content-box;
   box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
+  width: fit-content; 
+  height: fit-content;
 }
 .Stepper_itemIcon__6trkX {
   position: absolute;

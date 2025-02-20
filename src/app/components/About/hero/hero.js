@@ -9,27 +9,27 @@ const Hero = () => {
           <div className={styles.Hero_titleWrapper__blMd1}>
             <h1 className={styles.Hero_title__dKRr0}>
               <span className={`${styles.TextAnimation_text__sTrzf} ${styles.TextAnimation_mounted__Iz2_c}`} data-preview="false">
-                <span className="linecontainer">
-                  <span className="line" style={{ display: 'block', textAlign: 'start', width: '100%' }}>
+                <span className={styles.linecontainer}>
+                  <span className={styles.line} style={{ display: 'block', textAlign: 'start', width: '100%' }}>
                     <p style={{ display: 'inline-block', position: 'relative' }}>
-                      <span className="word">
-                        <span className="char">M</span>
-                        <span className="char">o</span>
-                        <span className="char">r</span>
-                        <span className="char">e</span>
+                      <span className={styles.word}>
+                        <span className={styles.char}>M</span>
+                        <span className={styles.char}>o</span>
+                        <span className={styles.char}>r</span>
+                        <span className={styles.char}>e</span>
                       </span>{' '}
-                      <span className="word">
-                        <span className="char">A</span>
-                        <span className="char">b</span>
-                        <span className="char">o</span>
-                        <span className="char">u</span>
-                        <span className="char">t</span>
+                      <span className={styles.word}>
+                        <span className={styles.char}>A</span>
+                        <span className={styles.char}>b</span>
+                        <span className={styles.char}>o</span>
+                        <span className={styles.char}>u</span>
+                        <span className={styles.char}>t</span>
                       </span>{' '}
-                      <span className="word">
-                        <span className="char">M</span>
-                        <span className="char">P</span>
-                        <span className="char">L</span>
-                        <span className="char">!</span>
+                      <span className={styles.word}>
+                        <span className={styles.char}>M</span>
+                        <span className={styles.char}>P</span>
+                        <span className={styles.char}>L</span>
+                        <span className={styles.char}>!</span>
                       </span>
                     </p>
                   </span>

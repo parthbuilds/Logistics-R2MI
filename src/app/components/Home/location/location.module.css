@@ -264,6 +264,7 @@
     }
 
     .LocationBlock_content__4vYYD:after {
+        margin-left: 8rem;
         content: "";
         position: absolute;
         display: block;
@@ -428,6 +429,9 @@
   }
   .Button_icon__Rt_Hz .icon,
   .Button_titleWrapper__Glw9g {
+    font-family: 'Exo', sans-serif;
+    font-size: large;
+    font-weight: 400;
     transition: all 0.3s ease-out;
   }
   .Button_primary__b__QL {

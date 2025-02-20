@@ -16,7 +16,7 @@ const ContactBlock = () => {
             </svg>
             <div className={styles.ContactBlock_imageWrapper__nfNkK}>
                 <div className={styles.ContactBlock_imageMove__RoRh_} style={{ transform: 'none' }}>
-                    <img 
+                    <img
                         alt="Manuport logistics"
                         loading="lazy"
                         width="744"
@@ -58,13 +58,18 @@ const ContactBlock = () => {
                             <div className={styles.ContactBlock_introWrapper__m1k2B}>
                                 <h3 className={styles.ContactBlock_title__7ZvTW}>
                                     <p>get in touch</p>
-                                    <button 
-                                        type="button" 
+                                    <button
+                                        type="button"
                                         className={`${styles.button} ${styles.tertiary} ${styles.Button_button__T6zT9} ${styles.Button_tertiary__JUfBS} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`}
                                         aria-label="">
                                         <span className={styles.Button_titleWrapper__Glw9g}></span>
-                                        <div className={`${styles.Button_icon__Rt_Hz} iconwrapper`}>
-                                            <i className={styles.Icon_icon___Kgo7}></i>
+                                        <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>
+                                            <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                                    <path fill="currentColor" fillRule="evenodd" d="M.15 12a.6.6 0 0 1 .6-.6h22.5a.6.6 0 0 1 0 1.2H.75a.6.6 0 0 1-.6-.6Z" clipRule="evenodd"></path>
+                                                    <path fill="currentColor" fillRule="evenodd" d="M12.326 1.076a.6.6 0 0 1 .848 0l10.5 10.5a.6.6 0 0 1 0 .848l-10.5 10.5a.6.6 0 0 1-.848-.848L22.4 12 12.326 1.924a.6.6 0 0 1 0-.848Z" clipRule="evenodd"></path>
+                                                </svg>
+                                            </i>
                                         </div>
                                     </button>
                                 </h3>

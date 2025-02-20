@@ -288,6 +288,14 @@
       align-items: center;
     }
   }
+  @media (max-width: 48em) {
+    .ContactBlock_title__7ZvTW {
+      font-family: 'Exo_bold', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 900;
+      align-items: center;
+    }
+  }
   @media (min-width: 56.25em) {
     .ContactBlock_title__7ZvTW {
       font-family: 'Exo', sans-serif;
@@ -520,3 +528,30 @@
   .Icon_icon___Kgo7 svg {
     display: block;
   }
+
+  .Button_button__T6zT9 {
+    font: var(--font-label-large);
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    gap: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out,
+    color 0.3s ease-out;
+  }
+  .Button_button__T6zT9[disabled] {
+    opacity: 0.4;
+  }
+  .Button_button__T6zT9:hover .Button_icon__Rt_Hz {
+    transform: scale(1.1);
+  }
+  .Button_button__T6zT9:hover .Button_icon__Rt_Hz .icon {
+    transform: scale(0.9);
+    animation: Button_bob__3_pUe 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  

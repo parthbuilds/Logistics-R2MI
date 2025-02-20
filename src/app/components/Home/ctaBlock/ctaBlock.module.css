@@ -575,6 +575,9 @@
   }
   .Button_icon__Rt_Hz .icon,
   .Button_titleWrapper__Glw9g {
+    font-family: 'Exo',sans-serif;
+    font-size: large;
+    font-weight: 400;
     transition: all 0.3s ease-out;
   }
   .Button_primary__b__QL {
@@ -853,5 +856,3 @@
 .Icon_icon___Kgo7 svg {
   display: block;
 }
-
-

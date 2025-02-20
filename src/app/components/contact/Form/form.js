@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './form.module.css'
 
 const Form = () => {
+    const email = 'parthpandey033@gmail.com';
+    const telephone = '+91 800232370';
     return (
         <section className={styles.ContactForm_section__enWFi}>
             <div className={styles.ContactForm_container__IPrwv}>
@@ -9,10 +11,16 @@ const Form = () => {
                     <h3 className={styles.ContactForm_title__8EQzh}>Get local advice for your global request.</h3>
                     <div className={styles.ContactForm_info__Iv_mD}>
                         <p>
-                            Let’s talk! Our team is always ready to speak to you. Find contact details for your nearest office on the
-                            <a target="_self" aria-label="/about" href="/about"> locations page.</a>
+                            Let’s talk! Our team is always ready to speak to you.
                             <br />
                             We do our best to answer within 24 hours.
+                        </p>
+                    </div>
+                    <div className={styles.ContactForm_info}>
+                        <p>
+                            <a href={`tel:${telephone}`}>Call Us: +91 800232370</a>
+                            <br />
+                            <a href={`mailto:${email}`}>Email : support@rtx.com</a>
                         </p>
                     </div>
                 </div>

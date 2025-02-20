@@ -1,4 +1,5 @@
 'use client'
+import AutoPlaySwiper from '@/app/utils/swiper/swiper'
 import styles from "./section.module.css";
 
 function Section() {
@@ -9,13 +10,13 @@ function Section() {
           className={`${styles.CtaBlock_content__87Op8} ${styles.CtaBlock_left__m_YMo}`}
         >
           <div>
-            <h3 className={styles.CtaBlock_title__enemh}>What we Move</h3>
+            <h3 className={styles.CtaBlock_title__enemh}>Products We Export</h3>
           </div>
           <div>
             <div className={styles.CtaBlock_info__DVPeC}>
               <div>
                 <p>
-                  Behind every shipment is a world of opportunities. From raw materials and chemicals to consumer goods and beyond, we don’t just move cargo—we carry your dreams.
+                Behind every export is a world of opportunities. From mixer grinders and blenders to juicers, microwaves, OTGs, irons, sandwich makers, and more, we don’t just export home appliances – we export your aspirations.
                 </p>
               </div>
             </div>
@@ -56,23 +57,13 @@ function Section() {
             </div>
           </div>
         </div>
-
-        {/* Static Image */}
         <div
           className={`${styles.CtaBlock_videoWrapper__ZHqAx} ${styles.CtaBlock_dark__Vqkj3} ${styles.CtaBlock_left__m_YMo}`}
         >
           <div
             className={styles.CtaBlock_videoAnimWrapper__MFcyz}
           >
-            <img
-              alt="Manuport logistics commodity"
-              loading="lazy"
-              width="727"
-              height="727"
-              data-nimg="1"
-              className={`${styles.CtaBlock_inactive__UBkTw} ${styles.CtaBlock_animatedImage__AL5Rq}`}
-              src="/images/Flooring-Business.png"
-            />
+            <AutoPlaySwiper height="800px" width="800px"/>
           </div>
         </div>
       </div>

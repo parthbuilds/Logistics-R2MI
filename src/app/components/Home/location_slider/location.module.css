@@ -84,7 +84,6 @@
     isolation: isolate;
   }
   .LocationsSlider_location__x6NQX .LocationsSlider_imageWrapper__noqux:before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -99,13 +98,11 @@
     .LocationsSlider_imageWrapper__noqux.LocationsSlider_hasImage__pdKoo:after {
     width: 100%;
     height: 100%;
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
     opacity: 0.1;
-    background-color: #2086ae;
   }
   .LocationsSlider_location__x6NQX .LocationsSlider_svg__6TBtR {
     display: block;
@@ -130,13 +127,34 @@
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-fill-color: transparent;
   }
-  .LocationsSlider_location__x6NQX:hover
+  /* .LocationsSlider_location__x6NQX:hover
     .LocationsSlider_imageWrapper__noqux:after,
   .LocationsSlider_location__x6NQX:hover
     .LocationsSlider_imageWrapper__noqux:before,
   .LocationsSlider_location__x6NQX:hover .LocationsSlider_image__F7MqP {
-    opacity: 0;
-  }
+    opacity: 0.5;
+  } */
+
+  .LocationsSlider_location__x6NQX:hover
+  .LocationsSlider_imageWrapper__noqux:after,
+.LocationsSlider_location__x6NQX:hover
+  .LocationsSlider_imageWrapper__noqux:before {
+  content: "";
+  position: absolute;
+  top: 3;
+  left: 5;
+  width: 80%;
+  height: 80%;
+  background-image: url('/images/RTX icon.svg'); 
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 1;
+}
+
+.LocationsSlider_location__x6NQX:hover .LocationsSlider_image__F7MqP {
+  opacity: 0; 
+}
 
   .LocationBlock_locations__jqljX {
     grid-column: span 4;

@@ -53,7 +53,7 @@ const Header = ({ color = "white" }) => {
   return (
     <header ref={headerRef} className={styles.header}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="Logo" />
+      <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/>
       </div>
 
       <div className={styles.hamburger} onClick={toggleMenu}>

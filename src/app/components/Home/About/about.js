@@ -6,7 +6,7 @@ const About = () => {
     <section className={styles.AboutBlock_section__9WQmC}>
       <div className={styles.AboutBlock_container___ieX0}>
         <div className={styles.AboutBlock_imageSection__6z_Kp}>
-          <h2 className={styles.AboutBlock_titleLarge__hwrwt}>A Unique Company Culture</h2>
+          <h2 className={styles.AboutBlock_titleLarge__hwrwt}>Global Export Reach,</h2>
           <div className={styles.AboutBlock_videoWrapper__s0vxa}>
             <div className={styles.AboutBlock_videoMove__s_Zgz}>
               <video
@@ -15,7 +15,7 @@ const About = () => {
                 height="628"
                 playsInline
                 autoPlay
-                src="https://pub-1658b62356034e6383dac2ceabbea7a0.r2.dev/people1-video-extracompressed.mp4"
+                src="/video/R2MEx Ad2.mp4"
                 muted
                 loop
               />
@@ -25,15 +25,16 @@ const About = () => {
 
         <div className={styles.AboutBlock_textSection__toSlF}>
           <h2 className={styles.AboutBlock_titleSmall__f0IN5}>
-            With a heart for logistics and great teamwork
+            
+            Driven by Passion
+            and Strong Teamwork
           </h2>
         </div>
 
         <div className={styles.AboutBlock_infoSection__rhhGb}>
           <div className={styles.AboutBlock_info__jqTAN}>
             <p>
-              The MPL family: a team that consists of more than 700 differentiators, spread across the globe. They all have one thing in common: <b>a passion for logistics!</b>
-              They&apos;re highly skilled and hands-on, driven by the goal of making logistics more efficient and reliable, and with a commitment to putting our customers first. We do this by using our creative solutions to gain customers&apos; trust, and deliver <b>satisfaction</b>.
+            The RTX family shares a single passion: exports. Our team is skilled, proactive, and dedicated to making exports more efficient and dependable, always prioritizing our customers. Through innovative solutions, we build trust and consistently deliver exceptional satisfaction.
             </p>
             <a
               className={`button primary ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_darkmode__ozqJQ} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.AboutBlock_button__gGFFn}`}

@@ -32,7 +32,7 @@ const Blog = () => {
                 <div className={styles.BlogBlock_contentContainer__cKm_G} >
                     <div className={styles.BlogBlock_textContent__JN2ro}>
                         <p className={styles.BlogBlock_titleSmall__VvSfo}>Blog</p>
-                        <h3 className={styles.BlogBlock_titleLarge__wPU7i}>What’s New at MPL</h3>
+                        <h3 className={styles.BlogBlock_titleLarge__wPU7i}>What’s New at RTX</h3>
                         <a className={`${styles.button} ${styles.primary} ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_darkmode__ozqJQ} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.BlogBlock_button__8zJky}`} aria-label="All Articles" href="/blog">
                             <span className={styles.Button_titleWrapper__Glw9g}>All Articles</span>
                             <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>

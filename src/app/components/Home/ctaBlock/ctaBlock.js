@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ctaBlock.module.css';
+import AutoPlaySwiper from '@/app/utils/swiper/swiper';
 
 const CtaBlock = () => {
     return (
@@ -7,12 +8,12 @@ const CtaBlock = () => {
             <div className={`${styles.CtaBlock_container__nHh2p} ${styles.CtaBlock_right__cyR7S}`}>
                 <div className={`${styles.CtaBlock_content__87Op8} ${styles.CtaBlock_right__cyR7S}`} style={{ transform: 'translateY(24px) translateZ(0)' }}>
                     <div>
-                        <h3 className={styles.CtaBlock_title__enemh}>How we Move</h3>
+                        <h3 className={styles.CtaBlock_title__enemh}>Global Export Solutions</h3>
                     </div>
                     <div>
-                        <div className={styles.CtaBlock_info__DVPeC}>
+                        <div className={styles.CtaBlock_info__DVPeC}>   
                             <div>
-                                <p>Manuport Logistics brings a fresh perspective to shipping, powered by creative solutions. Whether by ship, barge, plane, train, truck, or a mix, we move mountains for you.</p>
+                                <p>RTX employs a unique approach to exports, fueled by creative thinking. Whether by ship, plane, train, truck, or a combination, we go above and beyond to fulfill your requirements.</p>
                             </div>
                         </div>
                         <div>
@@ -33,7 +34,7 @@ const CtaBlock = () => {
                 <div className={`${styles.CtaBlock_videoWrapper__ZHqAx} ${styles.CtaBlock_default__4hQ8L} ${styles.CtaBlock_right__cyR7S}`} style={{ transform: 'none' }}>
                     <div className={styles.CtaBlock_videoAnimWrapper__MFcyz}>
                         <div className={styles.CtaBlock_video__xkBJd} style={{ left: '10%' }}>
-                            <img alt="cargo Ship image" loading="lazy" width="968" height="847" decoding="async" data-nimg="1" className={styles.CtaBlock_video__image__RLW28} style={{ color: 'transparent' }} sizes="(max-width: 768px) 640px, (max-width: 1200px) 1024px, 1024px" srcSet="images/Cargo-Plane-Business.png" />
+                            <AutoPlaySwiper width="400px" height="400px"/>
                         </div>
                     </div>
                 </div>

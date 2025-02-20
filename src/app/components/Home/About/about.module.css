@@ -381,9 +381,22 @@
   grid-column: span 4;
   color: #fff;
   font-family: 'Exo', sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 500;
   position: relative;
+}
+
+@media (max-width : 48em) {
+  .AboutBlock_titleSmall__f0IN5 {
+  z-index: 1;
+  grid-column: span 4;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative;
+  }
+  
 }
 
 .AboutBlock_titleSmall__f0IN5:before {

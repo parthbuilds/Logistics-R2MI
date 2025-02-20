@@ -1,4 +1,4 @@
-import SmoothScrollProvider from "./utils/SmoothScrollProvider";
+import SmoothScrollLayout from "./utils/SmoothScrollLayout";
 
 export const metadata = {
   title: "R2MI Logistics",
@@ -9,9 +9,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <SmoothScrollProvider>
+        <SmoothScrollLayout>
           {children}
-        </SmoothScrollProvider>
+        </SmoothScrollLayout>
       </body>
     </html>
   );
