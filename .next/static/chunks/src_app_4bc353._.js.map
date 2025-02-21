@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/parthpandey/Documents/GitHub/Logistics-R2MI/src/app/utils/SmoothScrollLayout.js"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\nimport Lenis from \"@studio-freight/lenis\";\nimport { usePathname } from \"next/navigation\";\nimport '../../assets/global.css'\n\nconst SmoothScrollLayout= ({ children }) => {\n  const pathname = usePathname();\n\n  useEffect(() => {\n    const lenis = new Lenis({\n      duration: 1.2, \n      smooth: true,\n      easing: (t) => t * (2 - t),\n    });\n\n    const raf = (time) => {\n      lenis.raf(time);\n      requestAnimationFrame(raf);\n    };\n\n    requestAnimationFrame(raf);\n\n    return () => lenis.destroy();\n  }, [pathname]);\n\n  return <>{children}</>;\n};\n\nexport default SmoothScrollLayout;\n"],"names":[],"mappings":";;;;AAEA;AAEA;AADA;;;AAHA;;;;;AAOA,MAAM,qBAAoB,CAAC,EAAE,QAAQ,EAAE;;IACrC,MAAM,WAAW,CAAA,GAAA,qIAAA,CAAA,cAAW,AAAD;IAE3B,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;wCAAE;YACR,MAAM,QAAQ,IAAI,iKAAA,CAAA,UAAK,CAAC;gBACtB,UAAU;gBACV,QAAQ;gBACR,MAAM;oDAAE,CAAC,IAAM,IAAI,CAAC,IAAI,CAAC;;YAC3B;YAEA,MAAM;oDAAM,CAAC;oBACX,MAAM,GAAG,CAAC;oBACV,sBAAsB;gBACxB;;YAEA,sBAAsB;YAEtB;gDAAO,IAAM,MAAM,OAAO;;QAC5B;uCAAG;QAAC;KAAS;IAEb,qBAAO;kBAAG;;AACZ;GArBM;;QACa,qIAAA,CAAA,cAAW;;;KADxB;uCAuBS"}},
-    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
