@@ -1,0 +1,183 @@
+/* [project]/src/app/components/Home/location_slider/location.module.css [app-client] (css) */
+.location-module__AAaMba__LocationsSlider_o-site-container__Xsp6v {
+  width: 100%;
+  max-width: 119.375rem;
+  margin: 0 auto;
+  padding-left: calc(4 * var(--space));
+  padding-right: calc(4 * var(--space));
+}
+
+@media (width >= 48em) {
+  .location-module__AAaMba__LocationsSlider_o-site-container__Xsp6v {
+    padding-left: calc(10 * var(--space));
+    padding-right: calc(10 * var(--space));
+  }
+}
+
+@media (width >= 82.8125em) {
+  .location-module__AAaMba__LocationsSlider_o-site-container__Xsp6v {
+    padding-left: calc(22 * var(--space));
+    padding-right: calc(22 * var(--space));
+  }
+}
+
+.location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 48em) {
+  .location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z {
+    gap: 2.375rem;
+    margin-top: 5rem;
+  }
+}
+
+.location-module__AAaMba__gold .location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z .location-module__AAaMba__LocationsSlider_location__x6NQX {
+  color: #ffd36a;
+}
+
+.location-module__AAaMba__gold .location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z .location-module__AAaMba__LocationsSlider_imageWrapper__noqux, .location-module__AAaMba__gold .location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z .location-module__AAaMba__LocationsSlider_imageWrapper__noqux:before {
+  background-color: #ceaa53;
+}
+
+.location-module__AAaMba__gold .location-module__AAaMba__LocationsSlider_sliderWrapper___jN5Z .location-module__AAaMba__LocationsSlider_imageWrapper__noqux:after {
+  background-color: #1f1c16;
+}
+
+.location-module__AAaMba__LocationsSlider_slider__Aaqu7 {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+@media (width >= 48em) {
+  .location-module__AAaMba__LocationsSlider_slider__Aaqu7 {
+    gap: 5rem;
+  }
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #00112e;
+  transition: color .3s ease-in-out, -webkit-text-fill-color .3s ease-in-out;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_title__vKaO_ {
+  -webkit-text-fill-color: currentColor;
+  width: max-content;
+  transition: color .3s ease-in-out, -webkit-text-fill-color .3s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_imageWrapper__noqux {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 1.5rem;
+  background-color: #2086ae;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  isolation: isolate;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_imageWrapper__noqux:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: .1;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-color: #2086ae;
+  z-index: 3;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_imageWrapper__noqux.location-module__AAaMba__LocationsSlider_hasImage__pdKoo:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: .1;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_svg__6TBtR {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX .location-module__AAaMba__LocationsSlider_image__F7MqP {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX:hover .location-module__AAaMba__LocationsSlider_title__vKaO_ {
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  -webkit-text-stroke-color: currentColor;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-fill-color: transparent;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX:hover .location-module__AAaMba__LocationsSlider_imageWrapper__noqux:after, .location-module__AAaMba__LocationsSlider_location__x6NQX:hover .location-module__AAaMba__LocationsSlider_imageWrapper__noqux:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 70%;
+  height: 70%;
+  background-image: url("/images/RTXlogowhite.svg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 1;
+}
+
+.location-module__AAaMba__LocationsSlider_location__x6NQX:hover .location-module__AAaMba__LocationsSlider_image__F7MqP {
+  opacity: 0;
+}
+
+.location-module__AAaMba__LocationBlock_locations__jqljX {
+  grid-column: span 4;
+}
+
+@media (width >= 48em) {
+  .location-module__AAaMba__LocationBlock_locations__jqljX {
+    grid-column: span 12;
+  }
+}
+
+.location-module__AAaMba__LocationsSlider_title__vKaO_ {
+  font-size: 1.7rem;
+  font-family: Exo_bold, sans-serif;
+  font-weight: bold;
+  color: #2086ae;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  display: block;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=src_app_components_Home_location_slider_location_module_b52d8e.css.map*/

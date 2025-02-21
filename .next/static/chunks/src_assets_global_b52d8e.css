@@ -1,0 +1,1385 @@
+/* [project]/src/assets/global.css [app-client] (css) */
+.o-site-container {
+  width: 100%;
+  max-width: 119.375rem;
+  margin: 0 auto;
+  padding-left: calc(4 * var(--space));
+  padding-right: calc(4 * var(--space));
+}
+
+@media (width >= 48em) {
+  .o-site-container {
+    padding-left: calc(10 * var(--space));
+    padding-right: calc(10 * var(--space));
+  }
+}
+
+@media (width >= 82.8125em) {
+  .o-site-container {
+    padding-left: calc(22 * var(--space));
+    padding-right: calc(22 * var(--space));
+  }
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("/fonts/Exo-Regular.woff2") format("woff2"), url("/fonts/Exo-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo_bold;
+  src: url("/fonts/Exo-Bold.woff2") format("woff2"), url("/fonts/Exo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo_bold_Italic;
+  src: url("/fonts/Exo-BoldItalic.woff2") format("woff2"), url("/fonts/Exo-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo_Medium;
+  src: url("/fonts/Exo-Medium.woff2") format("woff2"), url("/fonts/Exo-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo_Medium_Italic;
+  src: url("/fonts/Exo_Medium_Italic.woff2") format("woff2"), url("/fonts/Exo_Medium_Italic.woff2") format("woff");
+  font-weight: Italic;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SchibstedGrotesk;
+  src: url("/fonts/SchibstedGrotesk-regular.woff2") format("woff2"), url("/fonts/SchibstedGrotesk-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SchibstedGrotesk_Bold;
+  src: url("/fonts/SchibstedGrotesk_Bold") format("woff2"), url("/fonts/SchibstedGrotesk_Bold") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SchibstedGrotesk_BoldItalic;
+  src: url("/fonts/SchibstedGrotesk_BoldItalic.woff2") format("woff2"), url("/fonts/SchibstedGrotesk_BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SchibstedGrotesk_semibold;
+  src: url("/fonts/SchibstedGrotesk_semibold.woff2") format("woff2"), url("/fonts/SchibstedGrotesk_semiboldß.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SchibstedGrotesk_Medium;
+  src: url("/fonts/SchibstedGrotesk_Medium") format("woff2"), url("/fonts/SchibstedGrotesk_Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-hero-regular: 700 4rem / 4.375rem var(--exo);
+  --font-hero-italic: italic 700 4rem / 4.375rem var(--exo);
+  --font-heading-1-regular: 700 3.5rem / 4rem var(--exo);
+  --font-heading-1-italic: italic 700 3.5rem / 4rem var(--exo);
+  --font-heading-2-regular: 500 3rem / 3.5rem var(--exo);
+  --font-heading-2-italic: italic 500 3rem / 3.5rem var(--exo);
+  --font-heading-3: 500 2.5rem / 3rem var(--exo);
+  --font-heading-4: 600 2rem / 2.5rem var(--exo);
+  --font-heading-5: 700 1.5rem / 2rem var(--exo);
+  --font-heading-5-semibold: 600 1.5rem / 2rem var(--exo);
+  --font-heading-6: 600 1.25rem / 1.5rem var(--schibsted_Grotesk);
+  --font-caption-large: 600 1rem / 2rem var(--schibsted_Grotesk);
+  --font-heading-6-regular: 400 1.25rem / 1.5rem var(--schibsted_Grotesk);
+  --font-lead-large: 400 1.375rem / 2rem var(--schibsted_Grotesk);
+  --font-lead-small: 400 1.125rem / 2rem var(--schibsted_Grotesk);
+  --font-body-normal: 500 1rem / 1.75rem var(--schibsted_Grotesk);
+  --font-body-small: 400 .875rem / 1.5rem var(--schibsted_Grotesk);
+  --font-label-large-bold: 700 1rem / 2rem var(--schibsted_Grotesk);
+  --font-label-large: 600 1rem / 2rem var(--schibsted_Grotesk);
+  --font-label-small: 700 .75rem / 1rem var(--schibsted_Grotesk);
+  --font-caption-small: 600 .75rem / 1.5rem var(--schibsted_Grotesk);
+}
+
+@media only screen and (width >= 768px) {
+  :root {
+    --font-hero-regular: 700 8.5rem / 7.5rem var(--exo);
+    --font-hero-italic: italic 700 8.5rem / 7.5rem var(--exo);
+    --font-heading-1-regular: 700 6.5rem / 7rem var(--exo);
+    --font-heading-1-italic: italic 700 6.5rem / 7rem var(--exo);
+    --font-heading-2-regular: 500 4.5rem / 5rem var(--exo);
+    --font-heading-2-italic: italic 500 4.5rem / 5rem var(--exo);
+    --font-heading-3: 500 3.5rem / 4rem var(--exo);
+    --font-heading-4: 600 2.5rem / 3rem var(--exo);
+    --font-heading-5: 700 2rem / 2.5rem var(--exo);
+    --font-heading-5-semibold: 600 2rem / 2.5rem var(--exo);
+    --font-heading-6: 700 1.5rem / 2rem var(--schibsted_Grotesk);
+    --font-heading-6-regular: 400 1.5rem / 2rem var(--schibsted_Grotesk);
+    --font-lead-large: 400 2rem / 3rem var(--schibsted_Grotesk);
+    --font-lead-small: 400 1.25rem / 2rem var(--schibsted_Grotesk);
+    --font-body-normal: 400 1rem / 2rem var(--schibsted_Grotesk);
+    --font-body-small: 400 .875rem / 1.5rem var(--schibsted_Grotesk);
+    --font-label-large-bold: 700 1rem / 2rem var(--schibsted_Grotesk);
+    --font-label-large: 600 1rem / 2rem var(--schibsted_Grotesk);
+    --font-label-small: 700 .75rem / 1rem var(--schibsted_Grotesk);
+    --font-caption-large: 600 1rem / 2rem var(--schibsted_Grotesk);
+    --font-caption-small: 500 .75rem / 1.5rem var(--schibsted_Grotesk);
+  }
+}
+
+.u-pull-left {
+  float: left;
+}
+
+.u-pull-right {
+  float: right;
+}
+
+.u-text-left {
+  text-align: left;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-justify {
+  text-align: justify;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-lowercase {
+  text-transform: lowercase;
+}
+
+.u-inline {
+  display: inline;
+}
+
+.u-inline-block {
+  display: inline-block;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-table {
+  display: table;
+}
+
+.u-cell {
+  display: table-cell;
+}
+
+.u-va-top {
+  vertical-align: top;
+}
+
+.u-va-middle {
+  vertical-align: middle;
+}
+
+.u-va-bottom {
+  vertical-align: bottom;
+}
+
+.u-hidden {
+  display: none;
+}
+
+.u-invisible {
+  visibility: hidden;
+}
+
+.u-hide-text {
+  padding: 0;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.u-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+.u-text-hyphenate {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.u-button-reset {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.u-button-reset:focus {
+  outline: 0;
+}
+
+.u-nobr {
+  white-space: nowrap;
+}
+
+.row {
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 1vw;
+  gap: 1vw;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (width >= 48em) {
+  .row {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 1vw;
+    gap: 1vw;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+@media (width >= 20em) {
+  .col-xxs-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-1 {
+    grid-column: span 1;
+  }
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+@media (width >= 20em) {
+  .col-xxs-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-2 {
+    grid-column: span 2;
+  }
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+@media (width >= 20em) {
+  .col-xxs-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-3 {
+    grid-column: span 3;
+  }
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+@media (width >= 20em) {
+  .col-xxs-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-4 {
+    grid-column: span 4;
+  }
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+@media (width >= 20em) {
+  .col-xxs-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-5 {
+    grid-column: span 5;
+  }
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+@media (width >= 20em) {
+  .col-xxs-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-6 {
+    grid-column: span 6;
+  }
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+@media (width >= 20em) {
+  .col-xxs-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-7 {
+    grid-column: span 7;
+  }
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+@media (width >= 20em) {
+  .col-xxs-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-8 {
+    grid-column: span 8;
+  }
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+@media (width >= 20em) {
+  .col-xxs-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-9 {
+    grid-column: span 9;
+  }
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+@media (width >= 20em) {
+  .col-xxs-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-10 {
+    grid-column: span 10;
+  }
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+@media (width >= 20em) {
+  .col-xxs-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-11 {
+    grid-column: span 11;
+  }
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+@media (width >= 20em) {
+  .col-xxs-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 30em) {
+  .col-xs-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 48em) {
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 56.25em) {
+  .col-smedium-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 71.3125em) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 82.8125em) {
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 85em) {
+  .col-xl-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 90em) {
+  .col-xxl-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (width >= 99.9375em) {
+  .col-xxxl-12 {
+    grid-column: span 12;
+  }
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+[disabled] {
+  cursor: not-allowed !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font: var(--font-body-small);
+}
+
+p {
+  margin-top: calc(2 * var(--space));
+}
+
+p i {
+  font-style: italic;
+}
+
+p a:not(.button) {
+  text-decoration: underline;
+  color: #2086ae;
+}
+
+.gold p a:not(.button) {
+  color: inherit;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
+
+ul:not(.tabs) {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+ul:not(.tabs) li {
+  list-style: disc;
+}
+
+ul:not(.tabs) li::marker {
+  color: #2086ae;
+}
+
+.gold ul:not(.tabs) li::marker {
+  color: #655631;
+}
+
+ol:not(.tabs) {
+  margin-left: 1.75rem;
+}
+
+ol:not(.tabs), ol:not(.tabs) li {
+  list-style: decimal;
+}
+
+ol:not(.tabs) li::marker {
+  color: #2086ae;
+}
+
+button, input, select, textarea {
+  font: var(--font-body-small);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "liga", "lnum", "kern";
+}
+
+.alpha, .h1, h1 {
+  font: var(--font-heading-1-regular);
+}
+
+.beta, .h2, h2 {
+  font: var(--font-heading-2-regular);
+}
+
+.gamma, .h3, h3 {
+  font: var(--font-heading-3);
+}
+
+.delta, .h4, h4 {
+  font: var(--font-heading-4);
+}
+
+.epsilon, .h5, h5 {
+  font: var(--font-heading-5);
+}
+
+.h6, .zeta, h6 {
+  font: var(--font-heading-6);
+}
+
+small {
+  font: var(--font-body-small);
+}
+
+.bold, b, strong {
+  font-weight: 700;
+}
+
+.js .js-hide, .visually-hidden.visually-hidden {
+  display: none;
+}
+
+.prose .intro, .prose blockquote, .prose figure, .prose ol, .prose p, .prose ul {
+  margin-top: calc(2 * var(--space));
+  margin-bottom: calc(2 * var(--space));
+}
+
+.prose a:not(.button) {
+  text-decoration: underline;
+  color: #2086ae;
+}
+
+.prose hr {
+  margin-block: 3rem;
+  color: #ccd6e8;
+}
+
+.prose blockquote p {
+  margin-bottom: calc(1 * var(--space));
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-weight: 600;
+  margin-top: calc(4 * var(--space));
+  margin-bottom: calc(2 * var(--space));
+  color: #2086ae;
+}
+
+.gold .prose h1, .gold .prose h2, .gold .prose h3, .gold .prose h4, .gold .prose h5, .gold .prose h6 {
+  color: #ceaa53;
+}
+
+.prose h1 + *, .prose h2 + *, .prose h3 + *, .prose h4 + *, .prose h5 + *, .prose h6 + * {
+  margin-top: 0;
+}
+
+.prose h1 + hr, .prose h2 + hr, .prose h3 + hr, .prose h4 + hr, .prose h5 + hr, .prose h6 + hr {
+  margin-block: 3rem;
+}
+
+.prose > :first-child {
+  margin-top: 0;
+}
+
+.prose p.no-margin {
+  margin-bottom: 0;
+}
+
+.prose ul:not(.tabs) {
+  list-style: none;
+}
+
+.prose ul:not(.tabs) li {
+  list-style: disc;
+}
+
+.prose ul:not(.tabs) li::marker {
+  color: #2086ae;
+}
+
+.gold .prose ul:not(.tabs) li::marker {
+  color: #655631;
+}
+
+.prose h5 {
+  font: 600 1.5rem / 2rem var(--exo);
+}
+
+@media (width >= 48em) {
+  .prose h5 {
+    font: 600 2rem / 2.5rem var(--exo);
+  }
+}
+
+.prose h6 {
+  font: 400 1.25rem / 1.5rem var(--schibsted_Grotesk);
+}
+
+@media (width >= 48em) {
+  .prose h6 {
+    font: 400 1.5rem / 2rem var(--schibsted_Grotesk);
+  }
+}
+
+.prose ol:not(.tabs), .prose ol:not(.tabs) li {
+  list-style: decimal;
+}
+
+.prose ol:not(.tabs) li::marker {
+  color: #2086ae;
+}
+
+.prose ol:not(.tabs), .prose ul:not(.tabs) {
+  margin-top: calc(2 * var(--space));
+  margin-bottom: calc(2 * var(--space));
+  padding-left: 0;
+}
+
+.prose ol:not(.tabs) li, .prose ul:not(.tabs) li {
+  font-feature-settings: "kern", "onum", "liga";
+  margin-left: 1.5em;
+  margin-bottom: calc(1 * var(--space));
+}
+
+.prose ol:not(.tabs) li ol, .prose ol:not(.tabs) li ul, .prose ul:not(.tabs) li ol, .prose ul:not(.tabs) li ul {
+  margin-left: 2rem;
+}
+
+.prose table {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin-top: calc(3 * var(--space));
+  margin-bottom: calc(3 * var(--space));
+}
+
+.prose table td, .prose table th {
+  padding: 1em;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #fff;
+}
+
+.background--primary .prose ul:not(.tabs) li:before, .background--secondary .prose ul:not(.tabs) li:before {
+  color: inherit;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub, sup {
+  font-size: .75rem;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+:root {
+  --space: 4px;
+}
+
+@media (width >= 71.3125em) {
+  :root {
+    --space: 4px;
+  }
+}
+
+[data-blok-uid] * {
+  pointer-events: none;
+}
+
+body {
+  word-wrap: break-word;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: #0000;
+  background-color: #f6faff;
+  min-height: 100%;
+  height: auto;
+  scroll-behavior: auto;
+  transition: background-color .3s ease-in-out;
+  color: #f6faff;
+  overflow-x: hidden !important;
+}
+
+body.gold {
+  background-color: #1f1c16;
+  color: #f8e2ac;
+}
+
+body.promar {
+  background-color: #fff;
+}
+
+body.promar .footer, body.promar .navigation {
+  display: none;
+}
+
+@media (width >= 48em) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
+html {
+  min-height: 100%;
+  height: auto;
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+@media (width >= 48em) {
+  html {
+    overflow-x: visible;
+  }
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.lg-container.lg-show {
+  z-index: 10000;
+  position: relative;
+}
+
+.stroke-text {
+  paint-order: stroke;
+  font-style: italic;
+  stroke: currentColor;
+  stroke-width: 1.5px;
+  fill: #f6faff;
+  vertical-align: bottom;
+  fill-opacity: 0;
+}
+
+.gold .stroke-text {
+  fill: #1f1c16;
+}
+
+.outline {
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  -webkit-text-stroke-color: currentColor;
+  -webkit-text-stroke-width: 1.5px;
+  font-style: italic;
+  -webkit-text-fill-color: transparent;
+}
+
+/*# sourceMappingURL=src_assets_global_b52d8e.css.map*/
