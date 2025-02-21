@@ -57,7 +57,6 @@ export default function ServiceSlider() {
                 scrub: true, // or scrub: 1 for a slight delay
                 end: () => `+=${totalWidth - window.innerWidth}`,
                 invalidateOnRefresh: true,
-                // markers: true, // For debugging
             },
         });
     }, []);

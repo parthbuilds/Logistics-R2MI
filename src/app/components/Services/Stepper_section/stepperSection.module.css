@@ -503,6 +503,33 @@
   width: fit-content; 
   height: fit-content;
 }
+
+@media (max-width:48em) {
+  .Stepper_item____1Dn {
+    background-color: #fff;
+    border-radius: 2.5rem;
+    border-top-left-radius: 0;
+    position: relative;
+    box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
+    width: fit-content; 
+    height: fit-content;
+  }
+}
+@media (max-width:48em) {
+  .Stepper_item____1Dn {
+    background-color: #fff;
+    border-radius: 2.5rem;
+    border-top-left-radius: 0;
+    position: relative;
+    box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
+    width: fit-content; 
+    height: fit-content;
+  }
+}
+
+
+
+
 .Stepper_itemIcon__6trkX {
   position: absolute;
   top: 0;
@@ -609,3 +636,4 @@
   transition: scale 0.1s ease-out;
   transform: scale(0.9);
 }
+

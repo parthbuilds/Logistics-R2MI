@@ -31,17 +31,17 @@ const LocationSlider = () => {
 
   const locations = [
     { name: "Singapore", image: "/images/locations/Singapore.jpg" },
-    { name: "Australia", image: "/images/locations/australia.jpg" },
-    { name: "Malaysia", image: "/images/locations/malaysia.jpg" },
-    { name: "USA", image: "/images/locations/usa.jpg" },
-    { name: "Vietnam", image: "/images/locations/vietnam.jpg" },
-    { name: "Nigeria", image: "/images/locations/nigeria.jpg" },
+    { name: "Australia", image: "/images/locations/Australia.jpg" },
+    { name: "Malaysia", image: "/images/locations/Malaysia.jpg" },
+    { name: "USA", image: "/images/locations/USA.jpg" },
+    { name: "Vietnam", image: "/images/locations/Vietnam.jpg" },
+    { name: "Nigeria", image: "/images/locations/Nigeria.jpg" },
     { name: "South Africa", image: "/images/locations/SouthAfrica.jpg" },
-    { name: "Mauritius", image: "/images/locations/mauritius.jpg" },
-    { name: "Kenya", image: "/images/locations/kenya.jpg" },
-    { name: "Uganda", image: "/images/locations/uganda.jpg" },
-    { name: "Tanzania", image: "/images/locations/tanzania.jpg" },
-    { name: "Belgium", image: "/images/locations/belgium.jpg" }
+    { name: "Mauritius", image: "/images/locations/Mauritius.jpg" },
+    { name: "Kenya", image: "/images/locations/Kenya.jpg" },
+    { name: "Uganda", image: "/images/locations/Uganda.jpg" },
+    { name: "Tanzania", image: "/images/locations/Tanzania.jpg" },
+    { name: "Belgium", image: "/images/locations/Belgium.jpg" }
   ];
 
   return (
@@ -84,7 +84,7 @@ const LocationSlider = () => {
                   src={location.image}
                 />
               </div>
-              <h4 className={styles.LocationsSlider_title__vKaO_} style={{ fontSize: '2.4rem', fontWeight: 'bold', color:'white' }}>
+              <h4 className={styles.LocationsSlider_title__vKaO_} style={{ fontSize: '1.7rem', fontWeight: 'bold', color:'white' }}>
                 {location.name}
               </h4>
             </div>

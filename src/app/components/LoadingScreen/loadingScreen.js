@@ -28,14 +28,14 @@ export default function LoadingScreen() {
     "/images/mixer.png",
     "/images/sandmaker.png",
     "/images/iron.png",
-    "/images/micro.png",
-    "/images/mixer.png",
-    "/images/sandmaker.png",
+    "/images/fan.png",
+    "/images/wires.png",
+    "/images/light.png",
     "/images/iron.png",
     "/images/micro.png",
     "/images/mixer.png",
     "/images/sandmaker.png",
-    "/images/iron.png",
+    "/images/fan.png",
   ];
 
   const imageWidth = 70; // Set a variable for image width

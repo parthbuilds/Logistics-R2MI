@@ -1,43 +1,57 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import React from 'react';
 import styles from './upsBlock.module.css';
 import AutoPlaySwiper from '@/app/utils/swiper/swiper';
+import LoadingLine from './loadingline/loadingline';
 
 export default function UpsBlock() {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const [loadingIndex, setLoadingIndex] = useState(null);
+  const [autoPlayIndex, setAutoPlayIndex] = useState(0);
+  const titles = ["We Believe in Accessible Modern Appliances", "We Resolve Every Export Challenge", "Single Point of Contact", "Quick and Adaptive Decision-Making"];
+  const titleRefs = useRef([]);
 
   useEffect(() => {
     let timer;
 
-    if (expandedIndex === null) {
-      setExpandedIndex(0);
-      setLoadingIndex(0);
-    } else if (loadingIndex !== null) {
+    if (loadingIndex !== null) {
       timer = setTimeout(() => {
         setLoadingIndex(null);
-      }, 15000); // Loading time (15 seconds)
-    } else if (expandedIndex < 3) {
-      timer = setTimeout(() => {
-        setExpandedIndex((prev) => prev + 1);
-        setLoadingIndex(expandedIndex + 1);
-      }, 500); // Delay before next expansion
+      }, 10000);
     }
 
     return () => clearTimeout(timer);
-  }, [expandedIndex, loadingIndex]);
+  }, [loadingIndex]);
 
-  const getLineStyle = (index) => {
-    if (loadingIndex === index) {
-      return {
-        animation: `${styles.loading} 15s linear forwards`,
-        transformOrigin: '0% 50% 0',
-      };
-    } else if (expandedIndex > index) {
-      return { transform: 'scaleX(1)' };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleAutoPlay();
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [autoPlayIndex]);
+
+
+  const handleAutoPlay = () => {
+    handleToggle(autoPlayIndex);
+    setAutoPlayIndex((prevIndex) => (prevIndex + 1) % titles.length);
+  };
+
+  const handleToggle = (index) => {
+    if (expandedIndex === index) {
+      setExpandedIndex(null);
+    } else {
+      setExpandedIndex(index);
+      setLoadingIndex(index);
     }
-    return {};
+  };
+
+  const getTitleStyle = (index) => {
+    return {
+      cursor: 'pointer',
+      color: expandedIndex === index ? 'white' : '#ccc', 
+    };
   };
 
   return (
@@ -53,23 +67,25 @@ export default function UpsBlock() {
         </div>
 
         <div className={styles.UspBlock_uspWrapper__dzsDK}>
-          {[
-            "We Believe in Accessible Modern Appliances",
-            "We Resolve Every Export Challenge",
-            "Single Point of Contact",
-            "Quick and Adaptive Decision-Making"
-          ].map((title, index) => (
+          {titles.map((title, index) => (
             <div key={index} className={styles.UspBlock_uspWrapperInside__00mFz}>
               <div className={styles.UspItem_uspItem__qkMCK} style={{ opacity: 1 }}>
-                <h6 className={styles.UspItem_uspItemTitle__pyK16}>{title}</h6>
-                
+                <h6
+                  className={styles.UspItem_uspItemTitle__pyK16}
+                  onClick={() => handleToggle(index)}
+                  style={getTitleStyle(index)} // Apply dynamic style
+                  ref={el => titleRefs.current[index] = el} // Ref for title
+                >
+                  {title}
+                </h6>
+
                 <div
                   className={styles.UspItem_uspItemText__6aUpv}
                   style={{
                     opacity: expandedIndex === index ? 1 : 0,
                     maxHeight: expandedIndex === index ? '1000px' : '0',
                     height: expandedIndex === index ? 'auto' : '0',
-                    transition: '0.5s 0.3s ease-in-out, max-height 0.3s ease-in-out, height 0.3s ease-in-out'
+                    transition: '0.5s ease-in-out',
                   }}
                 >
                   <p>
@@ -84,13 +100,7 @@ export default function UpsBlock() {
                   </p>
                 </div>
 
-{/*                 
-                <div className={styles.UspItem_lineWrapper__CaFPf}>
-                  <div
-                    className={styles.UspItem_line__xiQ1n}
-                    style={getLineStyle(index)}
-                  ></div>
-                </div> */}
+                <LoadingLine isLoading={loadingIndex === index} duration={10000} />
               </div>
             </div>
           ))}

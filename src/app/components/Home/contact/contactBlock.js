@@ -37,7 +37,7 @@ const ContactBlock = () => {
                 </div>
             </div>
             <div className={styles.ContactBlock_getInTouchWrapper__5VNpf}>
-                <a href="/contact">
+                <a href="/Contact">
                     <div className={styles.ContactBlock_lightContent__OrbOU}>
                         <div className={styles.ContactBlock_container___Ldf3}>
                             <div className={styles.ContactBlock_introWrapper__m1k2B}>

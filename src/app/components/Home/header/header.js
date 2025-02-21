@@ -53,7 +53,11 @@ const Header = ({ color = "white" }) => {
   return (
     <header ref={headerRef} className={styles.header}>
       <div className={styles.logo}>
-      <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/>
+        {/* <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/> */}
+          <div className={styles.flipContainer}>
+            <img className={`${styles.logoImage} ${styles.front}`} src='/images/RouteToMarket Media India Pvt Ltd.png' alt='Front Logo' />
+            <img className={`${styles.logoImage} ${styles.back}`} src='/images/RTX Logo.svg' alt='Back Logo' />
+          </div>
       </div>
 
       <div className={styles.hamburger} onClick={toggleMenu}>
@@ -62,7 +66,7 @@ const Header = ({ color = "white" }) => {
 
       <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
         <ul className={styles.navLinks}>
-          <li><a href="#" style={{ color }}>{`Home`}</a></li>
+          <li><a href="/" style={{ color }}>{`Home`}</a></li>
           <li><a href="Services" style={{ color }}>{`Services`}</a></li>
           <li><a href="About" style={{ color }}>{`About`}</a></li>
           {/* <li><a href="Careers" style={{ color }}>{`Careers`}</a></li> */}

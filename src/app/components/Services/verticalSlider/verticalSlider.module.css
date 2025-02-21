@@ -191,7 +191,7 @@
       height: unset;
       width: 100%;
       justify-content: flex-end;
-      margin-right: -3rem;
+      margin-right: -7rem;
     }
   }
   .ServiceSlider_image__zrDy4 {
@@ -200,7 +200,7 @@
     height: auto;
     transform: unset;
     object-fit: contain;
-    aspect-ratio: 920/803;
+    aspect-ratio: 900/800;
     z-index: 1;
     position: relative;
     transform-origin: center;

@@ -20,13 +20,13 @@
   .LocationsSlider_sliderWrapper___jN5Z {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
   @media (min-width: 48em) {
     .LocationsSlider_sliderWrapper___jN5Z {
-      gap: 4.375rem;
+      gap: 2.375rem;
       margin-top: 5rem;
     }
   }
@@ -166,7 +166,7 @@
   }
 
   .LocationsSlider_title__vKaO_{
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     font-family: 'Exo_bold' , sans-serif;
     font-weight: bold;
     color: #2086ae;

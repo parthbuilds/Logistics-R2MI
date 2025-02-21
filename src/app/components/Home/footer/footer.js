@@ -7,11 +7,18 @@ const Footer = () => {
     return (
         <footer className={`${styles.Footer_footer__EQXzy} ${styles.footer}`}>
             <div className={styles.Footer_footerTop__XBqF3}>
-                <a className={styles.Footer_logoWrapper__P93m7} href="/">
+                {/* <a className={styles.Footer_logoWrapper__P93m7} href="/">
                     <img className={styles.Footer_logo} src='/images/RTX Logo white.svg' style={{ width: '200px', height: '80px' }} />
+                </a> */}
+                <a className={styles.Footer_logoWrapper__P93m7} href="/">
+                    <div className={styles.flipContainer}>
+                        <img className={`${styles.logoImage} ${styles.front}`} src='/images/RouteToMarket Media India Pvt Ltd2.png' alt='r2mi logo' />
+                        <img className={`${styles.logoImage} ${styles.back}`} src='/images/RTX Logo white.svg' alt='rtx logo' />
+                    </div>
                 </a>
+
                 <div className={styles.Footer_navWrapper__xWSoa}>
-                    <a className={styles.Footer_navItem__DCCez} href="/home">Home</a>
+                    <a className={styles.Footer_navItem__DCCez} href="/">Home</a>
                     <a className={styles.Footer_navItem__DCCez} href="/About">About</a>
                     <a className={styles.Footer_navItem__DCCez} href="/Services">Services</a>
                     {/* <a className={styles.Footer_navItem__DCCez} href="/Careers">Careers</a> */}

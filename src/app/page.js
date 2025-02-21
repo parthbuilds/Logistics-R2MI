@@ -16,6 +16,7 @@ import About from "./components/Home/About/about";
 import ContactBlock from "./components/Home/contact/contactBlock";
 import Crosslink from "./components/Home/CrossLink/crossLink";
 import LocationSlider from "./components/Home/location_slider/locationSlider";
+import WhatsAppIcon from "./components/Whatsapp/whatsapp";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -44,6 +45,7 @@ export default function Home() {
           {/* <Blog /> */}
           <Crosslink />
           <ContactBlock />
+          <WhatsAppIcon/>
           <Footer />
         </>
       )}

@@ -178,10 +178,16 @@
   .ServiceCardsBlock_cardtitle__nQ_eN {
     margin-bottom: 0.5rem;
     color: #2086ae;
-    font: 700 1.5rem/2rem var(--schibsted_Grotesk);
+    font: 700 1.5rem/2rem "Exo", sans-serif;
     position: relative;
     z-index: 5;
   }
+
+  .ServiceCard_paragraph {
+    font: 300 1rem/1.2rem "Exo", sans-serif;
+  }
+
+
   .ServiceCardsBlock_link__SkUh1 {
     background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
     display: block;

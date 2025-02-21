@@ -58,7 +58,7 @@ const ServiceCardsBlock = () => {
                         <div key={index} className={styles.ServiceCardsBlock_card__fjCz2}>
                             <div className={styles.ServiceCardsBlock_imageWrapper__loj0j}>
                                 <img
-                                    alt={card.title} // Use the title as the alt text
+                                    alt={card.title}
                                     loading="lazy"
                                     width="424"
                                     height="232"
@@ -67,7 +67,6 @@ const ServiceCardsBlock = () => {
                                     className={`${styles.ServiceCardsBlock_image__Q_8bH} ${styles.Image_storyblok_image__oDocz} ${styles.Image_is_loaded__RCqPL}`}
                                     style={{ color: 'transparent' }}
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 30vw, 30vw"
-                                    srcSet={/* ... your srcSet values */""}
                                     src={card.image}
                                 />
                             </div>
@@ -77,9 +76,9 @@ const ServiceCardsBlock = () => {
                                 </div>
                                 <h6 className={styles.ServiceCardsBlock_cardtitle__nQ_eN}>{card.title}</h6>
                                 <div>
-                                    <p style={{color: 'black'}} dangerouslySetInnerHTML={{ __html: card.description }} /> {/* Allow HTML in descriptions */}
+                                    <p style={{color: 'black'}} className={styles.ServiceCard_paragraph} dangerouslySetInnerHTML={{ __html: card.description }} />
                                 </div>
-                                {card.link && ( // Conditionally render the link and button
+                                {card.link && ( 
                                     <a href={card.link} className={styles.ServiceCardsBlock_link__SkUh1}>
                                         {card.buttonLabel && (
                                             <button type="button" className={`${styles.button} ${styles.tertiary} ${styles.Button_button__T6zT9} ${styles.Button_tertiary__JUfBS} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.ServiceCardsBlock_button__ER3q6}`} aria-label="More info">
