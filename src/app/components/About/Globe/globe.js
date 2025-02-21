@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import createGlobe from 'cobe';
 import { cn } from '@/app/utils/utils';
+
 const Earth = ({
   className,
   theta = 0.25,
@@ -38,7 +39,7 @@ const Earth = ({
       markerColor: markerColor,
       glowColor: glowColor,
       opacity: 1,
-      offset: [0, 0],
+      offset: [0,0],
       markers: [],
       onRender: (state) => {
         state.phi = phi;
@@ -52,7 +53,7 @@ const Earth = ({
   return (
     <div
       className={cn(
-        'flex items-center justify-center z-[10] w-full max-w-[350px] mx-auto',
+        'flex items-center justify-center z-[10] w-full max-w-[350px] mx-auto pb-16',
         className
       )}
     >

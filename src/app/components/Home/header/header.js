@@ -65,7 +65,7 @@ const Header = ({ color = "white" }) => {
           <li><a href="#" style={{ color }}>{`Home`}</a></li>
           <li><a href="Services" style={{ color }}>{`Services`}</a></li>
           <li><a href="About" style={{ color }}>{`About`}</a></li>
-          <li><a href="Careers" style={{ color }}>{`Careers`}</a></li>
+          {/* <li><a href="Careers" style={{ color }}>{`Careers`}</a></li> */}
           <li><a href="Contact" style={{ color }}>{`Contact`}</a></li>
         </ul>
       </nav>

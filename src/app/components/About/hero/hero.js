@@ -26,9 +26,9 @@ const Hero = () => {
                         <span className={styles.char}>t</span>
                       </span>{' '}
                       <span className={styles.word}>
-                        <span className={styles.char}>M</span>
-                        <span className={styles.char}>P</span>
-                        <span className={styles.char}>L</span>
+                        <span className={styles.char}>R</span>
+                        <span className={styles.char}>T</span>
+                        <span className={styles.char}>X</span>
                         <span className={styles.char}>!</span>
                       </span>
                     </p>
@@ -39,10 +39,10 @@ const Hero = () => {
           </div>
 
           <div className={styles.Hero_info__gmy_W}>
-            <p>
-              Welcome to the world of MPL, where you can explore the journey that has shaped our success today. Dive into our key figures,
-              global reach, and the milestones that define our identity.
-            </p>
+            <p className={styles.justifyText}>Welcome to the world of RTX, where our journey to success comes to life. Explore our key achievements, global presence, and the milestones that shape who we are today.</p>
+            <p className={styles.justifyText}>At RTX, our mission is to revolutionize global exports by delivering high-quality products with efficiency, reliability, and innovation. Our vision is to be the world’s most trusted export partner, setting new standards in logistics and trade.</p>
+            <br/>
+            <p className={styles.justifyText}>Through relentless dedication and continuous growth, we have evolved into a leader in the export industry, adapting to market needs and exceeding client expectations. Our commitment to excellence, customer-centric approach, and innovative solutions have enabled us to serve a diverse range of global clients, ensuring their requirements are met with precision and efficiency. As we continue to expand, our goal remains the same – to provide seamless, world-class export solutions that drive success for our partners worldwide.</p>
           </div>
         </div>
 
@@ -55,7 +55,16 @@ const Hero = () => {
             height="602"
             decoding="async"
             className={`${styles.Hero_image__jGrQ9} ${styles.Image_is_loaded__RCqPL}`}
-            src="https://a.storyblok.com/f/240783/2000x3000/e3dfd78c5b/a7405623.jpg/m/1720x1720/filters:quality(95):focal(990x761:991x762)"
+            src="/images/Logo_Mockup RTX.png"
+          />
+          <img
+            alt="Manuport logistics"
+            fetchPriority="high"
+            width="430"
+            height="602"
+            decoding="async"
+            className={`${styles.Hero_mobileimage__6LUna} ${styles.Image_is_loaded__RCqPL}`}
+            src="/images/Logo_Mockup RTX.png"
           />
         </div>
       </div>

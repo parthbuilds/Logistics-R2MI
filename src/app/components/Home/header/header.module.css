@@ -4,10 +4,11 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  padding: 20px 40px;
+  padding: 20px 90px;
   height: 6rem;
   position: relative;
   z-index: 1000;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, padding 0.3s ease;
 }
 
 /* Logo */

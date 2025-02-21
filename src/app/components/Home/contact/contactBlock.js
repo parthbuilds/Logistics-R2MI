@@ -32,7 +32,7 @@ const ContactBlock = () => {
                             backgroundImage: 'url("https://a.storyblok.com/f/240783/3699x5625/cf26c4631b/5-1-8.jpg")'
                         }}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                        src="https://a.storyblok.com/f/240783/3699x5625/cf26c4631b/5-1-8.jpg"
+                        src="/images/getintouch.png"
                     />
                 </div>
             </div>

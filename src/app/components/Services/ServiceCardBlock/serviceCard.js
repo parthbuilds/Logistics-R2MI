@@ -4,42 +4,33 @@ import styles from './serviceCard.module.css';
 const ServiceCardsBlock = () => {
     const cardsData = [
         {
-            image: "https://a.storyblok.com/f/240783/1200x900/b5fd7a54df/whatiscontainerstuffing.jpg/m/1720x941/filters:quality(95):focal(702x514:703x515)",
-            title: "Stuffing & Stripping of Containers",
-            description: "We offer dedicated warehouses for stuffing products. As an independent party, we have the advantage of arranging competitive deals with warehouse providers.",
+            image: "https://a.storyblok.com/f/240783/1200x900/b5fd7a54df/whatiscontainerstuffing.jpg/m/1024x560/filters:quality(95):focal(702x514:703x515)",
+            title: "Container Loading & Unloading Services",
+            description: "We provide dedicated warehouses for product stuffing. As an independent entity, we leverage our flexibility to secure competitive agreements with warehouse providers.",
         },
         {
             image: "https://a.storyblok.com/f/240783/7952x5304/1f4b2a3efd/_dsc0836.JPG/m/1720x941/filters:quality(95):focal()",
-            title: "Loading & Unloading of Vessels",
-            description: "Through our sister company <a href=\"https://www.euroports.com/\" target=\"_self\" aria-label=\"https://www.euroports.com/\">Euroports</a> and other terminal handling companies, we can organize the loading and unloading of vessels.",
-
+            title: "Vessel Cargo Handling",
+            description: "Partnering with our sister companies and terminal handling experts, we efficiently coordinate vessel loading and unloading operations.",
         },
 
         {
-            image: "https://a.storyblok.com/f/240783/2048x1536/e7de1825c6/dsc01185.png/m/1720x941/filters:quality(95):focal()",
-            title: "Promar Agencies",
-            description: "Promar Agencies Belgium NV is a trusted ship agency service provider with a strong commitment to excellence and reliability. Our focus is on providing customized services and creating competitive advantages for shipowners, operators, and charterers. With extensive experience in dry bulk, conventional cargoes, tanker operations, and husbandry matters, we offer efficient and reliable support to our esteemed principals and their vessels.",
+            image: "https://a.storyblok.com/f/240783/848x464/1e09c51f93/onboarding-services.jpg/m/1024x560/filters:quality(95):focal(311x431:312x432)",
+            title: "Surveys",
+            description: "Our in-house and third-party experts ensure you stay informed at all times about the quality of your supplies and outgoing shipments.",
             link: "/services/promar-agencies",
             buttonLabel: "More info"
         },
         {
-            image: "https://a.storyblok.com/f/240783/1200x900/b5fd7a54df/whatiscontainerstuffing.jpg/m/1720x941/filters:quality(95):focal(702x514:703x515)",
-            title: "Stuffing & Stripping of Containers",
-            description: "We offer dedicated warehouses for stuffing products. As an independent party, we have the advantage of arranging competitive deals with warehouse providers.",
+            image: "https://a.storyblok.com/f/240783/6720x4480/38dde63717/9n8a5770.jpeg/m/1024x560/filters:quality(95):focal()",
+            title: "Insurance",
+            description: "Upon request, we can arrange cargo insurance for our customers.",
         },
         {
-            image: "https://a.storyblok.com/f/240783/7952x5304/1f4b2a3efd/_dsc0836.JPG/m/1720x941/filters:quality(95):focal()",
-            title: "Loading & Unloading of Vessels",
-            description: "Through our sister company <a href=\"https://www.euroports.com/\" target=\"_self\" aria-label=\"https://www.euroports.com/\">Euroports</a> and other terminal handling companies, we can organize the loading and unloading of vessels.",
+            image: "https://a.storyblok.com/f/240783/7952x5304/397bc712b9/_dsc0671.JPG/m/1024x560/filters:quality(95):focal(4501x1716:4502x1717)",
+            title: "Time-Critical Services ",
+            description: "RTX provides time-sensitive delivery solutions for aerospace/AOG and other critical industries, including on-board courier and hand-carry services when needed.",
 
-        },
-
-        {
-            image: "https://a.storyblok.com/f/240783/2048x1536/e7de1825c6/dsc01185.png/m/1720x941/filters:quality(95):focal()",
-            title: "Promar Agencies",
-            description: "Promar Agencies Belgium NV is a trusted ship agency service provider with a strong commitment to excellence and reliability. Our focus is on providing customized services and creating competitive advantages for shipowners, operators, and charterers. With extensive experience in dry bulk, conventional cargoes, tanker operations, and husbandry matters, we offer efficient and reliable support to our esteemed principals and their vessels.",
-            link: "/services/promar-agencies",
-            buttonLabel: "More info"
         },
     ];
 

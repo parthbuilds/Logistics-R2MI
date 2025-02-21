@@ -17,9 +17,9 @@ export default function About () {
     <Hero/>
     <Header/>
     <LocationSearchBlock/>
-    <DataSlider/>
-    <ContentBlock/>
-    <UpsBlock color="#002d77"/>
+    {/* <DataSlider/>
+    <ContentBlock/> */}
+    <UpsBlock/>
     <Crosslink/>
     <ContactBlock/>
     <Footer/>

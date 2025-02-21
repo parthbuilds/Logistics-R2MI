@@ -23,7 +23,7 @@
   }
   .CountryTree_continent__nzEHk {
     font-family:'Exo',sans-serif;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #ccd6e8;
@@ -288,11 +288,12 @@
       grid-row-gap: 0;
       row-gap: 0;
       margin: 5rem 0;
+      height: 35rem;
     }
   }
   .LocationSearchBlock_title__VQf4s {
     color: #fff;
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
     grid-column: span 4;
     font-family:'Exo',sans-serif;
     font-size: 3rem;
@@ -443,3 +444,11 @@
   cursor: pointer;
 }
 
+.countryColumns {
+  display: flex; /* Enables flexbox for columns */
+  gap: 20px; /* Adjust gap between columns as needed */
+}
+
+.countryColumn {
+  flex: 1; /* Makes columns equal width */
+}

@@ -6,9 +6,38 @@ import AutoPlaySwiper from '@/app/utils/swiper/swiper';
 
 export default function UpsBlock() {
   const [expandedIndex, setExpandedIndex] = useState(null);
+  const [loadingIndex, setLoadingIndex] = useState(null);
 
-  const toggleExpand = (index) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
+  useEffect(() => {
+    let timer;
+
+    if (expandedIndex === null) {
+      setExpandedIndex(0);
+      setLoadingIndex(0);
+    } else if (loadingIndex !== null) {
+      timer = setTimeout(() => {
+        setLoadingIndex(null);
+      }, 15000); // Loading time (15 seconds)
+    } else if (expandedIndex < 3) {
+      timer = setTimeout(() => {
+        setExpandedIndex((prev) => prev + 1);
+        setLoadingIndex(expandedIndex + 1);
+      }, 500); // Delay before next expansion
+    }
+
+    return () => clearTimeout(timer);
+  }, [expandedIndex, loadingIndex]);
+
+  const getLineStyle = (index) => {
+    if (loadingIndex === index) {
+      return {
+        animation: `${styles.loading} 15s linear forwards`,
+        transformOrigin: '0% 50% 0',
+      };
+    } else if (expandedIndex > index) {
+      return { transform: 'scaleX(1)' };
+    }
+    return {};
   };
 
   return (
@@ -24,25 +53,23 @@ export default function UpsBlock() {
         </div>
 
         <div className={styles.UspBlock_uspWrapper__dzsDK}>
-          {["We Believe in Accessible Modern Appliances", "We Resolve Every Export Challenge", "Single Point of Contact", "Quick and Adaptive Decision-Making"].map((title, index) => (
+          {[
+            "We Believe in Accessible Modern Appliances",
+            "We Resolve Every Export Challenge",
+            "Single Point of Contact",
+            "Quick and Adaptive Decision-Making"
+          ].map((title, index) => (
             <div key={index} className={styles.UspBlock_uspWrapperInside__00mFz}>
               <div className={styles.UspItem_uspItem__qkMCK} style={{ opacity: 1 }}>
-                <h6 
-                  className={styles.UspItem_uspItemTitle__pyK16} 
-                  onClick={() => toggleExpand(index)}
-                  style={{ cursor: 'pointer' }}
-                >
-                  {title}
-                </h6>
-
+                <h6 className={styles.UspItem_uspItemTitle__pyK16}>{title}</h6>
+                
                 <div
                   className={styles.UspItem_uspItemText__6aUpv}
                   style={{
                     opacity: expandedIndex === index ? 1 : 0,
                     maxHeight: expandedIndex === index ? '1000px' : '0',
                     height: expandedIndex === index ? 'auto' : '0',
-                    transition: '0.4s ease-in-out, max-height 0.3s ease-in-out, height 0.3s ease-in-out',
-                    overflow: 'hidden',
+                    transition: '0.5s 0.3s ease-in-out, max-height 0.3s ease-in-out, height 0.3s ease-in-out'
                   }}
                 >
                   <p>
@@ -56,6 +83,14 @@ export default function UpsBlock() {
                       "We support customers through quick decision-making and open communication, setting us apart."}
                   </p>
                 </div>
+
+{/*                 
+                <div className={styles.UspItem_lineWrapper__CaFPf}>
+                  <div
+                    className={styles.UspItem_line__xiQ1n}
+                    style={getLineStyle(index)}
+                  ></div>
+                </div> */}
               </div>
             </div>
           ))}

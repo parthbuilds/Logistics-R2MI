@@ -9,6 +9,11 @@ const AutoPlaySwiper = () => {
     '/images/micro.png',
     '/images/sandmaker.png',
     '/images/mixer1.png',
+    '/images/fan.png',
+    '/images/switchboard.png',
+    '/images/wires.png',
+    '/images/light.png',
+
   ];
 
   return (

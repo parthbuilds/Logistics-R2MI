@@ -6,29 +6,24 @@ import styles from './stepperSection.module.css';
 const data = [
     {
         id: '01',
-        title: 'In-House Customs',
-        description: 'Our well-skilled Fast Customs team has more than 25 years of expertise.',
+        title: 'Multimodal Transport Services',
+        description: 'Getting your shipment to its final destination often requires a combination of transport modes. That’s why we provide seamless multimodal solutions, ensuring smooth and efficient deliveries across the globe. By integrating air, sea, road, and rail, we optimize routes for speed, cost-effectiveness, and reliability.',
     },
     {
         id: '02',
-        title: 'Global Logistics',
-        description: 'Efficient worldwide shipping solutions for businesses of all sizes.',
+        title: 'Tender & Procurement Services',
+        description: 'Our team provides expert support for tenders, offering 3PL, 4PL, or direct account (BCO) solutions tailored to your needs. With a structured and customized approach, we assist in budgeting for maritime transport, coordinating supplier meetings, managing data, and setting negotiation timelines. From initial planning to final carrier selection and evaluation, we ensure a smooth and efficient procurement process.',
     },
     {
         id: '03',
-        title: 'Secure Warehousing',
-        description: 'State-of-the-art storage facilities to keep your goods safe and organized.',
+        title: 'In-House Customs',
+        description: 'Our expert Fast Customs team offers tailored consultancy to streamline your customs processes for maximum efficiency and cost savings. Beyond import, export, and transit management, we handle fiscal representation, inspections, cargo checks, surveys, and more to ensure a seamless customs experience.',
     },
     {
         id: '04',
-        title: 'Express Delivery',
-        description: 'Rapid delivery services with real-time tracking and updates.',
-    },
-    {
-        id: '05',
-        title: 'Supply Chain Consulting',
-        description: 'Expert advice to streamline and optimize your supply chain operations.',
-    },
+        title: 'Handling & Storage',
+        description: 'We collaborate with a network of internal and external partners, providing unbiased guidance on handling and storage solutions. As part of our commitment to reliable exports, we operate strategically located warehouses worldwide. This enables us to deliver end-to-end solutions, ensuring efficient storage and smooth supply chain management for our customers.',
+    }
 ];
 
 const StepperSection = () => {
@@ -96,7 +91,9 @@ const StepperSection = () => {
                             >
                                 {data.map((item) => (
                                     <div key={item.id} className={styles.Stepper_item____1Dn} style={{ minWidth: '34%' }}>
-                                        <div className={styles.Stepper_itemIcon__6trkX}>icon</div>
+                                        <div className={styles.Stepper_itemIcon__6trkX}>
+                                            <img src='/images/Logo.svg' alt='' height='40px' width='40px'></img>
+                                        </div>
                                         <div className={styles.Stepper_titleWrapper__oATRq}>
                                             <h3 className={styles.Stepper_number__Syhmc}>{item.id}</h3>
                                             <h6 className={styles.Stepper_title__dXCXT}>{item.title}</h6>
