@@ -141,8 +141,8 @@
   .LocationsSlider_imageWrapper__noqux:before {
   content: "";
   position: absolute;
-  top: 12;
-  left: 12;
+  top: 10;
+  left: 10;
   width: 70%;
   height: 70%;
   background-image: url('/images/RTXlogowhite.svg'); 
