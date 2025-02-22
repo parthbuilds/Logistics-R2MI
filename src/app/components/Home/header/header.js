@@ -56,7 +56,7 @@ const Header = ({ color = "white" }) => {
         {/* <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/> */}
           <div className={styles.flipContainer}>
             <img className={`${styles.logoImage} ${styles.front}`} src='/images/RouteToMarket Media India Pvt Ltd.png' alt='Front Logo' />
-            <img className={`${styles.logoImage} ${styles.back}`} src='/images/RTX Logo.svg' alt='Back Logo' />
+            <img className={`${styles.logoImage} ${styles.back}`} src='/images/grey@4x-8.png' alt='Back Logo' />
           </div>
       </div>
 

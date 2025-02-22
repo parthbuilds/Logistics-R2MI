@@ -69,7 +69,7 @@ export default function ServiceSlider() {
                         <div key={index} className={styles.ServiceSlider_slide__sWHQ6} data-index={index + 1}>
                             <div className={styles.ServiceSlider_textWapper__CgzsO}>
                                 <h3 className={styles.ServiceSlider_slideTitle__mTYcM}>
-                                    <p>{service.title}</p>
+                                    <p className={styles.paragraph}>{service.title}</p>
                                 </h3>
                                 <div className={styles.ServiceSlider_slideInfo__ZrRFv}>
                                     <p>{service.description}</p>
