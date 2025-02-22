@@ -321,15 +321,13 @@
     color: #f6faff;
 }
 
-@media (min-width: 48em) {
-    .UspBlock_title__5syXk {
-        .UspBlock_title__5syXk {
+@media (man-width: 48em) {
+    .UspBlock_title__5syXk p{
             grid-column: span 4;
-            font-family: 'Exo', sans-serif; 
+            font-family: 'Exo', sans-serif;
             font-weight: bold; 
             margin-top: -3rem;
             color: #f6faff;
-        }
     }
 }
 
@@ -341,14 +339,12 @@
     min-width: 100%;
 }
 
-@media (max-width){
-    .UspBlock_imageSection__Pe14P {
+@media (max-width:48em){
+    .paragraph{
         grid-column: span 4;
-        position: relative;
-        z-index: 1;
         min-height: 14.5rem;
         min-width: 100%;
-        margin-left: 3rem;
+        font-size: 3.6rem;
     }
 }
 

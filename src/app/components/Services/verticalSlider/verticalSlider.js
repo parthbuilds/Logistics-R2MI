@@ -49,12 +49,12 @@ export default function ServiceSlider() {
 
         gsap.to(slider, {
             x: () => -(totalWidth - window.innerWidth),
-            ease: 'none', // Essential for smooth scrubbing
-            duration: 1, // Optional: Adds a small duration for smoother transitions
+            ease: 'none', 
+            duration: 1, 
             scrollTrigger: {
                 trigger: container,
                 pin: true,
-                scrub: true, // or scrub: 1 for a slight delay
+                scrub: true,
                 end: () => `+=${totalWidth - window.innerWidth}`,
                 invalidateOnRefresh: true,
             },

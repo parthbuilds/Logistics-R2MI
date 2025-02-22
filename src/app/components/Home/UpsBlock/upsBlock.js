@@ -50,7 +50,7 @@ export default function UpsBlock() {
   const getTitleStyle = (index) => {
     return {
       cursor: 'pointer',
-      color: expandedIndex === index ? 'white' : '#ccc', 
+      color: expandedIndex === index ? '#fff' : '#F5F5F5', 
     };
   };
 
@@ -59,10 +59,10 @@ export default function UpsBlock() {
       <div className={styles.UspBlock_container__BsBlZ}>
         <div className={styles.UspBlock_titleWrapper__0bZaZ} style={{ transform: 'translateY(24px) translateZ(0)' }}>
           <h2 className={styles.UspBlock_title__5syXk}>
-            <p>World's Leading Home Appliances Exporter.</p>
+            <p className={styles.paragraph}>World's Leading Home Appliances Exporter.</p>
           </h2>
           <div className={styles.UspBlock_imageSection__Pe14P}>
-            <AutoPlaySwiper width="180px" height="160px" />
+            <AutoPlaySwiper width="200px" height="200px" />
           </div>
         </div>
 

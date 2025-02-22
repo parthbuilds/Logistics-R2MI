@@ -30,6 +30,7 @@
   height: 60px;
   object-fit: contain;
   transition: transform 0.3s ease;
+  z-index: 1002;
 }
 
 .logo img:hover {
@@ -137,6 +138,7 @@ body.menu-open {
     padding: 25px 0;
   }
 
+
   .navLinks li a {
     font-size: 2.2rem;
     padding: 10px 0;
@@ -149,7 +151,7 @@ body.menu-open {
   }
 }
 
-/* Optional: Smooth transition for mobile navigation */
+
 .navLinks li a {
   position: relative;
 }
@@ -224,3 +226,4 @@ body.menu-open {
 .flipContainer:hover .back {
   transform: rotateY(0deg);
 }
+

@@ -501,19 +501,8 @@
   box-sizing: content-box;
   box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
   width: fit-content; 
-  height: fit-content;
-}
-
-@media (max-width:48em) {
-  .Stepper_item____1Dn {
-    background-color: #fff;
-    border-radius: 2.5rem;
-    border-top-left-radius: 0;
-    position: relative;
-    box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
-    width: fit-content; 
-    height: fit-content;
-  }
+  min-width: 34%;
+  height: 100%;
 }
 @media (max-width:48em) {
   .Stepper_item____1Dn {
@@ -522,12 +511,10 @@
     border-top-left-radius: 0;
     position: relative;
     box-shadow: -8px 4px 40px 0 rgba(0, 35, 93, 0.08);
-    width: fit-content; 
-    height: fit-content;
+    min-width: 100%; 
+    height: 100%;
   }
 }
-
-
 
 
 .Stepper_itemIcon__6trkX {

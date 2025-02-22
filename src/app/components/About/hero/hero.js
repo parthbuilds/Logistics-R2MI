@@ -12,27 +12,12 @@ const Hero = () => {
                 <span className={styles.linecontainer}>
                   <span className={styles.line} style={{ display: 'block', textAlign: 'start', width: '100%' }}>
                     <p style={{ display: 'inline-block', position: 'relative' }}>
-                      <span className={styles.word}>
-                        <span className={styles.char}>M</span>
-                        <span className={styles.char}>o</span>
-                        <span className={styles.char}>r</span>
-                        <span className={styles.char}>e</span>
-                      </span>{' '}
-                      <span className={styles.word}>
-                        <span className={styles.char}>A</span>
-                        <span className={styles.char}>b</span>
-                        <span className={styles.char}>o</span>
-                        <span className={styles.char}>u</span>
-                        <span className={styles.char}>t</span>
-                      </span>{' '}
-                      <span className={styles.word}>
-                        <span className={styles.char}>R</span>
-                        <span className={styles.char}>T</span>
-                        <span className={styles.char}>X</span>
-                        <span className={styles.char}>!</span>
-                      </span>
+                      <span className={styles.word}>More</span>{' '}
+                      <span className={styles.word}>About</span>{' '}
+                      <span className={styles.word}>RTX!</span>
                     </p>
                   </span>
+
                 </span>
               </span>
             </h1>
@@ -41,13 +26,13 @@ const Hero = () => {
           <div className={styles.Hero_info__gmy_W}>
             <p className={styles.justifyText}>Welcome to the world of RTX, where our journey to success comes to life. Explore our key achievements, global presence, and the milestones that shape who we are today.</p>
             <p className={styles.justifyText}>At RTX, our mission is to revolutionize global exports by delivering high-quality products with efficiency, reliability, and innovation. Our vision is to be the world’s most trusted export partner, setting new standards in logistics and trade.</p>
-            <br/>
+            <br />
             <p className={styles.justifyText}>Through relentless dedication and continuous growth, we have evolved into a leader in the export industry, adapting to market needs and exceeding client expectations. Our commitment to excellence, customer-centric approach, and innovative solutions have enabled us to serve a diverse range of global clients, ensuring their requirements are met with precision and efficiency. As we continue to expand, our goal remains the same – to provide seamless, world-class export solutions that drive success for our partners worldwide.</p>
           </div>
         </div>
 
         <div className={`${styles.Hero_imageWrapper__LRFS_} SECONDARY`}>
-          
+
           <img
             alt="Manuport logistics"
             fetchPriority="high"

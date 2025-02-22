@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styles from './stepperSection.module.css';
 
 const data = [
@@ -26,22 +26,60 @@ const data = [
     }
 ];
 
-const StepperSection = () => {
+export default function StepperSection () {
     const [currentIndex, setCurrentIndex] = useState(0);
     const totalSlides = data.length;
+    const carouselRef = useRef(null);
+    const touchStartX = useRef(null);
 
     const handleNext = () => {
-        if (currentIndex < totalSlides - 1) {
-            setCurrentIndex(currentIndex + 1);
-        }
+        setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, totalSlides - 1));
     };
 
     const handlePrev = () => {
-        if (currentIndex > 0) {
-            setCurrentIndex(currentIndex - 1);
+        setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+    };
+
+    const handleTouchStart = (e) => {
+        touchStartX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchMove = (e) => {
+        if (!touchStartX.current || !carouselRef.current) return;
+
+        const touchCurrentX = e.touches[0].clientX;
+        const diffX = touchStartX.current - touchCurrentX;
+        const sensitivity = 5;
+
+        if (Math.abs(diffX) > sensitivity) {
+            if (diffX > 0) {
+                handleNext();
+            } else {
+                handlePrev();
+            }
+            touchStartX.current = null;
         }
     };
-    const Final = 2;
+
+    const handleTouchEnd = () => {
+        touchStartX.current = null;
+    };
+
+    useEffect(() => {
+        if (carouselRef.current) {
+            carouselRef.current.addEventListener('touchstart', handleTouchStart);
+            carouselRef.current.addEventListener('touchmove', handleTouchMove);
+            carouselRef.current.addEventListener('touchend', handleTouchEnd);
+
+            return () => {
+                if (carouselRef.current) {
+                    carouselRef.current.removeEventListener('touchstart', handleTouchStart);
+                    carouselRef.current.removeEventListener('touchmove', handleTouchMove);
+                    carouselRef.current.removeEventListener('touchend', handleTouchEnd);
+                }
+            };
+        }
+    }, []);
 
     return (
         <section className={styles.Stepper_section__s_Und}>
@@ -69,7 +107,7 @@ const StepperSection = () => {
                                 className={styles.BlogCarousel_emblabutton__t5aLE}
                                 aria-label="carouselbutton next"
                                 onClick={handleNext}
-                                disabled={currentIndex === Final - 1}
+                                disabled={currentIndex === data.length - 1}
                             >
                                 <i className={`${styles.Icon_icon___Kgo7} icon`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -79,8 +117,10 @@ const StepperSection = () => {
                                 </i>
                             </button>
                         </div>
-
-                        <div className={styles.StepperCarousel_carouselWrapper__v0h6t}>
+                        <div
+                            className={styles.StepperCarousel_carouselWrapper__v0h6t}
+                            ref={carouselRef}
+                        >
                             <div
                                 className={styles.StepperCarousel_carousel__qtKCt}
                                 style={{
@@ -90,7 +130,7 @@ const StepperSection = () => {
                                 }}
                             >
                                 {data.map((item) => (
-                                    <div key={item.id} className={styles.Stepper_item____1Dn} style={{ minWidth: '34%' }}>
+                                    <div key={item.id} className={styles.Stepper_item____1Dn} >
                                         <div className={styles.Stepper_itemIcon__6trkX}>
                                             <img src='/images/Logo.svg' alt='' height='40px' width='40px'></img>
                                         </div>
@@ -110,6 +150,4 @@ const StepperSection = () => {
             </div>
         </section>
     );
-};
-
-export default StepperSection;
+}

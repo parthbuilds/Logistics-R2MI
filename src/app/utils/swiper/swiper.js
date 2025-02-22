@@ -27,9 +27,9 @@ const AutoPlaySwiper = () => {
   const shuffledImages = shuffleArray(images);
 
   return (
-    <div className="relative w-[80px] h-[80px] overflow-hidden ">
-      <div className="absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-white via-transparent to-transparent backdrop-blur-md z-10"></div>
-      <div className="absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-white via-transparent to-transparent backdrop-blur-md z-10"></div>
+    <div className="relative w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] md:w-[100px] md:h-[100px] overflow-hidden " style={{'marginLeft':'9px'}}>
+      <div className="absolute inset-y-0 left-0 w-6 sm:w-8 md:w-10 bg-gradient-to-r from-white via-transparent to-transparent backdrop-blur-md z-10 "></div>
+      <div className="absolute inset-y-0 right-0 w-6 sm:w-8 md:w-10 bg-gradient-to-l from-white via-transparent to-transparent backdrop-blur-md z-10"></div>
 
       <Swiper
         modules={[Autoplay]}
@@ -40,11 +40,16 @@ const AutoPlaySwiper = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        className="w-[100px] h-[100px]"
+        className="w-full h-full"
       >
         {shuffledImages.map((src, index) => ( 
-          <SwiperSlide key={index}>
-            <img src={src} alt={`Slide ${index + 1}`} className="object-cover w-full h-full " />
+          <SwiperSlide key={index} className="flex justify-center items-center;
+">
+            <img 
+              src={src} 
+              alt={`Slide ${index + 1}`} 
+              className="w-[40px] h-[40px] object-contain " style={{width:'390px', height:'390px'}} 
+            />
           </SwiperSlide>
         ))}
       </Swiper>

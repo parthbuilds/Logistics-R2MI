@@ -87,6 +87,13 @@
 .Image_office{
   border-bottom-left-radius: 3rem;
 }
+@media (max-width: 48em) {
+  .Image_office{
+    height: 19rem;
+    width: auto;
+  }
+  
+}
 
 .gold .AboutBlock_section__9WQmC .AboutBlock_titleSmall__f0IN5 {
   color: #f8ebcb;
