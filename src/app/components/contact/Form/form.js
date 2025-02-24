@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './form.module.css'
 
 const Form = () => {
-    const email = 'parthpandey033@gmail.com';
-    const telephone = '+91 800232370';
+    const email = ' Exports@r2mi.in ';
+    const telephone = '+91 7019859689';
     return (
         <section className={styles.ContactForm_section__enWFi}>
             <div className={styles.ContactForm_container__IPrwv}>
@@ -18,9 +18,9 @@ const Form = () => {
                     </div>
                     <div className={styles.ContactForm_info}>
                         <p>
-                            <a href={`tel:${telephone}`}>Call Us: +91 800232370</a>
+                            <a href={`tel:${telephone}`}>Call Us: +91 7019859689</a>
                             <br />
-                            <a href={`mailto:${email}`}>Email : support@rtx.com</a>
+                            <a href={`mailto:${email}`}>Email : Exports@r2mi.in</a>
                         </p>
                     </div>
                 </div>

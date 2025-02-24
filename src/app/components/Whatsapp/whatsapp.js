@@ -4,7 +4,7 @@ import styles from "./whatsapp.module.css";
 const WhatsAppIcon = () => {
   return (
     <a
-      href="https://wa.me/1234567890" // Replace with your phone number
+      href="https://wa.me/7019859689" 
       target="_blank"
       rel="noopener noreferrer"
       className={styles.whatsappIcon}
