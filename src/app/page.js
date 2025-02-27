@@ -17,12 +17,15 @@ import ContactBlock from "./components/Home/contact/contactBlock";
 import Crosslink from "./components/Home/CrossLink/crossLink";
 import LocationSlider from "./components/Home/location_slider/locationSlider";
 import WhatsAppIcon from "./components/Whatsapp/whatsapp";
+import Earth from './components/About/Globe/globe'
+
+
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000); // Adjust duration as needed
+    const timer = setTimeout(() => setLoading(false), 3000); 
     return () => clearTimeout(timer);
   }, []);
 
@@ -47,6 +50,7 @@ export default function Home() {
           <ContactBlock />
           <WhatsAppIcon/>
           <Footer />
+          <Earth/>
         </>
       )}
     </>

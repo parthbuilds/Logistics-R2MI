@@ -10,7 +10,6 @@ import DataSlider from '../components/About/DataSlider/dataslider'
 import ContentBlock from '../components/About/ContentBox/ContentBox'
 import UpsBlock from '../components/Home/UpsBlock/upsBlock'
 
-
 export default function About () {
   return (
     <>
