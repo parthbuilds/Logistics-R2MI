@@ -50,7 +50,7 @@ export default function UpsBlock() {
   const getTitleStyle = (index) => {
     return {
       cursor: 'pointer',
-      color: expandedIndex === index ? '#fff' : '#F5F5F5', 
+      color: expandedIndex === index ? '#fff' : '#d7d7d7', 
     };
   };
 
