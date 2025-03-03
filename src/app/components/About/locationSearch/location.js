@@ -1,7 +1,8 @@
 'use client';
 import React from 'react';
-import Earth from '../Globe/globe';
 import styles from './location.module.css';
+import Earth from '@/app/components/earth/index';
+
 
 const countries = [
   { name: 'Singapore' },
@@ -55,7 +56,8 @@ const LocationSearchBlock = () => {
         <div className={styles.LocationSearchBlock_map__Ez2na}>
           <div className={styles.Earth_container__wLwGA}>
             <div style={{ position: 'relative' }}>
-              <Earth style={{ width: 300, height: 300 }} />
+              {/* <Earth style={{ width: 100, height: 100 }} /> */}
+              <Earth style={{ width: 100, height: 100 }} />
             </div>
           </div>
         </div>
