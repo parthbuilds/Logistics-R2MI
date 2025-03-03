@@ -22,87 +22,95 @@
 
 
 
-/* Define font2 */
+
 @font-face {
     font-family: 'Exo';
     src: url('/fonts/Exo-Regular.woff2') format('woff2'),
-    url('/fonts/Exo-Regular.woff2') format('woff');
+        url('/fonts/Exo-Regular.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-/* Define font1 */
+
+
 @font-face {
     font-family: 'Exo_bold';
     src: url('/fonts/Exo-Bold.woff2') format('woff2'),
-         url('/fonts/Exo-Bold.woff') format('woff');
+        url('/fonts/Exo-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'Exo_bold_Italic';
     src: url('/fonts/Exo-BoldItalic.woff2') format('woff2'),
-         url('/fonts/Exo-BoldItalic.woff') format('woff');
+        url('/fonts/Exo-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-  }
+}
 
-/* Define font1 */
+
 @font-face {
     font-family: 'Exo_Medium';
     src: url('/fonts/Exo-Medium.woff2') format('woff2'),
-         url('/fonts/Exo-Medium.woff') format('woff');
+        url('/fonts/Exo-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
-/* Define font2 */
+
+
 @font-face {
     font-family: 'Exo_Medium_Italic';
     src: url('/fonts/Exo_Medium-Italic.woff2') format('woff2'),
     url('/fonts/Exo_Medium-Italic.woff2') format('woff');
+
     font-weight: Italic;
     font-style: italic;
 }
-/* Define font1 */
+
+
 @font-face {
     font-family: 'SchibstedGrotesk';
     src: url('/fonts/SchibstedGrotesk-regular.woff2') format('woff2'),
-         url('/fonts/SchibstedGrotesk-regular.woff') format('woff');
+        url('/fonts/SchibstedGrotesk-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-/* Define font2 */
 @font-face {
     font-family: 'SchibstedGrotesk_Bold';
     src: url('/fonts/SchibstedGrotesk-Bold') format('woff2'),
     url('/fonts/SchibstedGrotesk-Bold') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }
-/* Define font1 */
+
+
 @font-face {
     font-family: 'SchibstedGrotesk_BoldItalic';
     src: url('/fonts/SchibstedGrotesk-BoldItalic.woff2') format('woff2'),
          url('/fonts/SchibstedGrotesk-BoldItalic.woff') format('woff');
+
     font-weight: bold;
     font-style: normal;
-  }
+}
 
-/* Define font2 */
+
 @font-face {
     font-family: 'SchibstedGrotesk_semibold';
     src: url('/fonts/SchibstedGrotesk-semibold.woff2') format('woff2'),
     url('/fonts/SchibstedGrotesk-semiboldß.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }
 
-/* Define font2 */
+
 @font-face {
     font-family: 'SchibstedGrotesk_Medium';
     src: url('/fonts/SchibstedGrotesk-Medium.woff2') format('woff2'),
     url('/fonts/SchibstedGrotesk-Medium.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }
