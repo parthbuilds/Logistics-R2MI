@@ -7,23 +7,18 @@ const data = [
     {
         id: '01',
         title: 'Multimodal Transport Services',
-        description: 'Getting your shipment to its final destination often requires a combination of transport modes. That’s why we provide seamless multimodal solutions, ensuring smooth and efficient deliveries across the globe. By integrating air, sea, road, and rail, we optimize routes for speed, cost-effectiveness, and reliability.',
+        description: 'Ensuring your shipment reaches its final destination often requires multiple transport modes. Our seamless multimodal export solutions integrate air, sea, road, and rail, optimizing routes for speed, cost-effectiveness, and reliability. Whether it’s cross-border deliveries or intercontinental exports, we streamline logistics to guarantee smooth and efficient global shipments.',
     },
     {
         id: '02',
-        title: 'Tender & Procurement Services',
-        description: 'Our team provides expert support for tenders, offering 3PL, 4PL, or direct account (BCO) solutions tailored to your needs. With a structured and customized approach, we assist in budgeting for maritime transport, coordinating supplier meetings, managing data, and setting negotiation timelines. From initial planning to final carrier selection and evaluation, we ensure a smooth and efficient procurement process.',
+        title: 'Export Tender & Procurement Services',
+        description: 'We provide expert guidance for tenders, offering tailored 3PL, 4PL, or direct account (BCO) solutions to simplify procurement for exporters. From budgeting for maritime transport to coordinating supplier negotiations, we ensure a structured, cost-effective approach. Our team supports you through supplier selection, data management, and final carrier evaluation, ensuring a seamless and efficient export procurement process.',
     },
     {
         id: '03',
-        title: 'In-House Customs',
-        description: 'Our expert Fast Customs team offers tailored consultancy to streamline your customs processes for maximum efficiency and cost savings. Beyond import, export, and transit management, we handle fiscal representation, inspections, cargo checks, surveys, and more to ensure a seamless customs experience.',
+        title: 'In-House Customs Expertise',
+        description: 'Navigating international customs regulations is crucial for export success. Our specialized in-house customs team ensures smooth, cost-effective clearance by managing export documentation, fiscal representation, inspections, and compliance checks. With expertise in global trade regulations, we minimize delays and maximize efficiency, ensuring hassle-free export operations.',
     },
-    {
-        id: '04',
-        title: 'Handling & Storage',
-        description: 'We collaborate with a network of internal and external partners, providing unbiased guidance on handling and storage solutions. As part of our commitment to reliable exports, we operate strategically located warehouses worldwide. This enables us to deliver end-to-end solutions, ensuring efficient storage and smooth supply chain management for our customers.',
-    }
 ];
 
 export default function StepperSection () {
@@ -89,7 +84,7 @@ export default function StepperSection () {
                 </div>
                 <div className={styles.Stepper_stepperWrapper__Y2Scs}>
                     <div className={styles.StepperCarousel_carouselContainer__Q0BAq}>
-                        <div className={styles.StepperCarousel_carouselButtonWrapper__t20mg}>
+                        {/* <div className={styles.StepperCarousel_carouselButtonWrapper__t20mg}>
                             <button
                                 className={`${styles.BlogCarousel_emblabutton__t5aLE} ${styles.BlogCarousel_prev__vAE6w}`}
                                 aria-label="carouselbutton previous"
@@ -116,7 +111,7 @@ export default function StepperSection () {
                                     </svg>
                                 </i>
                             </button>
-                        </div>
+                        </div> */}
                         <div
                             className={styles.StepperCarousel_carouselWrapper__v0h6t}
                             ref={carouselRef}

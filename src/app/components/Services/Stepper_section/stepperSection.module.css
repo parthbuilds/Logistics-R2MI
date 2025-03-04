@@ -430,7 +430,6 @@
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
-  grid-gap: 0;
 }
 @media (min-width: 48em) {
   .Stepper_container__oFfO_ {
@@ -493,7 +492,7 @@
   }
 }
 .Stepper_item____1Dn {
-  padding: 6rem 2.5rem 2.5rem;
+  padding: 5rem 1.5rem 1.5rem;
   background-color: #fff;
   border-radius: 2.5rem;
   border-top-left-radius: 0;
