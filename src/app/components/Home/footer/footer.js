@@ -12,8 +12,8 @@ const Footer = () => {
                 </a> */}
                 <a className={styles.Footer_logoWrapper__P93m7} href="/">
                     <div className={styles.flipContainer}>
-                        <img className={`${styles.logoImage} ${styles.front}`} src='/images/RouteToMarket Media India Pvt Ltd2.png' alt='r2mi logo' />
-                        <img className={`${styles.logoImage} ${styles.back}`} src='/images/RTX Logo white.svg' alt='rtx logo' />
+                        <img className={`${styles.logoImage} ${styles.front}`} src='/images/RTX_290x60.svg' alt='r2mi logo' />
+                        <img className={`${styles.logoImage} ${styles.back}`} src='/images/Route To Export_290x60.svg' alt='rtx logo' />
                     </div>
                 </a>
 

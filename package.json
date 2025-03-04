@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^10.0.2",
-    "@react-three/fiber": "^8.2.2",
+    "@react-three/drei": "^10.0.3",
+    "@react-three/fiber": "^9.0.4",
     "@studio-freight/lenis": "^1.0.42",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
-    "framer-motion": "^12.4.7",
-    "framer-motion-3d": "^12.4.7",
+    "framer-motion": "^12.4.10",
+    "framer-motion-3d": "^12.4.10",
     "gsap": "^3.12.7",
     "jq": "^1.7.2",
     "lenis": "^1.1.20",

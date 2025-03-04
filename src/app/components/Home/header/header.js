@@ -55,8 +55,8 @@ const Header = ({ color = "white" }) => {
       <div className={styles.logo}>
         {/* <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/> */}
           <div className={styles.flipContainer}>
-            <img className={`${styles.logoImage} ${styles.front}`} src='/images/RouteToMarket Media India Pvt Ltd.png' alt='Front Logo' />
-            <img className={`${styles.logoImage} ${styles.back}`} src='/images/grey@4x-8.png' alt='Back Logo' />
+            <img className={`${styles.logoImage} ${styles.front}`} src='/images/Asset 8.svg' alt='Front Logo' />
+            <img className={`${styles.logoImage} ${styles.back}`} src='/images/Asset 9.svg' alt='Back Logo' />
           </div>
       </div>
 
@@ -68,7 +68,7 @@ const Header = ({ color = "white" }) => {
         <ul className={styles.navLinks}>
           <li><a href="/" style={{ color }}>{`Home`}</a></li>
           <li><a href="About" style={{ color }}>{`About`}</a></li>
-          <li><a href="Services" style={{ color }}>{`Services`}</a></li>
+          <li><a href="Services" style={{ color }}>{`Export`}</a></li>
           {/* <li><a href="Careers" style={{ color }}>{`Careers`}</a></li> */}
           <li><a href="Contact" style={{ color }}>{`Contact`}</a></li>
         </ul>
