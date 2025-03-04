@@ -7,8 +7,8 @@ import Steppersection from '../components/Services/Stepper_section/stepperSectio
 import Footer from '../components/Home/footer/footer';
 import Crosslink from '../components/Home/CrossLink/crossLink';
 import Contact from '../components/Home/contact/contactBlock';
-import ServiceCardsBlock from '../components/Services/ServiceCardBlock/serviceCard'
-
+import ServiceCardsBlock from '../components/Services/ServiceCardBlock/serviceCard';
+import CardSection from '../components/Services/ProductCard/productcards.js';
 
 
 export default function Services() {
@@ -16,6 +16,7 @@ export default function Services() {
     <>
       <Header/>
       <Hero />
+      <CardSection/>
       <ServiceSlider />
       <Steppersection />
       <ServiceCardsBlock/>

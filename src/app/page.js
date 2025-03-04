@@ -11,8 +11,8 @@ import CtaBlock from "./components/Home/ctaBlock/ctaBlock";
 import CtaBlocks from "./components/Home/Section/section";
 // import Imagewrap from "./components/Home/imagewrap/imagewrap";
 import About from "./components/Home/About/about";
-// import Job from "./components/Home/Job/job";
-// import Blog from "./components/Home/Blog/blog";
+import Job from "./components/Home/Job/job";
+import Blog from "./components/Home/Blog/blog";
 import ContactBlock from "./components/Home/contact/contactBlock";
 import Crosslink from "./components/Home/CrossLink/crossLink";
 import LocationSlider from "./components/Home/location_slider/locationSlider";
@@ -41,8 +41,8 @@ export default function Home() {
           <CtaBlocks />
           {/* <Imagewrap /> */}
           <About />
-          {/* <Job /> */}
-          {/* <Blog /> */}
+          {/* <Job />
+          <Blog /> */}
           <Crosslink />
           <ContactBlock />
           <WhatsAppIcon/>

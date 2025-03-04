@@ -334,14 +334,14 @@
   
   @media (min-width: 48em) {
     .Hero_content__y4eWy {
-      margin-top: 4rem;
+      /* margin-top: 4rem; */
       min-height: 16rem;
     }
   }
   
   @media (min-width: 71.3125em) {
     .Hero_content__y4eWy {
-      margin-top: 10.5rem;
+      margin-top: 6.5rem;
       /* min-height: 22.25rem; */
       grid-column: span 6;
     }

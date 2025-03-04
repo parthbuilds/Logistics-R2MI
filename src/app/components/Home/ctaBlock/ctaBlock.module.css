@@ -19,13 +19,13 @@
   }
   .CtaBlock_section__bNFj7 {
     width: 100%;
-    max-width: 119.375rem;
+    max-width: 90.375rem;
     margin: 0 auto;
     padding-left: calc(4 * var(--space));
     padding-right: calc(4 * var(--space));
     position: relative;
     min-height: 100%;
-    margin-block: 5rem;
+    margin-block: 2rem;
   }
   @media (min-width: 48em) {
     .CtaBlock_section__bNFj7 {
@@ -41,7 +41,7 @@
   }
   @media (min-width: 48em) {
     .CtaBlock_section__bNFj7 {
-      margin-block: 7.5rem;
+      margin-block:2rem;
     }
   }
   .gold .CtaBlock_section__bNFj7 .CtaBlock_content__87Op8 .CtaBlock_title__enemh {
@@ -109,11 +109,12 @@
     }
   }
   .CtaBlock_title__enemh {
-    font-family: 'Exo_Medium', sans-serif;
-    font-weight: 500;
+    font-family: 'Exo_bold', sans-serif;
+    font-weight: 200;
     font-size: 3.5rem;
     margin-bottom: auto;
     color: #2086ae;
+    padding-bottom: 1rem;
   }
   .CtaBlock_info__DVPeC {
     margin-bottom: 1.5rem;
@@ -366,7 +367,7 @@
   }
   @media (min-width: 48em) {
     .CtaBlock_dark__Vqkj3.CtaBlock_section__bNFj7 {
-      margin-block: 11.5rem;
+      margin-block: 2rem;
     }
   }
   .gold

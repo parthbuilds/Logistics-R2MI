@@ -1200,7 +1200,7 @@ ul:not(.tabs) {
 }
 
 ul:not(.tabs) li {
-    list-style: disc;
+    list-style: none;
 }
 
 ul:not(.tabs) li::marker {

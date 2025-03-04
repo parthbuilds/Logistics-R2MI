@@ -28,7 +28,7 @@
   padding-right: calc(4 * var(--space));
   overflow: hidden;
   min-height: 100%;
-  margin-block: 5rem;
+  /* margin-block: 1rem; */
   position: relative;
 }
 
@@ -48,7 +48,7 @@
 
 @media (min-width: 48em) {
   .CrosslinkBlock_section__LjJPm {
-    margin-block: 5rem;
+    margin-block: 1rem;
   }
 }
 

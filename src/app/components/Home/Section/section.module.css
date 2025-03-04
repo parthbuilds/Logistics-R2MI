@@ -123,7 +123,7 @@
 }
 
 .CtaBlock_title__enemh {
-    font-family: 'Exo',sans-serif;
+    font-family: 'Exo_bold',sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
     color: #2086ae;
@@ -412,7 +412,7 @@
 
 @media (min-width: 48em) {
     .CtaBlock_dark__Vqkj3.CtaBlock_section__bNFj7 {
-        margin-block: 11.5rem;
+        /* margin-block: 11.5rem; */
     }
 }
 

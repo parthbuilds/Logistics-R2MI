@@ -170,8 +170,7 @@
 
 .UspBlock_section__SSpPU {
     position: relative;
-    padding-block: 5rem;
-    margin-block: 0;
+    padding-block: 2rem;
     transition: background-color 0.3s ease-out;
 }
 
@@ -187,7 +186,7 @@
 @media (min-width: 48em) {
     .UspBlock_section__SSpPU {
         border-top-left-radius: 0;
-        padding-block: 10rem;
+        padding-block: 4.5rem;
         margin-block: 0;
     }
 
@@ -313,12 +312,12 @@
     cursor: pointer;
 }
 .UspBlock_title__5syXk {
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     grid-column: span 6;
-    font-family: 'Exo', sans-serif; 
-    font-weight: regular; 
-    margin-top: -4.5rem;
-    color: #f6faff;
+    font-family: 'Exo_bold', sans-serif; 
+    font-weight: 900; 
+    /* margin-top: 2rem; */
+    color: white;
 }
 
 @media (man-width: 48em) {
@@ -344,7 +343,7 @@
         grid-column: span 4;
         min-height: 14.5rem;
         min-width: 100%;
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 }
 

@@ -181,7 +181,7 @@
     overflow: hidden;
     overflow: clip;
     min-height: 100%;
-    margin-block: 5rem;
+    margin-block: 1rem;
     position: relative;
 }
 
@@ -201,7 +201,7 @@
 
 @media (min-width: 48em) {
     .LocationBlock_section__FpKpI {
-        margin-block: 7.5rem;
+        margin-block: 2rem;
     }
 }
 

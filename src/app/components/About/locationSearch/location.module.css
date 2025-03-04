@@ -296,9 +296,9 @@
     margin-top: 4.5rem;
     margin-left: 3rem;
     grid-column: span 4;
-    font-family:'Exo',sans-serif;
+    font-family:'Exo_bold',sans-serif;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 300;
   }
   @media (min-width: 48em) {
     .LocationSearchBlock_title__VQf4s {

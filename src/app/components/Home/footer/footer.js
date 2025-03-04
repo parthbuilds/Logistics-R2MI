@@ -12,25 +12,27 @@ const Footer = () => {
                 </a> */}
                 <a className={styles.Footer_logoWrapper__P93m7} href="/">
                     <div className={styles.flipContainer}>
-                        <img className={`${styles.logoImage} ${styles.front}`} src='/images/RTX_290x60.svg' alt='r2mi logo' />
-                        <img className={`${styles.logoImage} ${styles.back}`} src='/images/Route To Export_290x60.svg' alt='rtx logo' />
+                        <img className={`${styles.logoImage} ${styles.front}`} src='/images/RTX_290x80.svg' alt='small rtx logo' />
+                        <img className={`${styles.logoImage} ${styles.back}`} src='/images/Route To Export_290x80.svg' alt='rtx logo' />
                     </div>
                 </a>
 
                 <div className={styles.Footer_navWrapper__xWSoa}>
                     <a className={styles.Footer_navItem__DCCez} href="/">Home</a>
                     <a className={styles.Footer_navItem__DCCez} href="/About">About</a>
-                    <a className={styles.Footer_navItem__DCCez} href="/Services">Services</a>
+                    <a className={styles.Footer_navItem__DCCez} href="/Services">Export</a>
                     {/* <a className={styles.Footer_navItem__DCCez} href="/Careers">Careers</a> */}
                     <a className={styles.Footer_navItem__DCCez} href="/Contact">Contact</a>
                 </div>
-                <div className={styles.ContactForm_formItem__pxEdr}>
+                {/* <div className={styles.ContactForm_formItem__pxEdr}>
                     <label htmlFor="businessmail" className={styles.ContactForm_label__xyhWw}>Your business mail*</label>
                     <input id="businessmail" className={styles.ContactForm_input__JLtth} type="email" />
                     <span className={styles.ContactForm_formItem__tooltip__S6IwZ}>Make sure to use your business mail</span>
+                </div> */}
+
+                <div className={styles.Footer_privacyTerms__sz4zC}>
+                    <a href="/conditions-disclaimer">Terms &amp; Conditions </a>
                 </div>
-            </div>
-            <div className={styles.Footer_socials__9ZNZ_}>
 
                 <div className={styles.Footer_socialLinks__zyHKp}>
 
@@ -66,17 +68,14 @@ const Footer = () => {
                         </i>
                     </a>
                 </div>
-                <div className={styles.Footer_privacyTerms__sz4zC}>
-                    <a href="/conditions-disclaimer">Conditions &amp; Disclaimer </a>
-                    | <a href="/privacy-statement">Privacy Statement</a>
-                </div>
-                <div className={styles.ContactForm_info}>
+
+                {/* <div className={styles.ContactForm_info}>
                     <p>
                         <a href={`tel:${telephone}`} className={styles.info}>Call Us: +91 800232370</a>
                         <br />
                         <a href={`mailto:${email}`} className={styles.info}>Email : support@rtx.com</a>
                     </p>
-                </div>
+                </div> */}
             </div>
         </footer>
     )

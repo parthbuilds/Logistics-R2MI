@@ -40,23 +40,25 @@
 /* Navigation Links */
 .nav {
   display: flex;
+  text-decoration: none;
 }
 
 .navLinks {
   display: flex;
   gap: 35px;
+  list-style: none; /* Removed list markers */
 }
 
 .navLinks li {
   margin-right: 0;
+  
 }
 
 .navLinks li a {
   text-decoration: none;
-  marker-start: none;
   font-weight: 800;
   color: #f0f0f0;
-  font: 600 1.5rem 'Exo_bold', sans-serif;
+  font: 400 1.2rem 'Exo_bold', sans-serif;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -226,4 +228,3 @@ body.menu-open {
 .flipContainer:hover .back {
   transform: rotateY(0deg);
 }
-

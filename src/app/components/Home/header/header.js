@@ -50,14 +50,19 @@ const Header = ({ color = "white" }) => {
     };
   }, [menuOpen]);
 
+  // Conditionally change logo based on text color
+  const frontLogo = color === "white" ? "/images/RTX_290x80.svg" : "/images/Asset 8.svg";
+  const backLogo = color === "white" ? "/images/Route To Export_290x80.svg" : "/images/Asset 9.svg";
+
   return (
     <header ref={headerRef} className={styles.header}>
       <div className={styles.logo}>
-        {/* <img src='/images/RTX Logo.svg' style={{width: '180px' , height: '60px'}}/> */}
+        <a href="/">
           <div className={styles.flipContainer}>
-            <img className={`${styles.logoImage} ${styles.front}`} src='/images/Asset 8.svg' alt='Front Logo' />
-            <img className={`${styles.logoImage} ${styles.back}`} src='/images/Asset 9.svg' alt='Back Logo' />
+            <img className={`${styles.logoImage} ${styles.front}`} src={frontLogo} alt="Front Logo" />
+            <img className={`${styles.logoImage} ${styles.back}`} src={backLogo} alt="Back Logo" />
           </div>
+        </a>
       </div>
 
       <div className={styles.hamburger} onClick={toggleMenu}>
@@ -69,7 +74,6 @@ const Header = ({ color = "white" }) => {
           <li><a href="/" style={{ color }}>{`Home`}</a></li>
           <li><a href="About" style={{ color }}>{`About`}</a></li>
           <li><a href="Services" style={{ color }}>{`Export`}</a></li>
-          {/* <li><a href="Careers" style={{ color }}>{`Careers`}</a></li> */}
           <li><a href="Contact" style={{ color }}>{`Contact`}</a></li>
         </ul>
       </nav>
