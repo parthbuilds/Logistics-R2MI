@@ -69,6 +69,7 @@
 
 /* Hamburger Menu */
 .hamburger {
+  margin-right: 25px;
   display: none;
   cursor: pointer;
   font-size: 2rem;
@@ -199,6 +200,14 @@ body.menu-open {
   position: relative;
   width: 290px;
   height: 80px;
+}
+
+@media (max-width: 48em) {
+  .flipContainer {
+    width: 200px;
+    height: 80px;
+    right: 10px;
+  }
 }
 
 .logoImage {
