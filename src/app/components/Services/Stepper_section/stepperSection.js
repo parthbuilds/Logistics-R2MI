@@ -81,7 +81,7 @@ export default function StepperSection () {
         <section className={styles.Stepper_section__s_Und}>
             <div className={styles.Stepper_container__oFfO_}>
                 <div className={styles.Stepper_containerTitleWrapper___TcKF}>
-                    <h3>More Services</h3>
+                    <h3>Export Experts</h3>
                 </div>
                 <div className={styles.Stepper_stepperWrapper__Y2Scs}>
                     <div className={styles.StepperCarousel_carouselContainer__Q0BAq}>

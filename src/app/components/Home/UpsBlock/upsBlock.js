@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import React from 'react';
 import styles from './upsBlock.module.css';
-import AutoPlaySwiper from '@/app/utils/swiper/swiper';
+import AutoPlaySlider from '@/app/utils/slider';
 import LoadingLine from './loadingline/loadingline';
 
 export default function UpsBlock() {
@@ -59,10 +59,10 @@ export default function UpsBlock() {
       <div className={styles.UspBlock_container__BsBlZ}>
         <div className={styles.UspBlock_titleWrapper__0bZaZ} style={{ transform: 'translateY(24px) translateZ(0)' }}>
           <h2 className={styles.UspBlock_title__5syXk}>
-            <p className={styles.paragraph}>World's Leading Home Appliances Exporter.</p>
+            <p className={styles.paragraph}>World's Leading Home Appliances Exporter</p>
           </h2>
           <div className={styles.UspBlock_imageSection__Pe14P}>
-            <AutoPlaySwiper width="200px" height="200px" />
+            <AutoPlaySlider style={{width:'200px', height:'200px'}}/>
           </div>
         </div>
 

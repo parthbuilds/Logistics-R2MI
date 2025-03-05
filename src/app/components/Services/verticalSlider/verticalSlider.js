@@ -12,25 +12,25 @@ export default function ServiceSlider() {
     const data = [
         {
             title: 'Your Export through the Ocean',
-            description: 'At Route To Export, ocean freight is a cornerstone of our services. Through exclusive partnerships with global and local networks, we ensure smooth, hassle-free shipping tailored to your needs.',
+            // description: 'At Route To Export, ocean freight is a cornerstone of our services. Through exclusive partnerships with global and local networks, we ensure smooth, hassle-free shipping tailored to your needs.',
             image: '/images/services/Ship.png',
             alt: 'Service 1 Image'
         },
         {
             title: 'Your Export through the Air',
-            description: 'Through strong partnerships with leading airlines, we offer competitive rates and flexible scheduling for all air freight shipments. Our expert team handles customs clearance and paperwork, ensuring fast and seamless deliveries. We also provide specialized solutions such as on-board courier (OBC) and aircraft-on-ground (AOG) services. For chartering, we offer both full and partial options, tailored to meet your specific requirements.',
+            // description: 'Through strong partnerships with leading airlines, we offer competitive rates and flexible scheduling for all air freight shipments. Our expert team handles customs clearance and paperwork, ensuring fast and seamless deliveries. We also provide specialized solutions such as on-board courier (OBC) and aircraft-on-ground (AOG) services. For chartering, we offer both full and partial options, tailored to meet your specific requirements.',
             image: '/images/Flight.png',
             alt: 'Service 2 Image'
         },
         {
             title: 'Your Export through the Roads',
-            description: 'As a leading export company in India, we collaborate with trusted road transport providers to deliver comprehensive freight solutions. From full truckload (FTL) and less-than-truckload (LTL) to seamless multimodal transport, we ensure efficient shipping by combining road freight with other transport modes for global deliveries.',
+            // description: 'As a leading export company in India, we collaborate with trusted road transport providers to deliver comprehensive freight solutions. From full truckload (FTL) and less-than-truckload (LTL) to seamless multimodal transport, we ensure efficient shipping by combining road freight with other transport modes for global deliveries.',
             image: '/images/services/truck.png',
             alt: 'Service 3 Image'
         },
         {
             title: 'Your Export through the rails',
-            description: 'Rail transport is the future of efficient, sustainable, and innovative shipping. With cost-effective solutions, reduced carbon footprints, and seamless connectivity, we ensure your cargo moves reliably across borders. Discover how our rail freight services provide a secure, timely, and eco-friendly way to transport goods worldwide.',
+            // description: 'Rail transport is the future of efficient, sustainable, and innovative shipping. With cost-effective solutions, reduced carbon footprints, and seamless connectivity, we ensure your cargo moves reliably across borders. Discover how our rail freight services provide a secure, timely, and eco-friendly way to transport goods worldwide.',
             image: '/images/services/train.png',
             alt: 'Service 4 Image'
         },
@@ -71,9 +71,9 @@ export default function ServiceSlider() {
                                 <h3 className={styles.ServiceSlider_slideTitle__mTYcM}>
                                     <p className={styles.paragraph}>{service.title}</p>
                                 </h3>
-                                <div className={styles.ServiceSlider_slideInfo__ZrRFv}>
+                                {/* <div className={styles.ServiceSlider_slideInfo__ZrRFv}>
                                     <p>{service.description}</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className={styles.ServiceSlider_imageWrapper__mcELX}>
                                 <img

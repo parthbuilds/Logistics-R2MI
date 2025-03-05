@@ -17,7 +17,7 @@ const CtaBlock = () => {
                             </div>
                         </div>
                         <div>
-                            <a className={`${styles.button} ${styles.primary} ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="Discover our Services" href="/services">
+                            {/* <a className={`${styles.button} ${styles.primary} ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="Discover our Services" href="/services">
                                 <span className={styles.Button_titleWrapper__Glw9g}>Discover our Services</span>
                                 <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>
                                     <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>
@@ -27,7 +27,7 @@ const CtaBlock = () => {
                                         </svg>
                                     </i>
                                 </div>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

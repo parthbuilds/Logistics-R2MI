@@ -21,7 +21,7 @@ const Footer = () => {
                     <a className={styles.Footer_navItem__DCCez} href="/">Home</a>
                     <a className={styles.Footer_navItem__DCCez} href="/About">About</a>
                     <a className={styles.Footer_navItem__DCCez} href="/Services">Export</a>
-                    {/* <a className={styles.Footer_navItem__DCCez} href="/Careers">Careers</a> */}
+                    <a className={styles.Footer_navItem__DCCez} href="/Careers">Careers</a>
                     <a className={styles.Footer_navItem__DCCez} href="/Contact">Contact</a>
                 </div>
                 {/* <div className={styles.ContactForm_formItem__pxEdr}>
@@ -30,9 +30,9 @@ const Footer = () => {
                     <span className={styles.ContactForm_formItem__tooltip__S6IwZ}>Make sure to use your business mail</span>
                 </div> */}
 
-                <div className={styles.Footer_privacyTerms__sz4zC}>
+                {/* <div className={styles.Footer_privacyTerms__sz4zC}>
                     <a href="/conditions-disclaimer">Terms &amp; Conditions </a>
-                </div>
+                </div> */}
 
                 <div className={styles.Footer_socialLinks__zyHKp}>
 

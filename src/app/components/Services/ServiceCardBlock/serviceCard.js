@@ -6,44 +6,43 @@ const ServiceCardsBlock = () => {
         {
             image: "https://a.storyblok.com/f/240783/1200x900/b5fd7a54df/whatiscontainerstuffing.jpg/m/1024x560/filters:quality(95):focal(702x514:703x515)",
             title: "Container Loading & Unloading Services",
+            icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" /></svg>,
             description: "We provide dedicated warehouses for product stuffing. As an independent entity, we leverage our flexibility to secure competitive agreements with warehouse providers.",
         },
         {
             image: "https://a.storyblok.com/f/240783/7952x5304/1f4b2a3efd/_dsc0836.JPG/m/1720x941/filters:quality(95):focal()",
             title: "Vessel Cargo Handling",
+            icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-9-4z" /><polyline points="3.27 6.96 12 12.01 20.73 6.96" /><line x1="12" y1="22" x2="12" y2="12" /></svg>,
             description: "Partnering with our sister companies and terminal handling experts, we efficiently coordinate vessel loading and unloading operations.",
         },
 
         {
             image: "https://a.storyblok.com/f/240783/848x464/1e09c51f93/onboarding-services.jpg/m/1024x560/filters:quality(95):focal(311x431:312x432)",
             title: "Surveys",
+            icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.4 1.4 0 0 0 .6 2.4c.5 1.1 2.1 1.1 2.6 0a1.4 1.4 0 0 0 .6-2.4 12 12 0 0 0-20 0 1.4 1.4 0 0 0 .6 2.4c.5 1.1 2.1 1.1 2.6 0a1.4 1.4 0 0 0 .6-2.4" /></svg>,
             description: "Our in-house and third-party experts ensure you stay informed at all times about the quality of your supplies and outgoing shipments.",
-            link: "/services/promar-agencies",
-            buttonLabel: "More info"
         },
         {
             image: "https://a.storyblok.com/f/240783/6720x4480/38dde63717/9n8a5770.jpeg/m/1024x560/filters:quality(95):focal()",
             title: "Insurance",
+            icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>,
             description: "Upon request, we can arrange cargo insurance for our customers.",
         },
         {
             image: "https://a.storyblok.com/f/240783/7952x5304/397bc712b9/_dsc0671.JPG/m/1024x560/filters:quality(95):focal(4501x1716:4502x1717)",
             title: "Time-Critical Services ",
+            icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12" /></svg>,
             description: "RTX provides time-sensitive delivery solutions for aerospace/AOG and other critical industries, including on-board courier and hand-carry services when needed.",
 
         },
     ];
 
     const renderIcon = (icon) => {
-        // Check if icon is a string (SVG code) or a React component
-        if (typeof icon === 'string') {
-            return <i className={styles.Icon_icon___Kgo7 + " " + styles.icon + " " + styles.ServiceCardsBlock_icon__PArdM} dangerouslySetInnerHTML={{ __html: icon }} />;
-        } else if (React.isValidElement(icon)) {
+        if (React.isValidElement(icon)) {
             return <i className={styles.Icon_icon___Kgo7 + " " + styles.icon + " " + styles.ServiceCardsBlock_icon__PArdM}>{icon}</i>;
         }
-        return null; // Return null if the icon is not valid
+        return null;
     };
-
 
     return (
         <section className={styles.ServiceCardsBlock_section___t5l5}>
@@ -78,18 +77,6 @@ const ServiceCardsBlock = () => {
                                 <div>
                                     <p style={{color: 'black'}} className={styles.ServiceCard_paragraph} dangerouslySetInnerHTML={{ __html: card.description }} />
                                 </div>
-                                {card.link && ( 
-                                    <a href={card.link} className={styles.ServiceCardsBlock_link__SkUh1}>
-                                        {card.buttonLabel && (
-                                            <button type="button" className={`${styles.button} ${styles.tertiary} ${styles.Button_button__T6zT9} ${styles.Button_tertiary__JUfBS} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.ServiceCardsBlock_button__ER3q6}`} aria-label="More info">
-                                                <span className={styles.Button_titleWrapper__Glw9g}>{card.buttonLabel}</span>
-                                                <div className={styles.Button_icon__Rt_Hz + " " + styles.iconwrapper}>
-                                                    <i className={styles.Icon_icon___Kgo7 + " " + styles.icon} dangerouslySetInnerHTML={{ __html: /* Your SVG icon code here */ "" }} />
-                                                </div>
-                                            </button>
-                                        )}
-                                    </a>
-                                )}
                             </div>
                         </div>
                     ))}

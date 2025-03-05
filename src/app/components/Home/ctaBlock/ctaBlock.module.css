@@ -121,7 +121,8 @@
     color: #00112e;
     font-family:'Exo',sans-serif;
     font-weight: 300;
-    font-size: large;
+    font-size: 1.5rem;
+    text-align: justify;
   }
   .CtaBlock_videoWrapper__ZHqAx {
     width: 100%;

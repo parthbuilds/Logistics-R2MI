@@ -20,12 +20,12 @@
   .ServiceSlider_section__tsvy4 {
     width: 100%;
     max-width: 119.375rem;
-    margin: 0 auto;
+    margin: 0 1vh;
     padding-left: calc(4 * var(--space));
     padding-right: calc(4 * var(--space));
     position: relative;
     min-height: 100%;
-    margin-block: 5rem;
+    /* margin-block: 5rem; */
   }
   @media (min-width: 48em) {
     .ServiceSlider_section__tsvy4 {
@@ -42,9 +42,9 @@
 
     }
   }
-  @media (min-width: 48em) {
+  @media (max-width: 48em) {
     .ServiceSlider_section__tsvy4 {
-      margin-block: 7.5rem;
+      margin-block: 2rem;
       min-height: 400vh;
 
     }
@@ -55,9 +55,8 @@
     grid-gap: 1vw;
     gap: 1vw;
     grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    grid-gap: 0;
   }
+  
   @media (min-width: 48em) {
     .ServiceSlider_container__ZYKXg {
       box-sizing: border-box;
@@ -68,9 +67,7 @@
       grid-template-columns: repeat(12, 1fr);
       position: -webkit-sticky;
       position: sticky;
-      top: 3rem;
-      grid-gap: 0;
-      gap: 0;
+      top: 8rem;
     }
   }
   .ServiceSlider_slideWrapper__tEDks {
@@ -81,7 +78,6 @@
     display: flex;
     position: relative;
     flex-wrap: nowrap;
-    /* width: 100%; */
     width: fit-content;
   }
   @media (min-width: 48em) {
@@ -99,8 +95,8 @@
   .ServiceSlider_slide__sWHQ6 {
     flex: 1 1 100%;
     width: 80vw; 
-    max-width: 800vw; 
-    height:fit-content;
+    max-width: 500vw; 
+    /* height:fit-content; */
     padding: 2rem;
     gap: 0;
     display: flex;
@@ -114,7 +110,7 @@
   @media (min-width: 48em) {
     .ServiceSlider_slide__sWHQ6 {
       gap: 1.5rem;
-      height: 100%;
+      height: 60%;
       flex-direction: row;
       max-width: 82.5rem;
       padding: 3rem;
@@ -199,15 +195,14 @@
       height: unset;
       width: 100%;
       justify-content: flex-end;
-      margin-right: -7rem;
     }
   }
   .ServiceSlider_image__zrDy4 {
     width: 100%;
     max-width: 57.5rem;
-    height: auto;
+    height: 100%;
     transform: unset;
-    object-fit: contain;
+    object-fit: cover ;
     aspect-ratio: 900/800;
     z-index: 1;
     position: relative;
@@ -476,4 +471,11 @@
 
 .Icon_icon___Kgo7 svg {
     display: block;
+}
+
+.heading{
+  font-family: 'Exo_bold', sans-serif;
+  font-size: 4rem;
+  font-weight:900;
+  color: #2086ae;
 }

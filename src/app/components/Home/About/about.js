@@ -38,7 +38,7 @@ const About = () => {
             <a
               className={`button primary ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_darkmode__ozqJQ} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.AboutBlock_button__gGFFn}`}
               aria-label="Join our Team"
-              href="/careers"
+              href="/Careers"
             >
               <span className={`${styles.Button_titleWrapper__Glw9g} ${styles.JobsCard_title__tjjE7}`} >Join our Team</span>
               <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>

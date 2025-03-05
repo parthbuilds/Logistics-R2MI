@@ -23,11 +23,11 @@ function Section() {
             <div>
               <a
                 className={`${styles.button} ${styles.primary} ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_darkmode__ozqJQ} ${styles.Button_goldLight__ZvTNn} ${styles.Button_goldDark__LAUet} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`}
-                aria-label="About our Commodities"
-                href="/commodities"
+                aria-label="Services"
+                href="/Services"
               >
                 <span className={styles.Button_titleWrapper__Glw9g}>
-                  About our Commodities
+                  Discover our Products we Export
                 </span>
                 <div
                   className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}

@@ -10,17 +10,16 @@ const Crosslink = () => {
         <section className={styles.CrosslinkBlock_section__LjJPm}>
             <div className={styles.CrosslinkBlock_container__HKHjr}>
                 {[{
-                    title: "COMMODITIES",
                     subtitle: "What We Export",
                     buttonLabel: "Commodities",
                     link: "/Services"
                 }, {
-                    title: "OUR SERVICES",
+                    
                     subtitle: "About Us",
                     buttonLabel: "About Us",
                     link: "/About"
                 }].map((item, index) => {
-                    const { rotate, onMouseMove, onMouseLeave } = useTiltEffect(); // Apply tilt effect
+                    const { rotate, onMouseMove, onMouseLeave } = useTiltEffect();
 
                     return (
                         <div 
@@ -33,16 +32,7 @@ const Crosslink = () => {
                                 transition: "transform 0.2s ease-out",
                             }}
                         >
-                            <div className={`${styles.ParallaxWrapper_sheenWrapper__vGGtf} sheen`}></div>
-                            <p className={styles.CrosslinkBlock_title__hlDQO}>
-                                <i className={`${styles.Icon_icon___Kgo7} ${styles.icon} ${styles.CrosslinkBlock_icon__FwiZm}`}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <path fill="currentColor" d="M2.697 13.75a1.6 1.6 0 0 1 1.6-1.6h15.406a1.6 1.6 0 0 1 1.6 1.6v8.5a1.6 1.6 0 0 1-1.6 1.6H4.297a1.6 1.6 0 0 1-1.6-1.6v-8.5Z"/>
-                                        <path fill="currentColor" d="M8.27 15.15a.6.6 0 0 1 .6.6v4.5a.6.6 0 1 1-1.2 0v-4.5a.6.6 0 0 1 .6-.6ZM12 15.15a.6.6 0 0 1 .6.6v4.5a.6.6 0 1 1-1.2 0v-4.5a.6.6 0 0 1 .6-.6Z"/>
-                                    </svg>
-                                </i>
-                                {item.title}
-                            </p>
+                        <div className={`${styles.ParallaxWrapper_sheenWrapper__vGGtf} sheen`}></div>
                             <div className={styles.CrosslinkBlock_info__hYdqG}>
                                 <p>{item.subtitle}</p>
                             </div>
@@ -51,9 +41,7 @@ const Crosslink = () => {
                                 className={`button primary ${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE} ${styles.CrosslinkBlock_button___D_2N}`} 
                                 aria-label={item.buttonLabel} 
                             >
-                                <span className={styles.Button_titleWrapper__Glw9g} style={{ color: buttontext[index] }}>
-                                    {item.buttonLabel}
-                                </span>
+                                
                                 <div className={styles.Button_icon__Rt_Hz}>
                                     <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

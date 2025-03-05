@@ -5,7 +5,7 @@ import styles from './productCards.module.css';
 const CardSection = () => {
   const cardsData = [
     {
-      title: 'Air fryer',
+      title: 'Rice Cooker',
       image: '/images/productImage/1.png',
       className: 'card',
     },
@@ -15,7 +15,7 @@ const CardSection = () => {
       className: 'card',
     },
     {
-      title: 'Vacuum Cleaner',
+      title: 'Vertical Steam Iron',
       image: '/images/productImage/3.jpg',
       className: 'card',
     },
@@ -25,7 +25,7 @@ const CardSection = () => {
       className: 'card',
     },
     {
-      title: 'Fans',
+      title: 'Table Fans',
       image: '/images/productImage/5.jpg',
       className: 'card',
     },
@@ -55,6 +55,11 @@ const CardSection = () => {
       className: 'card',
     },
     {
+      title: 'Ceiling Lights',
+      image: '/images/productImage/10.png',
+      className: 'card',
+    },
+    {
       title: 'Grinders',
       image: '/images/productImage/11.png',
       className: 'card',
@@ -64,6 +69,61 @@ const CardSection = () => {
       image: '/images/productImage/12.jpg',
       className: 'card',
     },
+    {
+      title: 'Air Purifier',
+      image: '/images/productImage/14.png',
+      className: 'card',
+    },
+    {
+      title: 'Hair Straightener',
+      image: '/images/productImage/15.png',
+      className: 'card',
+    },
+    {
+      title: 'Hair Straightning Brushes',
+      image: '/images/productImage/16.png',
+      className: 'card',
+    },
+    {
+      title: 'Induction Stove',
+      image: '/images/productImage/17.png',
+      className: 'card',
+    },
+    {
+      title: 'Kettle',
+      image: '/images/productImage/18.png',
+      className: 'card',
+    },
+    {
+      title: 'Microwave Oven',
+      image: '/images/productImage/19.png',
+      className: 'card',
+    },
+    {
+      title: 'Trimmer',
+      image: '/images/productImage/20.png',
+      className: 'card',
+    },
+    {
+      title: 'Washing Machine',
+      image: '/images/productImage/24.png',
+      className: 'card',
+    },
+    {
+      title: 'Electric Toothbrush',
+      image: '/images/productImage/21.png',
+      className: 'card',
+    },
+    {
+      title: 'Hair Dryer',
+      image: '/images/productImage/23.png',
+      className: 'card',
+    },
+    {
+      title: 'Epilators',
+      image: '/images/productImage/22.png',
+      className: 'card',
+    }
   ];
 
   const rows = [];

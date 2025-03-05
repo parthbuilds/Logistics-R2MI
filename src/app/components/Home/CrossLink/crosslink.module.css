@@ -142,8 +142,8 @@
   padding: 1.5rem 2rem;
   position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  flex-direction: row;
+  gap: 3.5rem;
   overflow: hidden;
   align-items: flex-start;
 }

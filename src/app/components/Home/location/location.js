@@ -14,7 +14,7 @@ const Location = () => {
                         Across the globe, our teams are committed to fulfilling your export requirements. As a member of the RTM Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage.</p>
                     </div>
                     <div className={styles.LocationBlock_buttonWrapper__t95EU}>
-                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="About Us" href="/about">
+                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="About Us" href="/About">
                             <span className={styles.Button_titleWrapper__Glw9g}>About Us</span>
                             <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>
                                 <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>

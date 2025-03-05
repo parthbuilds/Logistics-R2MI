@@ -398,7 +398,7 @@
 .Stepper_section__s_Und {
   position: relative;
   overflow: hidden;
-  /* margin-block: 20rem; */
+  margin-block: 10rem;
 }
 .gold .Stepper_section__s_Und .Stepper_item____1Dn {
   background-color: #ceaa53;

@@ -9,7 +9,7 @@ const Hero = () => {
                 char.style.transition = 'transform 0.6s ease-out, opacity 0.6s ease-out';
                 char.style.transform = 'translateY(100%)';
                 char.style.opacity = '0';
-    
+
                 setTimeout(() => {
                     char.style.transform = 'translateY(0)';
                     char.style.opacity = '1';
@@ -17,25 +17,40 @@ const Hero = () => {
             });
         }, []);
     }
-        return (
+    return (
         <section className={styles.Hero_section__5Zdlj}>
             <div className={styles.Hero_container__RZriv}>
                 <div className={styles.Hero_content__y4eWy}>
                     <div className={styles.Hero_titleWrapper__blMd1}>
                         <h1 className={styles.Hero_title__dKRr0}>
-                            The sky is not the limit
+                            Join the R2X Team
                         </h1>
                     </div>
                     <div className={styles.Hero_info__gmy_W}>
-                        <p><b>Discover</b> <b>our</b> <b>Services.</b></p>
-                        <p>Nothing is too much when it comes to service. Ship, barge, plane, train, truck, or multimodal transport. For you, we move mountains. Discover our logistics solutions.</p>
+                        <p><b>Discover </b> <b>our </b> <b>Careers</b></p>
+                        <p>Join our team and be a part of a dynamic export business. Explore opportunities to manage global shipments, ensure smooth logistics, and drive international trade success.</p>
                     </div>
                 </div>
-                <div className={`${styles.Hero_imageWrapper__LRFS_} ${styles.secondary} ${styles.Hero_videoWrappper__bDpxx} ${styles.Hero_dronevid__3UxWp}`}>
-                    <div className={styles.Hero_drone__xgyLz}>
-                        <img alt="drone image" loading="lazy" width="760" height="612" className={`${styles.Hero_videoWrapper__image__cMHrQ} ${styles.Hero_videoWrapper__imageGold__KdEY9}`} src="/img/drone-gold.png" />
-                        <img alt="drone image" loading="lazy" width="760" height="612" className={`${styles.Hero_videoWrapper__image__cMHrQ} ${styles.Hero_videoWrapper__imageBusiness__1tL7v}`} src="/images/image.webp" />
-                    </div>
+                <div className={`${styles.Hero_imageWrapper__LRFS_} SECONDARY`}>
+
+                    <img
+                        alt="Carrers"
+                        fetchPriority="high"
+                        width="602"
+                        height="602"
+                        decoding="async"
+                        className={`${styles.Hero_image__jGrQ9} ${styles.Image_is_loaded__RCqPL}`}
+                        src="/images/career.webp"
+                    />
+                    <img
+                        alt="Carrers"
+                        fetchPriority="high"
+                        width="430"
+                        height="430"
+                        decoding="async"
+                        className={`${styles.Hero_mobileimage__6LUna} ${styles.Image_is_loaded__RCqPL}`}
+                        src="/images/carrer.webp"
+                    />
                 </div>
             </div>
         </section>
