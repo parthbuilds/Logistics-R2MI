@@ -19,6 +19,7 @@ const data = [
         title: 'In-House Customs Expertise',
         description: 'Navigating international customs regulations is crucial for export success. Our specialized in-house customs team ensures smooth, cost-effective clearance by managing export documentation, fiscal representation, inspections, and compliance checks. With expertise in global trade regulations, we minimize delays and maximize efficiency, ensuring hassle-free export operations.',
     },
+    
 ];
 
 export default function StepperSection () {
