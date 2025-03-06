@@ -35,7 +35,7 @@ export default function Home() {
           <Header color="#333" />
           <Hero />
           <UpsBlock />
-          <Location />
+          <Location title="Comprehensive Export Solutions" description="Across the globe, our teams are committed to fulfilling your export requirements. As a member of the RTM Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage." button="About Us" href="/About"/>
           <LocationSlider />
           <CtaBlock />
           <CtaBlocks />

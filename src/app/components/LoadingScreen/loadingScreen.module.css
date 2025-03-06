@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #2086ae;
+  background-image: url('/images/loading-bg.png');
   display: flex;
   align-items: center;
   justify-content: center;

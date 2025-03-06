@@ -40,7 +40,7 @@ const Hero = () => {
                         height="602"
                         decoding="async"
                         className={`${styles.Hero_image__jGrQ9} ${styles.Image_is_loaded__RCqPL}`}
-                        src="/images/career.webp"
+                        src="/images/carrer.jpg"
                     />
                     <img
                         alt="Carrers"
@@ -49,7 +49,7 @@ const Hero = () => {
                         height="430"
                         decoding="async"
                         className={`${styles.Hero_mobileimage__6LUna} ${styles.Image_is_loaded__RCqPL}`}
-                        src="/images/carrer.webp"
+                        src="/images/carrer.jpg"
                     />
                 </div>
             </div>

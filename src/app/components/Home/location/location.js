@@ -1,21 +1,21 @@
 import React from 'react'
 import styles from './location.module.css'
 
-
-const Location = () => {
+const Location = ({ title, description, button, href }) => {
     const focus = 'center'
     return (
         <section className={styles.LocationBlock_section__FpKpI}>
             <div className={styles.LocationBlock_container__W_TQR}>
                 <div className={styles.LocationBlock_content__4vYYD}>
-                    <p className={styles.LocationBlock_title__OoA2u}>Comprehensive Export Solutions</p>
+                    <p className={styles.LocationBlock_title__OoA2u}>{title}</p>
                     <div className={styles.LocationBlock_info__PEoID}>
                         <p>
-                        Across the globe, our teams are committed to fulfilling your export requirements. As a member of the RTM Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage.</p>
+                        {description}
+                        </p>
                     </div>
                     <div className={styles.LocationBlock_buttonWrapper__t95EU}>
-                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="About Us" href="/About">
-                            <span className={styles.Button_titleWrapper__Glw9g}>About Us</span>
+                        <a className={`${styles.Button_button__T6zT9} ${styles.Button_primary__b__QL} ${styles.Button_goldLight__ZvTNn} ${styles.Button_iconButton__fsKFn} ${styles.Button_back___SPoE}`} aria-label="About Us" href={href}>
+                            <span className={styles.Button_titleWrapper__Glw9g}>{button}</span>
                             <div className={`${styles.Button_icon__Rt_Hz} ${styles.Button_back___SPoE} ${styles.iconwrapper}`}>
                                 <i className={`${styles.Icon_icon___Kgo7} ${styles.icon}`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
