@@ -5,14 +5,13 @@ import { Autoplay } from 'swiper/modules';
 
 const AutoPlaySlider = () => {
   const images = [
-    '/images/productImage/1.png',
-    '/images/productImage/2.jpg',
-    '/images/productImage/3.jpg',
-    '/images/productImage/4.jpg',
-    '/images/productImage/5.jpg',
-    '/images/productImage/6.png',
-    '/images/productImage/7.jpg',
-    '/images/productImage/8.jpg',
+    '/images/slider/1.png',
+    '/images/slider/2.png',
+    '/images/slider/3.png',
+    '/images/slider/4.png',
+    '/images/slider/5.png',
+    '/images/slider/6.png',
+    '/images/slider/7.png',
   ];
 
   const shuffleArray = (array) => {

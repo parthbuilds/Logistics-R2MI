@@ -6,18 +6,18 @@ import styles from './stepperSection.module.css';
 const data = [
     {
         id: '01',
-        title: 'Multimodal Transport Services',
-        description: 'Ensuring your shipment reaches its final destination often requires multiple transport modes. Our seamless multimodal export solutions integrate air, sea, road, and rail, optimizing routes for speed, cost-effectiveness, and reliability. Whether it’s cross-border deliveries or intercontinental exports, we streamline logistics to guarantee smooth and efficient global shipments.',
+        title: 'Merchant export/Trading export',
+        description: 'we specialize in merchant exports, delivering streamlined and efficient trade solutions for businesses expanding into international markets. With a strong global network and deep expertise in export operations, we offer comprehensive, customized solutions to meet diverse business requirements.',
     },
     {
         id: '02',
-        title: 'Export Tender & Procurement Services',
-        description: 'We provide expert guidance for tenders, offering tailored 3PL, 4PL, or direct account (BCO) solutions to simplify procurement for exporters. From budgeting for maritime transport to coordinating supplier negotiations, we ensure a structured, cost-effective approach. Our team supports you through supplier selection, data management, and final carrier evaluation, ensuring a seamless and efficient export procurement process.',
+        title: 'Product sourcing and procurement',
+        description: 'We assist businesses in acquiring high-quality products at competitive prices through a well-structured and efficient process. Our approach includes thorough market research, identifying the right sources, and negotiating the best terms to ensure cost-effectiveness and consistency.',
     },
     {
         id: '03',
-        title: 'In-House Customs Expertise',
-        description: 'Navigating international customs regulations is crucial for export success. Our specialized in-house customs team ensures smooth, cost-effective clearance by managing export documentation, fiscal representation, inspections, and compliance checks. With expertise in global trade regulations, we minimize delays and maximize efficiency, ensuring hassle-free export operations.',
+        title: 'Market research and product identification',
+        description: 'With strong industry connections, we simplify procurement by handling compliance, logistics, and quality assurance. Our expertise ensures a smooth flow of goods while adhering to regulatory standards, allowing businesses to focus on growth without supply chain disruptions.',
     },
     
 ];
