@@ -12,12 +12,12 @@ const data = [
     {
         id: '02',
         title: 'Product sourcing and procurement',
-        description: 'We assist businesses in acquiring high-quality products at competitive prices through a well-structured and efficient process. Our approach includes thorough market research, identifying the right sources, and negotiating the best terms to ensure cost-effectiveness and consistency.',
+        description: 'We assist businesses in acquiring high-quality products at competitive prices through a well-structured and efficient process. Our approach includes thorough market research, identifying the right sources, and negotiating the best terms to ensure cost-effectiveness and consistency. With strong industry connections, we simplify procurement by handling compliance, logistics, and quality assurance. Our expertise ensures a smooth flow of goods while adhering to regulatory standards, allowing businesses to focus on growth without supply chain disruptions.',
     },
     {
         id: '03',
         title: 'Market research and product identification',
-        description: 'With strong industry connections, we simplify procurement by handling compliance, logistics, and quality assurance. Our expertise ensures a smooth flow of goods while adhering to regulatory standards, allowing businesses to focus on growth without supply chain disruptions.',
+        description: 'We analyze market trends and industry demands to identify the most suitable products for businesses. Through strategic research and competitive analysis, we ensure informed decision-making, helping businesses select products that drive growth and profitability. Our expertise enables businesses to stay ahead in dynamic markets, optimize their product offerings, and capitalize on emerging opportunities for long-term success.',
     },
     
 ];
