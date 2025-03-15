@@ -32,7 +32,7 @@ const About = () => {
         <div className={styles.AboutBlock_infoSection__rhhGb}>
         <img className ={styles.Image_office} src="/images/Mockup.png" alt=""/>
           <div className={styles.AboutBlock_info__jqTAN}>
-            <p>
+            <p className={styles.content}>
             The RTX family shares a single passion: exports. Our team is skilled, proactive, and dedicated to making exports more efficient and dependable, always prioritizing our customers. Through innovative solutions, we build trust and consistently deliver exceptional satisfaction.
             </p>
             <a

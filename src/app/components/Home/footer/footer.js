@@ -7,9 +7,6 @@ const Footer = () => {
     return (
         <footer className={`${styles.Footer_footer__EQXzy} ${styles.footer}`}>
             <div className={styles.Footer_footerTop__XBqF3}>
-                {/* <a className={styles.Footer_logoWrapper__P93m7} href="/">
-                    <img className={styles.Footer_logo} src='/images/RTX Logo white.svg' style={{ width: '200px', height: '80px' }} />
-                </a> */}
                 <a className={styles.Footer_logoWrapper__P93m7} href="/">
                     <div className={styles.flipContainer}>
                         <img className={`${styles.logoImage} ${styles.front}`} src='/images/RTX_290x80.svg' alt='small rtx logo' />
@@ -69,13 +66,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                {/* <div className={styles.ContactForm_info}>
-                    <p>
-                        <a href={`tel:${telephone}`} className={styles.info}>Call Us: +91 800232370</a>
-                        <br />
-                        <a href={`mailto:${email}`} className={styles.info}>Email : support@rtx.com</a>
-                    </p>
-                </div> */}
+                
             </div>
         </footer>
     )

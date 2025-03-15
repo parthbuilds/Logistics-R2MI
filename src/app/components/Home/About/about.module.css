@@ -369,7 +369,6 @@
   z-index: -1;
   border-bottom-left-radius: 2.5rem;
 }
-
 @media (min-width: 48em) {
   .AboutBlock_infoSection__rhhGb {
     grid-column: span 12;
@@ -382,11 +381,12 @@
     padding-top: 5rem;
     padding-bottom: 7rem;
   }
-
-  .AboutBlock_infoSection__rhhGb:after {
-    border-bottom-left-radius: 6rem;
+} 
+.content {
+    grid-column: span 24; /* Ensure the text spans the full width of the grid */
+    max-width: 80%; /* Add a max-width to contain the text */
   }
-}
+
 
 .AboutBlock_titleSmall__f0IN5 {
   z-index: 1;

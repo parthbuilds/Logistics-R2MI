@@ -11,10 +11,8 @@ const Hero = () => {
               <span className={`${styles.TextAnimation_text__sTrzf} ${styles.TextAnimation_mounted__Iz2_c}`} data-preview="false">
                 <span className={styles.linecontainer}>
                   <span className={styles.line} style={{ display: 'block', textAlign: 'start', width: '100%' }}>
-                    <p style={{ display: 'inline-block', position: 'relative' }}>
-                      <span className={styles.word}>More</span>{' '}
-                      <span className={styles.word}>About</span>{' '}
-                      <span className={styles.word}>RTX!</span>
+                    <p>
+                      <span className={styles.word}>More About RTX</span>
                     </p>
                   </span>
 
