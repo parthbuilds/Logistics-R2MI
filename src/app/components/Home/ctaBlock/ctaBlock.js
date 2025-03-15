@@ -33,7 +33,7 @@ const CtaBlock = () => {
                 </div>
                 <div className={`${styles.CtaBlock_videoWrapper__ZHqAx} ${styles.CtaBlock_default__4hQ8L} ${styles.CtaBlock_right__cyR7S}`} style={{ transform: 'none' }}>
                     <div className={styles.CtaBlock_videoAnimWrapper__MFcyz}>
-                        <div className={styles.CtaBlock_video__xkBJd} style={{ left: '10%' }}>
+                        <div className={styles.CtaBlock_video__xkBJd} >
                             <AutoPlaySwiper width="400px" height="400px"/>
                         </div>
                     </div>

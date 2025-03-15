@@ -23,12 +23,12 @@
 .CtaBlock_section__bNFj7 {
     width: 100%;
     max-width: 119.375rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding-left: calc(4 * var(--space));
     padding-right: calc(4 * var(--space));
     position: relative;
     min-height: 100%;
-    margin-block: 5rem;
+    /* margin-block:5rem; */
 }
 
 @media (min-width: 48em) {
@@ -129,7 +129,7 @@
     color: #2086ae;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 30em) {
     .CtaBlock_title__enemh {
         font-family: 'Exo',sans-serif;
         font-size: 2rem;
@@ -140,10 +140,10 @@
 }
 
 .CtaBlock_info__DVPeC {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     color: #00112e;
     font-family: 'Exo', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .CtaBlock_videoWrapper__ZHqAx {
@@ -250,7 +250,7 @@
 }
 @media (max-width: 48em) {
     .CtaBlock_videoAnimWrapper__MFcyz {
-        margin-left: 3rem;
+        margin-left: 4px;
     }
 }
 

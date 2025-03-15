@@ -26,10 +26,8 @@ const AutoPlaySlider = () => {
   const shuffledImages = shuffleArray(images);
 
   return (
-    <div className="relative w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] md:w-[100px] md:h-[100px] overflow-hidden " style={{'marginLeft':'9px'}}>
-      <div className="absolute inset-y-0 left-0 w-6 sm:w-8 md:w-10 bg-gradient-to-r from-white via-transparent to-transparent backdrop-blur-md z-10 "></div>
-      <div className="absolute inset-y-0 right-0 w-6 sm:w-8 md:w-10 bg-gradient-to-l from-white via-transparent to-transparent backdrop-blur-md z-10"></div>
-
+    <section className="relative w-[60px] h-[60px] sm:w-[50px] sm:h-[80px] md:w-[100px] md:h-[130px] overflow-hidden " style={{'marginLeft':'10px' }}>
+      {/* <div className="absolute inset-y-0 left-0 w-6 sm:w-8 md:w-10 bg-gradient-to-r from-white via-transparent to-transparent backdrop-blur-md z-10 "></div> */}
       <Swiper
         modules={[Autoplay]}
         spaceBetween={10}
@@ -52,7 +50,8 @@ const AutoPlaySlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+
+    </section>
   );
 };
 

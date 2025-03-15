@@ -34,18 +34,18 @@ const LocationSearchBlock = () => {
 
         <div className={styles.LocationSearchBlock_tree__G44tP}>
           <div className={styles.CountryTree_tree__mylqy}>
-            <div className={styles.countryColumns}> {/* New div for columns */}
-              <div className={styles.countryColumn}> {/* First Column */}
+            <div className={styles.countryColumns}> 
+              <div className={styles.countryColumn}>
                 {column1.map((country) => (
                   <div key={country.name} className={styles.CountryTree_continent__nzEHk}>
-                    <span>{country.name}</span>
+                    <span className={styles.text}>{country.name}</span>
                   </div>
                 ))}
               </div>
-              <div className={styles.countryColumn}> {/* Second Column */}
+              <div className={styles.countryColumn}>
                 {column2.map((country) => (
                   <div key={country.name} className={styles.CountryTree_continent__nzEHk}>
-                    <span>{country.name}</span>
+                    <span className={styles.text}>{country.name}</span>
                   </div>
                 ))}
               </div>

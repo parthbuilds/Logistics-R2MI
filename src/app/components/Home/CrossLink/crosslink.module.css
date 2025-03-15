@@ -150,11 +150,19 @@
 
 .CrosslinkBlock_crosslinkCard__SCoir .CrosslinkBlock_info__hYdqG {
   font-family: 'Exo_Medium', sans-serif;
-  font-weight: 500; /* Match the defined weight */
+  font-weight: 500; 
   font-size: 2.5rem;
   margin-bottom: auto;
 }
 
+@media (max-width:30em) {
+  .CrosslinkBlock_crosslinkCard__SCoir .CrosslinkBlock_info__hYdqG {
+    font-family: 'Exo_Medium', sans-serif;
+    font-weight: 500; 
+    font-size: 1.8rem;
+    margin-bottom: auto;
+  }
+}
 .CrosslinkBlock_crosslinkCard__SCoir .CrosslinkBlock_title__hlDQO {
   font-family:'Exo_bold', sans-serif;
   display: flex;

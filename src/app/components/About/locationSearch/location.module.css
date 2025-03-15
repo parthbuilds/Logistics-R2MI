@@ -29,6 +29,7 @@
     color: #ccd6e8;
     display: flex;
   }
+
   .CountryTree_continent__nzEHk:hover {
     cursor: pointer;
   }
@@ -300,10 +301,17 @@
     font-size: 3rem;
     font-weight: 300;
   }
-  @media (min-width: 48em) {
+  @media (max-width: 30em) {
     .LocationSearchBlock_title__VQf4s {
       grid-column: span 4;
       margin-bottom: 1.5rem;
+      color: #fff;
+    margin-top: 2rem;
+    /* margin-left: 3rem; */
+    grid-column: span 4;
+    font-family:'Exo_bold',sans-serif;
+    /* font-size: 2rem; */
+    font-weight: 300;
     }
   }
   .gold .LocationSearchBlock_title__VQf4s {
@@ -416,6 +424,23 @@
   padding: 2px;
   margin-left: 2.8rem;
 }
+
+@media (max-width:30em) {
+  .CountryTree_continent__nzEHk {
+    display: flex;
+    flex-direction: column; 
+    cursor: pointer;
+    /* padding: 2px; */
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width:30em) {
+  .text{
+    font-size: 1rem;
+  }
+}
+
 
 .CountryTree_continentRight__30OHO {
   position: absolute;

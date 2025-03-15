@@ -45,7 +45,7 @@
   @media (max-width: 48em) {
     .ServiceSlider_section__tsvy4 {
       margin-block: 2rem;
-      min-height: 400vh;
+      /* min-height: 400vh; */
 
     }
   }

@@ -1,5 +1,4 @@
-'use client';
-
+'use client'
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './stepperSection.module.css';
 
@@ -28,12 +27,14 @@ export default function StepperSection () {
     const carouselRef = useRef(null);
     const touchStartX = useRef(null);
 
+    // Handle next slide by 5 items
     const handleNext = () => {
-        setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, totalSlides - 1));
+        setCurrentIndex((prevIndex) => Math.min(prevIndex + 5, totalSlides - 1));
     };
 
+    // Handle previous slide by 5 items
     const handlePrev = () => {
-        setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+        setCurrentIndex((prevIndex) => Math.max(prevIndex - 5, 0));
     };
 
     const handleTouchStart = (e) => {
@@ -85,34 +86,6 @@ export default function StepperSection () {
                 </div>
                 <div className={styles.Stepper_stepperWrapper__Y2Scs}>
                     <div className={styles.StepperCarousel_carouselContainer__Q0BAq}>
-                        {/* <div className={styles.StepperCarousel_carouselButtonWrapper__t20mg}>
-                            <button
-                                className={`${styles.BlogCarousel_emblabutton__t5aLE} ${styles.BlogCarousel_prev__vAE6w}`}
-                                aria-label="carouselbutton previous"
-                                onClick={handlePrev}
-                                disabled={currentIndex === 0}
-                            >
-                                <i className={`${styles.Icon_icon___Kgo7} icon`}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <path fill="currentColor" fillRule="evenodd" d="M11.674 1.076a.6.6 0 0 0-.848 0l-10.5 10.5a.6.6 0 0 0 0 .848l10.5 10.5a.6.6 0 0 0 .848-.848L1.6 12l10.074-10.074a.6.6 0 0 0 0-.848Z" clipRule="evenodd"></path>
-                                        <path fill="currentColor" fillRule="evenodd" d="M23.85 12a.6.6 0 0 0-.6-.6H1.85a.6.6 0 0 0 0 1.2h21.5a.6.6 0 0 0 .6-.6Z" clipRule="evenodd"></path>
-                                    </svg>
-                                </i>
-                            </button>
-                            <button
-                                className={styles.BlogCarousel_emblabutton__t5aLE}
-                                aria-label="carouselbutton next"
-                                onClick={handleNext}
-                                disabled={currentIndex === data.length - 1}
-                            >
-                                <i className={`${styles.Icon_icon___Kgo7} icon`}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <path fill="currentColor" fillRule="evenodd" d="M.15 12a.6.6 0 0 1 .6-.6h22.5a.6.6 0 0 1 0 1.2H.75a.6.6 0 0 1-.6-.6Z" clipRule="evenodd"></path>
-                                        <path fill="currentColor" fillRule="evenodd" d="M12.326 1.076a.6.6 0 0 1 .848 0l10.5 10.5a.6.6 0 0 1 0 .848l-10.5 10.5a.6.6 0 0 1-.848-.848L22.4 12 12.326 1.924a.6.6 0 0 1 0-.848Z" clipRule="evenodd"></path>
-                                    </svg>
-                                </i>
-                            </button>
-                        </div> */}
                         <div
                             className={styles.StepperCarousel_carouselWrapper__v0h6t}
                             ref={carouselRef}
@@ -120,7 +93,7 @@ export default function StepperSection () {
                             <div
                                 className={styles.StepperCarousel_carousel__qtKCt}
                                 style={{
-                                    transform: `translateX(-${currentIndex * 100}%)`,
+                                    transform: `translateX(-${currentIndex * (100 / 5)}%)`,  // Adjusts to 5 slides at a time
                                     transition: 'transform 0.5s ease-in-out',
                                     display: 'flex',
                                 }}

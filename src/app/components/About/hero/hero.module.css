@@ -235,7 +235,7 @@
 
   .Hero_info__gmy_W{
     color: white;
-    margin-left: 3rem;
+    /* margin-left: 1rem; */
     font-family: 'Exo', sans-serif;
     font-size: medium;
     font-weight: 400;
@@ -485,7 +485,7 @@
   .Hero_title__dKRr0 {
     color: #fff;
     z-index: 1;
-    margin-left: 3rem;
+    /* margin-left: 1rem; */
     position: relative;
     transition: color 0.3s ease-in-out;
   }
@@ -495,6 +495,15 @@
     font-family: 'SchibstedGrotesk_semibold', sans-serif;
     font-size: 4.5rem;
     font-weight: 800;
+  }
+
+  @media (max-width:30em) {
+  .Hero_title__dKRr0,
+  .Hero_title__dKRr0 p {
+    font-family: 'SchibstedGrotesk_semibold', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+  }
   }
   
   .Hero_title__dKRr0 .stroke-text {

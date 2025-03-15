@@ -13,7 +13,7 @@ const Hero = () => {
                 setTimeout(() => {
                     char.style.transform = 'translateY(0)';
                     char.style.opacity = '1';
-                }, index * 100); // Delays each character's animation
+                }, index * 100); 
             });
         }, []);
     }
