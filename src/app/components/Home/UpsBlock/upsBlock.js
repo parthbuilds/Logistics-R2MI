@@ -62,7 +62,7 @@ export default function UpsBlock() {
             <p className={styles.paragraph}>World's Leading Home Appliances Exporter</p>
           </h2>
           <div className={styles.UspBlock_imageSection__Pe14P}>
-            <AutoPlaySlider style={{width:'200px', height:'200px'}}/>
+            <AutoPlaySlider style={{width:'100px', height:'100px'}}/>
           </div>
         </div>
 

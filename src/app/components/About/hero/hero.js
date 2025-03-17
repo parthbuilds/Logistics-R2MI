@@ -12,7 +12,7 @@ const Hero = () => {
                 <span className={styles.linecontainer}>
                   <span className={styles.line} style={{ display: 'block', textAlign: 'start', width: '100%' }}>
                     <p>
-                      <span className={styles.word}>More About RTX</span>
+                      <span className={styles.word}>More About R2X</span>
                     </p>
                   </span>
 

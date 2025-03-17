@@ -34,7 +34,7 @@ const Hero = () => {
                 <div className={`${styles.Hero_imageWrapper__LRFS_} ${styles.secondary} ${styles.Hero_videoWrappper__bDpxx} ${styles.Hero_dronevid__3UxWp}`}>
                     <div className={styles.Hero_drone__xgyLz}>
                         <img alt="drone image" loading="lazy" width="760" height="612" className={`${styles.Hero_videoWrapper__image__cMHrQ} ${styles.Hero_videoWrapper__imageGold__KdEY9}`} src="/images/drone.png" />
-                        <img alt="drone image" loading="lazy" width="760" height="612" className={`${styles.Hero_videoWrapper__image__cMHrQ} ${styles.Hero_videoWrapper__imageBusiness__1tL7v}`} src="/images/drone.png" />
+                        <img alt="drone image" loading="lazy" width="960" height="112" className={`${styles.Hero_videoWrapper__image__cMHrQ} ${styles.Hero_videoWrapper__imageBusiness__1tL7v}`} src="/images/drone.png" />
                     </div>
                 </div>
             </div>

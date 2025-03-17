@@ -1,8 +1,8 @@
-'use client'
+"use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./loadingScreen.module.css";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
@@ -38,17 +38,17 @@ export default function LoadingScreen() {
     "/images/fan.png",
   ];
 
-  const imageWidth = 70; // Set a variable for image width
-  const imageSpacing = 30; // Set a variable for spacing
+  const imageWidth = 70;
+  const imageSpacing = 30;
 
   return (
-    <div className={styles.loadingContainer}>
+    <div className={`${styles.loadingContainer} ${expand ? styles.fullscreenContainer : ""}`}>
       <AnimatePresence>
         {loading && (
           <motion.div
             className={styles.loadingBox}
             initial={{ width: "500px", height: "250px", backgroundColor: "white" }}
-            animate={expand ? { width: "200vw", height: "200vh", transition: { duration: 0.3 } } : {}}
+            animate={expand ? { width: "100vw", height: "100vh", margin: "0", transition: { duration: 0.3 } } : {}}
             exit={{ opacity: 0, transition: { duration: 0.5 } }}
           >
             {!expand && (
@@ -66,20 +66,20 @@ export default function LoadingScreen() {
                   className={styles.carSvg}
                   initial={{ x: "0%" }}
                   animate={{ x: "-100%" }}
-                  transition={{ repeat: Infinity, duration: 3, ease: "linear" }}
+                  transition={{ repeat: Infinity, duration: 4, ease: "linear" }}
                 >
                   {imagePaths.map((path, i) => (
                     <Image
                       key={i}
                       src={path}
                       alt={`Appliance ${i + 1}`}
-                      width={imageWidth} // Use the variable
-                      height={imageWidth} // Maintain aspect ratio (or adjust)
+                      width={imageWidth}
+                      height={imageWidth}
                       style={{
-                        position: 'absolute',
-                        left: `${i * (imageWidth + imageSpacing)}px`, 
-                        top: 4,  // Adjust vertical positioning as needed
-                        objectFit: 'contain', // Or 'cover', 'fill', etc.
+                        position: "absolute",
+                        left: `${i * (imageWidth + imageSpacing)}px`,
+                        top: 4,
+                        objectFit: "contain",
                       }}
                     />
                   ))}

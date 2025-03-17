@@ -5,6 +5,7 @@ import Crosslink from '../components/Home/CrossLink/crossLink'
 import Footer from '../components/Home/footer/footer'
 import ContactBlock from '../components/Home/contact/contactBlock'
 import Header from '../components/Home/header/header'
+import WhatsAppIcon from '../components/Whatsapp/whatsapp'
 
 export default function Contact () {
   return (<>
@@ -12,6 +13,7 @@ export default function Contact () {
     <Form/>
     <Crosslink/>
     <ContactBlock/>
+    <WhatsAppIcon/>
     <Footer/>
     </>
   )

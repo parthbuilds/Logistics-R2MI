@@ -21,7 +21,7 @@ const countries = [
 
 const LocationSearchBlock = () => {
 
-  const countriesPerRow = Math.ceil(countries.length / 2); // Calculate how many countries per column
+  const countriesPerRow = Math.ceil(countries.length / 2); 
 
   const column1 = countries.slice(0, countriesPerRow);
   const column2 = countries.slice(countriesPerRow);

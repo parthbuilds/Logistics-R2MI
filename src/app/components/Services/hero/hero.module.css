@@ -201,14 +201,14 @@
 
 .Hero_info__gmy_W{
   color: white;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   font-family: 'Exo', sans-serif;
   font-size: medium;
   font-weight: 400;
 }
 
 .Hero_info__gmy_W b{
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .Hero_title__dKRr0 {
@@ -217,7 +217,7 @@
   position: relative;
 }
 
-
+/* 
 .Hero_title__dKRr0,
 .Hero_title__dKRr0 p {
   font-family: 'Exo_bold', sans-serif;
@@ -227,7 +227,7 @@
 
 .Hero_title__dKRr0 .stroke-text {
   fill-opacity: 0;
-}
+} */
 
 .gold .Hero_section__5Zdlj.Hero_tertiary__tLq_d .Hero_content__y4eWy .Hero_info__gmy_W a:not(.Hero_button__2pZxm) {
   color: #f8e2ac;
@@ -365,8 +365,6 @@
   width: 80%;
   left: 10%;
   height: auto;
-  aspect-ratio: 16/9;
-  animation: Hero_MoveDrone__iUatX 0.9s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
 }
 
 @media (min-width: 71.3125em) {
@@ -376,6 +374,17 @@
     top: 5%;
   }
 }
+
+@media (max-width: 30em) {
+  .Hero_dronevid__3UxWp .Hero_drone__xgyLz {
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 10%;
+  }
+}
+
+
 
 .Hero_dronevid__3UxWp .Hero_propeller__ZNOWp {
   z-index: -1;
@@ -448,7 +457,7 @@
 .Hero_title__dKRr0 {
   color: #fff;
   z-index: 1;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   position: relative;
 }
 
@@ -459,11 +468,11 @@
   font-weight: 800;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 30em) {
   .Hero_title__dKRr0,
   .Hero_title__dKRr0 p {
     margin-top: 8px;
-    font-size: 2rem;
+    font-size: 8.2vw;
   }
 }
 

@@ -35,8 +35,10 @@ export default function Home() {
           <Header color="#333" />
           <Hero />
           <UpsBlock />
-          <Location title="Comprehensive Export Solutions" description="Across the globe, our teams are committed to fulfilling your export requirements. As a member of the RTM Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage." button="About Us" href="/About"/>
-          <LocationSlider />
+          <Location title="Comprehensive Export Solutions" description="Across the globe, our teams are committed to fulfilling your export requirements. As a member of the R2M Group, we harness group resources to enhance our solutions, offering both financial stability and flexibility, all for your advantage." button="About Us" href="/About"/>
+          <div style={{ backgroundColor: '#2086ae', paddingTop: '1rem', overflow: 'hidden', paddingBottom: '3rem' }}>
+          <LocationSlider/>
+          </div>
           <CtaBlock />
           <CtaBlocks />
           {/* <Imagewrap /> */}

@@ -234,10 +234,12 @@
     min-height: 100%;
     margin-block: 10rem;
   }
-  @media (min-width: 48em) {
+  @media (max-width: 30em) {
     .LocationSearchBlock_section__gZTHp {
-      padding-left: calc(10 * var(--space));
-      padding-right: calc(10 * var(--space));
+      padding-left: calc(var(--space));
+      padding-right: calc(var(--space));
+      margin-block: 1rem;
+
     }
   }
   @media (min-width: 82.8125em) {
@@ -304,13 +306,13 @@
   @media (max-width: 30em) {
     .LocationSearchBlock_title__VQf4s {
       grid-column: span 4;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       color: #fff;
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* margin-left: 3rem; */
     grid-column: span 4;
     font-family:'Exo_bold',sans-serif;
-    /* font-size: 2rem; */
+    font-size: 2.4rem;
     font-weight: 300;
     }
   }
@@ -422,6 +424,8 @@
   flex-direction: column; 
   cursor: pointer;
   padding: 2px;
+  font-size: larger;
+  margin-top: .5rem;
   margin-left: 2.8rem;
 }
 

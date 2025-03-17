@@ -9,6 +9,7 @@ import Footer from '../components/Home/footer/footer'
 import DataSlider from '../components/About/DataSlider/dataslider'
 import ContentBlock from '../components/About/ContentBox/ContentBox'
 import UpsBlock from '../components/Home/UpsBlock/upsBlock'
+import WhatsAppIcon from '../components/Whatsapp/whatsapp'
 
 
 export default function About () {
@@ -22,6 +23,7 @@ export default function About () {
     <UpsBlock/>
     <Crosslink/>
     <ContactBlock/>
+    <WhatsAppIcon/>
     <Footer/>
     </>
     
