@@ -258,17 +258,16 @@
     grid-column: span 6;
     font-family: 'Exo_bold', sans-serif; 
     font-weight: 900; 
-    margin-bottom: 2rem;
     color: white;
 
 }
 
-@media (man-width: 48em) {
+@media (max-width: 48em) {
     .UspBlock_title__5syXk p{
             grid-column: span 4;
             font-family: 'Exo', sans-serif;
             font-weight: bold; 
-            margin-top: -3rem;
+            margin-top: 10px;
             color: #f6faff;
     }
 }
