@@ -121,7 +121,7 @@
     .CtaBlock_title__enemh {
       font-family: 'Exo_bold', sans-serif;
       font-weight: 200;
-      font-size: 3.5rem;
+      font-size: 2rem;
       margin-bottom: auto;
       color: #2086ae;
       padding-bottom: 1rem;
@@ -129,10 +129,9 @@
     
   }
   .CtaBlock_info__DVPeC {
-    margin-bottom: 1.5rem;
     color: #00112e;
     font-family:'Exo',sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
     text-align: justify;
   }

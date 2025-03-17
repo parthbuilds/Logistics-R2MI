@@ -4,11 +4,10 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/images/loading-bg.png');
+  background-image: url("/images/loading-bg.png");
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999;
 }
 
 .loadingBox {
@@ -26,6 +25,8 @@
   padding: 20px;
   overflow: hidden;
   position: relative;
+  margin: 8px; /* Initial margin */
+  transition: margin 0.3s ease; /* Smooth transition */
 }
 
 .contentWrapper {
@@ -39,19 +40,19 @@
 
 .loadingText {
   -webkit-text-fill-color: black;
-  font-family: 'Exo_bold_Italic', italic;
+  font-family: "Exo_bold_Italic", italic;
   font-size: 4rem;
   font-weight: 800;
 }
 
 .loadingText .outline {
   -webkit-text-fill-color: #f6faff;
-  font-family: 'Exo_bold_Italic', sans-serif;
-  font-style: italic; 
+  font-family: "Exo_bold_Italic", sans-serif;
+  font-style: italic;
   font-size: 4rem;
-  font-weight: 800; 
+  font-weight: 800;
   color: transparent;
-  -webkit-text-stroke: 3px white; 
+  -webkit-text-stroke: 3px white;
 }
 
 .loadingSvg svg {
@@ -64,4 +65,10 @@
   bottom: 10px;
   left: 0;
   width: 100%;
+}
+
+/* New class to override margin and make it full screen */
+.fullscreenContainer .loadingBox {
+  margin: 0;
+  border-radius: 0; /* Remove rounded corners if needed */
 }

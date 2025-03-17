@@ -8,13 +8,17 @@ const Header = ({ color = "white" }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const headerRef = useRef(null);
 
+  // Prevent scrolling when menu is open
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+  }, [menuOpen]);
+
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
-    if (!menuOpen) {
-      document.body.classList.add("no-scroll"); // Disable Scroll
-    } else {
-      document.body.classList.remove("no-scroll"); // Enable Scroll
-    }
   };
 
   useEffect(() => {
@@ -50,9 +54,18 @@ const Header = ({ color = "white" }) => {
     };
   }, [menuOpen]);
 
-  // Conditionally change logo based on text color
-  const frontLogo = color === "white" ? "/images/RTX_290x80.svg" : "/images/Asset 8.svg";
-  const backLogo = color === "white" ? "/images/Route To Export_290x80.svg" : "/images/Asset 9.svg";
+  // Logo Handling
+  const frontLogo = menuOpen
+    ? "/images/Route To Export_290x80.svg"
+    : color === "white"
+    ? "/images/RTX_290x80.svg"
+    : "/images/Asset 8.svg";
+
+  const backLogo = menuOpen
+    ? "/images/RTX_290x80.svg"
+    : color === "white"
+    ? "/images/Route To Export_290x80.svg"
+    : "/images/Asset 9.svg";
 
   return (
     <header ref={headerRef} className={styles.header}>

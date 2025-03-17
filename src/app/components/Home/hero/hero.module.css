@@ -294,7 +294,7 @@
 
 @media (max-width: 30em) {
     .VideoPrimaryHero_content__legsx {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
 }
@@ -325,7 +325,7 @@
     position: absolute;
     top: 50%;
     height: 50%;
-    background: linear-gradient(180deg, rgba(0, 35, 93, 0), #07455e 70.89%);
+    /* background: linear-gradient(180deg, rgba(0, 35, 93, 0), #07455e 70.89%); */
 }
 
 .VideoPrimaryHero_imageWrapper__SkScL.VideoPrimaryHero_mask__nIxWs {
@@ -642,7 +642,7 @@
         -webkit-text-stroke: 3px black;
         font-family: 'Exo_bold', sans-serif; 
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 4rem;
     }
 }

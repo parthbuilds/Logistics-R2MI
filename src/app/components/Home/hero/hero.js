@@ -11,7 +11,6 @@ const Hero = () => {
                             <div className={styles.VideoPrimaryHero_titleWrapper__dDLQh} style={{ opacity: 1, transform: 'none' }}>
                                 <h2 className={styles.VideoPrimaryHero_title__ovhlz}>
                                     <p>Expert Export</p>
-                                    {/* <p>Export</p> */}
                                     <p><span className={styles.outline}>Solutions</span></p>
                                 </h2>
                             </div>
@@ -20,7 +19,6 @@ const Hero = () => {
                             <div className={styles.VideoPrimaryHero_titleWrapper__dDLQh} style={{ opacity: 1, transform: 'none' }}>
                                         <h1 className={styles.VideoPrimaryHero_title__ovhlz}>
                                             <p>Expert Export</p>
-                                            <p>Export</p>
                                             <p><span className={styles.outline}>Solutions</span></p>
                                         </h1>
                                     </div>
@@ -30,7 +28,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className={`${styles.VideoPrimaryHero_imageWrapper__SkScL} ${styles.VideoPrimaryHero_initialized__1nbT5}`}>
-                    <video src="/video/R2MEx Ad2.mp4" className={`${styles.VideoPrimaryHero_image__H7CbZ} ${styles.VideoPrimaryHero_video__550RF}`} playsInline controlsList="nodownload" autoPlay muted loop></video>
+                    <video src="/video/R2X.mp4" className={`${styles.VideoPrimaryHero_image__H7CbZ} ${styles.VideoPrimaryHero_video__550RF}`} playsInline controlsList="nodownload" autoPlay muted loop></video>
                 </div>
             </div>
         </section>

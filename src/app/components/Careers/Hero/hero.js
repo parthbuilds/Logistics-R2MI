@@ -40,16 +40,16 @@ const Hero = () => {
                         height="602"
                         decoding="async"
                         className={`${styles.Hero_image__jGrQ9} ${styles.Image_is_loaded__RCqPL}`}
-                        src="/images/carrer.jpg"
+                        src="/images/carrers2.jpg"
                     />
                     <img
                         alt="Carrers"
                         fetchPriority="high"
                         width="430"
-                        height="430"
+                        height="500"
                         decoding="async"
                         className={`${styles.Hero_mobileimage__6LUna} ${styles.Image_is_loaded__RCqPL}`}
-                        src="/images/carrer.jpg"
+                        src="/images/carrers2.jpg"
                     />
                 </div>
             </div>

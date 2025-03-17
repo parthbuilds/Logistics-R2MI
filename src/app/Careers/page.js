@@ -8,6 +8,7 @@ import Location from '../components/Home/location/location'
 import Form from '../components/Careers/forms/forms'
 import Crosslink from '../components/Home/CrossLink/crossLink'
 import Footer from '../components/Home/footer/footer'
+import WhatsAppIcon from '../components/Whatsapp/whatsapp'
 
 export default function Careers () {
   return (
@@ -21,6 +22,7 @@ export default function Careers () {
     <Form/>
     
     <Crosslink/>
+    <WhatsAppIcon/>
     <Footer/>
     </>
     

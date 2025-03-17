@@ -54,14 +54,6 @@
     }
 }
 
-.gold .UspItem_uspItemTitle__pyK16 {
-    color: #1f1c16;
-}
-
-.gold .UspItem_uspItemTitle__pyK16.UspItem_light__BSdNE {
-    color: #fff;
-}
-
 .UspItem_uspItemTitle__pyK16.UspItem_light__BSdNE {
     color: #fff;
 }
@@ -82,45 +74,6 @@
 .UspItem_uspItemText__6aUpv.UspItem_light__BSdNE {
     color: #fff;
 }
-
-.gold .UspItem_uspItemText__6aUpv {
-    color: #1f1c16;
-}
-
-.gold .UspItem_uspItemText__6aUpv.UspItem_light__BSdNE {
-    color: #f8ebcb;
-}
-
-/* .UspItem_lineWrapper__CaFPf {
-    width: 100%;
-    height: 0.125rem;
-    background-color: #fff;
-    margin-top: 2rem;
-    transition: background-color 0.3s ease-out;
-}
-
-.UspItem_light__BSdNE .UspItem_lineWrapper__CaFPf {
-    background-color: #ccd6e8;
-}
-
-.gold .UspItem_lineWrapper__CaFPf {
-    background-color: #2c2713;
-} */
-
-/* .UspItem_line__xiQ1n {
-    height: 0.2rem;
-    width: 100%;
-    max-width: 400px;
-    height: 3px; 
-    width: 100%;
-    background-color: #ffffff;
-    overflow: hidden;
-}
-@media (min-width: 48em) {
-    .UspItem_line__xiQ1n {
-        display: block;
-    }
-} */
 
 
 .UspItem_lineWrapper__CaFPf{
@@ -193,18 +146,6 @@
     .UspBlock_section__SSpPU.UspBlock_dark__576q1 {
         border-top-left-radius: 0;
     }
-}
-
-.gold .UspBlock_section__SSpPU.UspBlock_dark__576q1 {
-    background-color: #ceaa53;
-}
-
-.gold .UspBlock_section__SSpPU.UspBlock_dark__576q1 .UspBlock_titleWrapper__0bZaZ {
-    color: #1f1c16;
-}
-
-.gold .UspBlock_section__SSpPU .UspBlock_titleWrapper__0bZaZ {
-    color: #ceaa53;
 }
 
 .UspBlock_container__BsBlZ {
@@ -336,18 +277,20 @@
     grid-column: span 4;
     position: relative;
     z-index: 1;
-    min-height: 10.5rem;
+    /* min-height: 10.5rem; */
     min-width: 100%;
     border-radius: 2.5rem;
+    /* margin-left: 12px; */
 }
 
 @media (max-width:38em){
     .paragraph{
-        padding: 5px 30px;
+        padding: 5px ;
         grid-column: span 4;
         /* min-height: 11.5rem; */
+        border-radius: 2.5rem;
         min-width: 100%;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 

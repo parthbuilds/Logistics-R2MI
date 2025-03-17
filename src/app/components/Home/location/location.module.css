@@ -282,16 +282,26 @@
 .LocationBlock_title__OoA2u {
     grid-column: span 4;
     color: #2086ae;
-    font-family: 'SchibstedGrotesk', sans-serif; /* Apply custom font */
+    font-family: 'Exo_bold', sans-serif; 
     text-transform: uppercase;
 }
 
+@media (max-width:30em) {
+  .LocationBlock_title__OoA2u {
+    grid-column: span 4;
+    color: #2086ae;
+    font-family: 'Exo_bold', sans-serif; 
+    text-transform: uppercase;
+    font-size: 2rem ;
+}
+}
+
 .LocationBlock_info__PEoID p {
-  font-family: 'SchibstedGrotesk', sans-serif; /* Apply custom font */
+  font-family: 'SchibstedGrotesk', sans-serif; 
   grid-column: span 8;
   color: #00112e;
-  margin-top: 2.5rem;
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 

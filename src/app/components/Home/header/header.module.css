@@ -63,7 +63,7 @@
 }
 
 .navLinks li a:hover {
-  color: #007bff;
+  color: #2086ae;
   transform: translateY(-3px);
 }
 
@@ -117,7 +117,7 @@ body.menu-open {
     right: 0;
     width: 100%;
     height: 100vh;
-    background-color: #007bff;
+    background-color: #2086ae;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -149,7 +149,7 @@ body.menu-open {
   }
 
   .navLinks li a:hover {
-    color: #007bff;
+    color: #2086ae;
     transform: translateY(0);
   }
 }
@@ -166,7 +166,7 @@ body.menu-open {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #007bff;
+  background-color: #2086ae;
   transition: width 0.3s ease;
 }
 
@@ -237,3 +237,4 @@ body.menu-open {
 .flipContainer:hover .back {
   transform: rotateY(0deg);
 }
+
