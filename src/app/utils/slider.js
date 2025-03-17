@@ -32,7 +32,6 @@ const AutoPlaySlider = () => {
         minWidth: '60px',
         minHeight: '60px',
         overflow: 'hidden',
-
       }}
     >
       <Swiper
